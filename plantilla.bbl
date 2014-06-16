@@ -1,0 +1,751 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{battle2012enabling}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=09b41b4977bed90fa6cf5981a11a76f1}{Battle}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b68b48765dca43f179a29d694e609305}{Kolas}{K\bibinitperiod}{Dave}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=09b41b4977bed90fa6cf5981a11a76f1}{Battle}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b68b48765dca43f179a29d694e609305}{Kolas}{K\bibinitperiod}{Dave}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{1c1a7495ab0361d0ca8f2c7ddc91b9ff}
+      \strng{fullhash}{1c1a7495ab0361d0ca8f2c7ddc91b9ff}
+      \field{sortinit}{B}
+      \field{labeltitle}{Enabling the geospatial semantic web with Parliament and GeoSPARQL}
+      \field{journaltitle}{Semantic Web}
+      \field{number}{4}
+      \field{title}{Enabling the geospatial semantic web with Parliament and GeoSPARQL}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{355\bibrangedash 370}
+    \endentry
+    \entry{battle2011linking}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=09b41b4977bed90fa6cf5981a11a76f1}{Battle}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b68b48765dca43f179a29d694e609305}{Kolas}{K\bibinitperiod}{Dave}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=09b41b4977bed90fa6cf5981a11a76f1}{Battle}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b68b48765dca43f179a29d694e609305}{Kolas}{K\bibinitperiod}{Dave}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1c1a7495ab0361d0ca8f2c7ddc91b9ff}
+      \strng{fullhash}{1c1a7495ab0361d0ca8f2c7ddc91b9ff}
+      \field{sortinit}{B}
+      \field{labeltitle}{Linking geospatial data with GeoSPARQL}
+      \field{journaltitle}{Semant Web J Interoperability, Usability, Appl. http://www. semantic-web-journal. net/sites/default/files/swj176\_0. pdf. Accessed}
+      \field{title}{Linking geospatial data with GeoSPARQL}
+      \field{volume}{24}
+      \field{year}{2011}
+    \endentry
+    \entry{bechhofer2009owl}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{hash=6be76b0d5f1b4728be1b309d6ab8dd95}{Bechhofer}{B\bibinitperiod}{Sean}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=6be76b0d5f1b4728be1b309d6ab8dd95}{Bechhofer}{B\bibinitperiod}{Sean}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6be76b0d5f1b4728be1b309d6ab8dd95}
+      \strng{fullhash}{6be76b0d5f1b4728be1b309d6ab8dd95}
+      \field{sortinit}{B}
+      \field{labeltitle}{OWL: Web ontology language}
+      \field{booktitle}{Encyclopedia of Database Systems}
+      \field{title}{OWL: Web ontology language}
+      \field{year}{2009}
+      \field{pages}{2008\bibrangedash 2009}
+    \endentry
+    \entry{rfc3986}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{Fielding}{F\bibinitperiod}{Roy}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=572fa1885b6150573a5367aa6b1642a9}{Masinter}{M\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{Fielding}{F\bibinitperiod}{Roy}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=572fa1885b6150573a5367aa6b1642a9}{Masinter}{M\bibinitperiod}{Larry}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7a48be7e60edf8824c6c5f3e56da20ba}
+      \strng{fullhash}{7a48be7e60edf8824c6c5f3e56da20ba}
+      \field{sortinit}{B}
+      \field{labeltitle}{RFC 3986: Uniform resource identifier (uri): Generic syntax}
+      \field{journaltitle}{The Internet Society}
+      \field{title}{RFC 3986: Uniform resource identifier (uri): Generic syntax}
+      \field{year}{2005}
+    \endentry
+    \entry{berners2001semantic}{article}{}
+      \true{morelabelname}
+      \name{labelname}{3}{}{%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b03c1c11511fa3c1c6224a741f227be4}{Hendler}{H\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=fb144ce9931b409b1bdccdff7d3a4ecd}{Lassila}{L\bibinitperiod}{Ora}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{3}{}{%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b03c1c11511fa3c1c6224a741f227be4}{Hendler}{H\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=fb144ce9931b409b1bdccdff7d3a4ecd}{Lassila}{L\bibinitperiod}{Ora}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {New York, NY, USA:}%
+      }
+      \strng{namehash}{282db63790560cddab64edb482ae1b3e}
+      \strng{fullhash}{cccd556d40e202330c830798e5377fe6}
+      \field{sortinit}{B}
+      \field{labeltitle}{The semantic web}
+      \field{journaltitle}{Scientific american}
+      \field{number}{5}
+      \field{title}{The semantic web}
+      \field{volume}{284}
+      \field{year}{2001}
+      \field{pages}{28\bibrangedash 37}
+    \endentry
+    \entry{rdfschema}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e12edfe7ea67a8d960a85df6442dc2d3}{Brickley}{B\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c52bae326f8b8071edecf3a52afaa2c4}{Guha}{G\bibinitperiod}{Ramanathan\bibnamedelima V}{R\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e12edfe7ea67a8d960a85df6442dc2d3}{Brickley}{B\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c52bae326f8b8071edecf3a52afaa2c4}{Guha}{G\bibinitperiod}{Ramanathan\bibnamedelima V}{R\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{701deaf88a95e23769fb47d92c887d8c}
+      \strng{fullhash}{701deaf88a95e23769fb47d92c887d8c}
+      \field{sortinit}{B}
+      \field{labeltitle}{$\{$RDF vocabulary description language 1.0: RDF schema$\}$}
+      \field{title}{$\{$RDF vocabulary description language 1.0: RDF schema$\}$}
+      \field{year}{2004}
+    \endentry
+    \entry{foafspec}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=e12edfe7ea67a8d960a85df6442dc2d3}{Brickley}{B\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7ae61c4884c38c4532748765bbd95f58}{Miller}{M\bibinitperiod}{Libby}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e12edfe7ea67a8d960a85df6442dc2d3}{Brickley}{B\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7ae61c4884c38c4532748765bbd95f58}{Miller}{M\bibinitperiod}{Libby}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e62f6f01bbb3a14eb7b53a5df0f64da4}
+      \strng{fullhash}{e62f6f01bbb3a14eb7b53a5df0f64da4}
+      \field{sortinit}{B}
+      \field{labeltitle}{FOAF vocabulary specification 0.98}
+      \field{journaltitle}{Namespace Document}
+      \field{title}{FOAF vocabulary specification 0.98}
+      \field{volume}{9}
+      \field{year}{2012}
+    \endentry
+    \entry{geojson}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=62d71942fdae89036bbdf78623e9a21d}{Butler}{B\bibinitperiod}{Howard}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e7e6c79c3ecdbfdb54de5e9a51cac36e}{Daly}{D\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=454fabc2cd5ede74657941b7ef142bd0}{Doyle}{D\bibinitperiod}{Allan}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=73bdb116668df1ce9da8467a739d99ab}{Gillies}{G\bibinitperiod}{Sean}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6a8d610911a9d78747925de2dcc9e51f}{Schaub}{S\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=a8175d691889d27bca4cfaa39ee9c6bf}{Schmidt}{S\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=62d71942fdae89036bbdf78623e9a21d}{Butler}{B\bibinitperiod}{Howard}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e7e6c79c3ecdbfdb54de5e9a51cac36e}{Daly}{D\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=454fabc2cd5ede74657941b7ef142bd0}{Doyle}{D\bibinitperiod}{Allan}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=73bdb116668df1ce9da8467a739d99ab}{Gillies}{G\bibinitperiod}{Sean}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6a8d610911a9d78747925de2dcc9e51f}{Schaub}{S\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=a8175d691889d27bca4cfaa39ee9c6bf}{Schmidt}{S\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a181101b5b2afb2f9e7200f7c5103c8c}
+      \strng{fullhash}{a181101b5b2afb2f9e7200f7c5103c8c}
+      \field{sortinit}{B}
+      \field{labeltitle}{The GeoJSON Format Specification}
+      \field{journaltitle}{2009-03]. http://www. geojson. org/geojson-spec. html}
+      \field{title}{The GeoJSON Format Specification}
+      \field{year}{2008}
+    \endentry
+    \entry{chandrasekaran1999ontologies}{article}{}
+      \true{morelabelname}
+      \name{labelname}{3}{}{%
+        {{hash=8e500c4a24d94f1364d15cba51fbdca6}{Chandrasekaran}{C\bibinitperiod}{Balakrishnan}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=a0429f5761b4e6104563cf08f22164f4}{Josephson}{J\bibinitperiod}{John\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=eb05cbe9571e51b9c320d47d39129128}{Benjamins}{B\bibinitperiod}{V\bibnamedelima Richard}{V\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{3}{}{%
+        {{hash=8e500c4a24d94f1364d15cba51fbdca6}{Chandrasekaran}{C\bibinitperiod}{Balakrishnan}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=a0429f5761b4e6104563cf08f22164f4}{Josephson}{J\bibinitperiod}{John\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=eb05cbe9571e51b9c320d47d39129128}{Benjamins}{B\bibinitperiod}{V\bibnamedelima Richard}{V\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{75cc06cd7497cd193be391775979af00}
+      \strng{fullhash}{0147963825f8038e3e87347c98b2625e}
+      \field{sortinit}{C}
+      \field{labeltitle}{What are ontologies, and why do we need them?}
+      \field{journaltitle}{IEEE Intelligent systems}
+      \field{number}{1}
+      \field{title}{What are ontologies, and why do we need them?}
+      \field{volume}{14}
+      \field{year}{1999}
+      \field{pages}{20\bibrangedash 26}
+    \endentry
+    \entry{sparqlprotocol}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=59a6272d0eefe843a525a2b33d828daf}{Clark}{C\bibinitperiod}{Kendall\bibnamedelima Grant}{K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=f8dd0e2f716ed43efda2073d4e3577be}{Feigenbaum}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=98aeea4ed6f59bdbbde50a9367806378}{Torres}{T\bibinitperiod}{Elias}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=59a6272d0eefe843a525a2b33d828daf}{Clark}{C\bibinitperiod}{Kendall\bibnamedelima Grant}{K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=f8dd0e2f716ed43efda2073d4e3577be}{Feigenbaum}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=98aeea4ed6f59bdbbde50a9367806378}{Torres}{T\bibinitperiod}{Elias}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{53608bb11b9831a910b03ef4caaac69b}
+      \strng{fullhash}{53608bb11b9831a910b03ef4caaac69b}
+      \field{sortinit}{C}
+      \field{labeltitle}{SPARQL protocol for RDF}
+      \field{journaltitle}{World Wide Web Consortium (W3C) Recommendation}
+      \field{title}{SPARQL protocol for RDF}
+      \field{year}{2008}
+    \endentry
+    \entry{open2011opengis}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=c51defefcf5f65526425ac5e8b0297a3}{Consortium}{C\bibinitperiod}{Open\bibnamedelima Geospatial}{O\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=c51defefcf5f65526425ac5e8b0297a3}{Consortium}{C\bibinitperiod}{Open\bibnamedelima Geospatial}{O\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d4fb29002a1c792f157a5d6e6ea241f9}
+      \strng{fullhash}{d4fb29002a1c792f157a5d6e6ea241f9}
+      \field{sortinit}{C}
+      \field{labeltitle}{OpenGIS® Implementation Specification for Geographic information-Simple feature access-Part 1: Common architecture}
+      \field{chapter}{7}
+      \field{journaltitle}{OGC document}
+      \field{title}{OpenGIS® Implementation Specification for Geographic information-Simple feature access-Part 1: Common architecture}
+      \field{year}{2011}
+    \endentry
+    \entry{apachecordova}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=129cb891efb44989f56a07309cfdb532}{Cordova}{C\bibinitperiod}{Apache}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=129cb891efb44989f56a07309cfdb532}{Cordova}{C\bibinitperiod}{Apache}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Apache Software Foundation, accessed}%
+      }
+      \strng{namehash}{129cb891efb44989f56a07309cfdb532}
+      \strng{fullhash}{129cb891efb44989f56a07309cfdb532}
+      \field{sortinit}{C}
+      \field{labeltitle}{About Apache Cordova}
+      \field{title}{About Apache Cordova}
+      \field{year}{2013}
+    \endentry
+    \entry{gmlspec}{article}{}
+      \true{morelabelname}
+      \name{labelname}{10}{}{%
+        {{hash=aceb60c8e30f41ee5798de7206c92b9a}{Cox}{C\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e6e4c39ac89c65c72f0dd4cf192d38d6}{Cuthbert}{C\bibinitperiod}{Adrian}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=89c00715201da6c1fa1ac394947263c2}{Daisey}{D\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f3ecff40124f357435b930f66e00dcc4}{Davidson}{D\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9be8b1ee745c6cbdaf67309c662fe5df}{Johnson}{J\bibinitperiod}{Sandra}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e4a7953851e69de01df3b270dcdba4ff}{Keighan}{K\bibinitperiod}{Edric}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=2a998bc6323f269a727108a82ee40d62}{Lake}{L\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=45d79a757a24ab44e105fd605f3340c6}{Mabrouk}{M\bibinitperiod}{Marwa}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=112dad9802597a21af10e6cdee145d10}{Margoulies}{M\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f00dd507582dc114bcfc27142d6e7738}{Martell}{M\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=aceb60c8e30f41ee5798de7206c92b9a}{Cox}{C\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e6e4c39ac89c65c72f0dd4cf192d38d6}{Cuthbert}{C\bibinitperiod}{Adrian}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=89c00715201da6c1fa1ac394947263c2}{Daisey}{D\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f3ecff40124f357435b930f66e00dcc4}{Davidson}{D\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9be8b1ee745c6cbdaf67309c662fe5df}{Johnson}{J\bibinitperiod}{Sandra}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e4a7953851e69de01df3b270dcdba4ff}{Keighan}{K\bibinitperiod}{Edric}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=2a998bc6323f269a727108a82ee40d62}{Lake}{L\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=45d79a757a24ab44e105fd605f3340c6}{Mabrouk}{M\bibinitperiod}{Marwa}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=112dad9802597a21af10e6cdee145d10}{Margoulies}{M\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f00dd507582dc114bcfc27142d6e7738}{Martell}{M\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c536e90d32aa1ec4dd002f5bc25d6770}
+      \strng{fullhash}{0b4e4f314bbcf6a9dbfb8a497335d14c}
+      \field{sortinit}{C}
+      \field{labeltitle}{OpenGIS® Geography Markup Language (GML) Implementation Specification, version}
+      \field{title}{OpenGIS® Geography Markup Language (GML) Implementation Specification, version}
+      \field{year}{2002}
+    \endentry
+    \entry{angularjs2}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=6550a6f0a829adeaf0200783b1d66ffd}{Darwin}{D\bibinitperiod}{Peter\bibnamedelima Bacon}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=ab3c7e22ecb6cbd99ed87136a0b2180a}{Kozlowski}{K\bibinitperiod}{Pawel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=6550a6f0a829adeaf0200783b1d66ffd}{Darwin}{D\bibinitperiod}{Peter\bibnamedelima Bacon}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=ab3c7e22ecb6cbd99ed87136a0b2180a}{Kozlowski}{K\bibinitperiod}{Pawel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{2ce67739a6f87fae3f05a89f546cd4b2}
+      \strng{fullhash}{2ce67739a6f87fae3f05a89f546cd4b2}
+      \field{sortinit}{D}
+      \field{labeltitle}{AngularJS web application development}
+      \field{title}{AngularJS web application development}
+      \field{year}{2013}
+    \endentry
+    \entry{rfc3987}{report}{}
+      \name{labelname}{2}{}{%
+        {{hash=8474a79686c470c356d121add3afe378}{Dürst}{D\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1e48bcedf5c8e93b3760fc05ef625474}{Suignard}{S\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8474a79686c470c356d121add3afe378}{Dürst}{D\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1e48bcedf5c8e93b3760fc05ef625474}{Suignard}{S\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {RFC 3987, January}%
+      }
+      \strng{namehash}{03ad6fec2ba824bb027a1d9f940e30d1}
+      \strng{fullhash}{03ad6fec2ba824bb027a1d9f940e30d1}
+      \field{sortinit}{D}
+      \field{labeltitle}{Internationalized resource identifiers (IRIs)}
+      \field{title}{Internationalized resource identifiers (IRIs)}
+      \field{type}{techreport}
+      \field{year}{2005}
+    \endentry
+    \entry{esrigis}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=92bce7f1a9317b8ab055865bd479ee1c}{ESRI}{E\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=92bce7f1a9317b8ab055865bd479ee1c}{ESRI}{E\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{92bce7f1a9317b8ab055865bd479ee1c}
+      \strng{fullhash}{92bce7f1a9317b8ab055865bd479ee1c}
+      \field{sortinit}{E}
+      \field{labeltitle}{What is GIS - Overview}
+      \field{title}{What is GIS - Overview}
+      \field{urlday}{02}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://www.esri.com/what-is-gis/overview#overview_panel
+      \endverb
+    \endentry
+    \entry{gpx}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=396ec82cba746b749287d61de7613d9f}{Foster}{F\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=396ec82cba746b749287d61de7613d9f}{Foster}{F\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{396ec82cba746b749287d61de7613d9f}
+      \strng{fullhash}{396ec82cba746b749287d61de7613d9f}
+      \field{sortinit}{F}
+      \field{labeltitle}{GPX: the GPS exchange format}
+      \field{journaltitle}{Retrieved on}
+      \field{title}{GPX: the GPS exchange format}
+      \field{volume}{2}
+      \field{year}{2007}
+    \endentry
+    \entry{angularjs3}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{hash=3e85ff35ac9460aa6193899e6707ba4a}{Freeman}{F\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3e85ff35ac9460aa6193899e6707ba4a}{Freeman}{F\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3e85ff35ac9460aa6193899e6707ba4a}
+      \strng{fullhash}{3e85ff35ac9460aa6193899e6707ba4a}
+      \field{sortinit}{F}
+      \field{labeltitle}{The Anatomy of an AngularJS App}
+      \field{booktitle}{Pro AngularJS}
+      \field{title}{The Anatomy of an AngularJS App}
+      \field{year}{2014}
+      \field{pages}{207\bibrangedash 231}
+    \endentry
+    \entry{phonegap}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=cbdd6b0cc7e54c85bcd5b62b39532a7e}{Ghatol}{G\bibinitperiod}{Rohit}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ec24538bdfe011b373f17bc6a9226e2a}{Patel}{P\bibinitperiod}{Yogesh}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=cbdd6b0cc7e54c85bcd5b62b39532a7e}{Ghatol}{G\bibinitperiod}{Rohit}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=ec24538bdfe011b373f17bc6a9226e2a}{Patel}{P\bibinitperiod}{Yogesh}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{08ab4e1fba10be87e646126117c0f6b5}
+      \strng{fullhash}{08ab4e1fba10be87e646126117c0f6b5}
+      \field{sortinit}{G}
+      \field{labeltitle}{Beginning PhoneGap: mobile web framework for JavaScript and Html5}
+      \field{title}{Beginning PhoneGap: mobile web framework for JavaScript and Html5}
+      \field{year}{2012}
+    \endentry
+    \entry{giswikigis}{online}{}
+      \field{sortinit}{G}
+      \field{labeltitle}{GIS Wiki - GIS}
+      \field{title}{GIS Wiki - GIS}
+      \field{urlday}{02}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://wiki.gis.com/wiki/index.php/GIS
+      \endverb
+    \endentry
+    \entry{angularjs1}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=4a0d4428aef84bd5d3f7fd9755173f28}{Green}{G\bibinitperiod}{Brad}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=d7836711bcc65d0a1a4441c283243d69}{Seshadri}{S\bibinitperiod}{Shyam}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4a0d4428aef84bd5d3f7fd9755173f28}{Green}{G\bibinitperiod}{Brad}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=d7836711bcc65d0a1a4441c283243d69}{Seshadri}{S\bibinitperiod}{Shyam}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{1187dd16d4f8ab34e594b7d9abfe1d5f}
+      \strng{fullhash}{1187dd16d4f8ab34e594b7d9abfe1d5f}
+      \field{sortinit}{G}
+      \field{labeltitle}{AngularJS}
+      \field{title}{AngularJS}
+      \field{year}{2013}
+    \endentry
+    \entry{gruber1993ontology}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=70c8f0139d2a22dddfa7a04e6b7c6ca9}{Gruber}{G\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=70c8f0139d2a22dddfa7a04e6b7c6ca9}{Gruber}{G\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{70c8f0139d2a22dddfa7a04e6b7c6ca9}
+      \strng{fullhash}{70c8f0139d2a22dddfa7a04e6b7c6ca9}
+      \field{sortinit}{G}
+      \field{labeltitle}{What is an Ontology}
+      \field{title}{What is an Ontology}
+      \field{year}{1993}
+    \endentry
+    \entry{dublincorespec}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=50fc8669ef33ec0b7a8de2c7d5969f42}{Initiative}{I\bibinitperiod}{Dublin\bibnamedelimb Core\bibnamedelima Metadata}{D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=50fc8669ef33ec0b7a8de2c7d5969f42}{Initiative}{I\bibinitperiod}{Dublin\bibnamedelimb Core\bibnamedelima Metadata}{D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Dublin Core Metadata Initiative}%
+      }
+      \strng{namehash}{a3294df686e16caa18dd699e62e3061c}
+      \strng{fullhash}{a3294df686e16caa18dd699e62e3061c}
+      \field{sortinit}{I}
+      \field{labeltitle}{Dublin core metadata element set, version 1.1}
+      \field{title}{Dublin core metadata element set, version 1.1}
+      \field{year}{2008}
+    \endentry
+    \entry{leafletjs}{online}{}
+      \field{sortinit}{L}
+      \field{labeltitle}{Leaflet - An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps}
+      \field{title}{Leaflet - An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps}
+      \field{urlday}{15}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb https://leafletjs.com/
+      \endverb
+    \endentry
+    \entry{twbts}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=63eb3cbca5fb560f5f0f1b5fe645a7cb}{Lerner}{L\bibinitperiod}{Reuven\bibnamedelima M}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=63eb3cbca5fb560f5f0f1b5fe645a7cb}{Lerner}{L\bibinitperiod}{Reuven\bibnamedelima M}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Belltown Media}%
+      }
+      \strng{namehash}{63eb3cbca5fb560f5f0f1b5fe645a7cb}
+      \strng{fullhash}{63eb3cbca5fb560f5f0f1b5fe645a7cb}
+      \field{sortinit}{L}
+      \field{labeltitle}{At the forge: Twitter bootstrap}
+      \field{journaltitle}{Linux Journal}
+      \field{number}{218}
+      \field{title}{At the forge: Twitter bootstrap}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \field{pages}{6}
+    \endentry
+    \entry{rdfprimer10}{article}{}
+      \true{morelabelname}
+      \name{labelname}{3}{}{%
+        {{hash=f0d8c4e9bebfe5c0a01bde2d9a6a5ea6}{Manola}{M\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=3ef11451147b897553ce15f7a8d52c7a}{Miller}{M\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=f6e786e7971bfcb8c7f0fe36783f7bb6}{McBride}{M\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{3}{}{%
+        {{hash=f0d8c4e9bebfe5c0a01bde2d9a6a5ea6}{Manola}{M\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=3ef11451147b897553ce15f7a8d52c7a}{Miller}{M\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=f6e786e7971bfcb8c7f0fe36783f7bb6}{McBride}{M\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{55314f3d671a83de7d715158dbda1393}
+      \strng{fullhash}{71ef6c20daeb14ee06a2aec28a950851}
+      \field{sortinit}{M}
+      \field{labeltitle}{RDF primer}
+      \field{journaltitle}{W3C recommendation}
+      \field{title}{RDF primer}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 107}
+    \endentry
+    \entry{mcguinness2004owl}{article}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=e40d917c30bb93a7a8f8ca639e62de69}{McGuinness}{M\bibinitperiod}{Deborah\bibnamedelima L}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=2ee8911bffcd1b0c3b084e3b6f2d3a64}{Van\bibnamedelima Harmelen}{V\bibinitperiod\bibinitdelim H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=e40d917c30bb93a7a8f8ca639e62de69}{McGuinness}{M\bibinitperiod}{Deborah\bibnamedelima L}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=2ee8911bffcd1b0c3b084e3b6f2d3a64}{Van\bibnamedelima Harmelen}{V\bibinitperiod\bibinitdelim H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1fa4e719dcda534fa4ee738069654c4b}
+      \strng{fullhash}{72ca2da7f1fd7f95a17ff9fa439c6cb9}
+      \field{sortinit}{M}
+      \field{labeltitle}{OWL web ontology language overview}
+      \field{journaltitle}{W3C recommendation}
+      \field{number}{2004-03}
+      \field{title}{OWL web ontology language overview}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{10}
+    \endentry
+    \entry{xmlschema}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=b464ae154350f1f77e4b6a1a9846965e}{Part}{P\bibinitperiod}{XML\bibnamedelima Schema}{X\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b464ae154350f1f77e4b6a1a9846965e}{Part}{P\bibinitperiod}{XML\bibnamedelima Schema}{X\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {http:∥ www. w3. org/TR/2001/REC-xmlschema-2}%
+      }
+      \strng{namehash}{b464ae154350f1f77e4b6a1a9846965e}
+      \strng{fullhash}{b464ae154350f1f77e4b6a1a9846965e}
+      \field{sortinit}{P}
+      \field{labeltitle}{2: Datatypes}
+      \field{journaltitle}{W3C Recommendation}
+      \field{title}{2: Datatypes}
+      \field{volume}{2}
+      \field{year}{2001}
+    \endentry
+    \entry{geosparqlspec}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=27d107dfc30b6f100d2d498a4751b639}{Perry}{P\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=984b2e4f717bb4aa091375cf41bcaf65}{Herring}{H\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=27d107dfc30b6f100d2d498a4751b639}{Perry}{P\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=984b2e4f717bb4aa091375cf41bcaf65}{Herring}{H\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c02fe2dfdd581033f161352b77d0ea94}
+      \strng{fullhash}{c02fe2dfdd581033f161352b77d0ea94}
+      \field{sortinit}{P}
+      \field{labeltitle}{OGC geosparql, a geographic query language for rdf data}
+      \field{journaltitle}{OGC Implementation Standard, ref: OGC}
+      \field{title}{OGC geosparql, a geographic query language for rdf data}
+      \field{year}{2011}
+    \endentry
+    \entry{sparqlquery}{article}{}
+      \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=bb76e9254bf9194d185a31e52a6f172b}{Prud’Hommeaux}{P\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b0f2e76dd842dc9052f49422b3cc10e6}{Seaborne}{S\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=bb76e9254bf9194d185a31e52a6f172b}{Prud’Hommeaux}{P\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b0f2e76dd842dc9052f49422b3cc10e6}{Seaborne}{S\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{87d8655ecf6ebfd44363c0c21192a5d1}
+      \strng{fullhash}{0870d9b9f06ba1d706db9b7420a6f53e}
+      \field{sortinit}{P}
+      \field{labeltitle}{SPARQL query language for RDF}
+      \field{journaltitle}{W3C recommendation}
+      \field{title}{SPARQL query language for RDF}
+      \field{volume}{15}
+      \field{year}{2008}
+    \endentry
+    \entry{schemaspec}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=ccb635aa065a4930a2a3c8cac433f8ed}{Ronallo}{R\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ccb635aa065a4930a2a3c8cac433f8ed}{Ronallo}{R\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ccb635aa065a4930a2a3c8cac433f8ed}
+      \strng{fullhash}{ccb635aa065a4930a2a3c8cac433f8ed}
+      \field{sortinit}{R}
+      \field{labeltitle}{HTML5 Microdata and Schema. org.}
+      \field{journaltitle}{Code4Lib Journal}
+      \field{number}{16}
+      \field{title}{HTML5 Microdata and Schema. org.}
+      \field{year}{2011}
+    \endentry
+    \entry{sparqlupdate}{article}{}
+      \true{morelabelname}
+      \name{labelname}{10}{}{%
+        {{hash=b0f2e76dd842dc9052f49422b3cc10e6}{Seaborne}{S\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=62c9a1b647a33a609d087b4295390819}{Manjunath}{M\bibinitperiod}{Geetha}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=f42fba9a44fc29aeebfeb5a0b581d3bf}{Bizer}{B\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=81145543fdc1de819b9a1624036ae074}{Breslin}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=dbbd12787f57ae5996546418b9c2b749}{Das}{D\bibinitperiod}{Souripriya}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=30a29c224f53f213f4966ee44effde30}{Davis}{D\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=dad88e15878a9c1b972860de786ecb0f}{Harris}{H\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=525ffae477c2a5338e822ea6586922bb}{Idehen}{I\bibinitperiod}{Kingsley}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d86391da418663f7ebd56a23915bcb7c}{Corby}{C\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=cdb132949ccc3d005e08509a146a8a9b}{Kjernsmo}{K\bibinitperiod}{Kjetil}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=b0f2e76dd842dc9052f49422b3cc10e6}{Seaborne}{S\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=62c9a1b647a33a609d087b4295390819}{Manjunath}{M\bibinitperiod}{Geetha}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=f42fba9a44fc29aeebfeb5a0b581d3bf}{Bizer}{B\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=81145543fdc1de819b9a1624036ae074}{Breslin}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=dbbd12787f57ae5996546418b9c2b749}{Das}{D\bibinitperiod}{Souripriya}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=30a29c224f53f213f4966ee44effde30}{Davis}{D\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=dad88e15878a9c1b972860de786ecb0f}{Harris}{H\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=525ffae477c2a5338e822ea6586922bb}{Idehen}{I\bibinitperiod}{Kingsley}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d86391da418663f7ebd56a23915bcb7c}{Corby}{C\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=cdb132949ccc3d005e08509a146a8a9b}{Kjernsmo}{K\bibinitperiod}{Kjetil}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{23804c7b8cb5dbfa599021838448eeba}
+      \strng{fullhash}{ffbf5722f68230867b288075580aad3c}
+      \field{sortinit}{S}
+      \field{labeltitle}{SPARQL/Update: A language for updating RDF graphs}
+      \field{journaltitle}{W3C Member Submission}
+      \field{title}{SPARQL/Update: A language for updating RDF graphs}
+      \field{volume}{15}
+      \field{year}{2008}
+    \endentry
+    \entry{parliament}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=4da458dbd9498602e81a26b967068737}{SemWebCentral}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=4da458dbd9498602e81a26b967068737}{SemWebCentral}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{4da458dbd9498602e81a26b967068737}
+      \strng{fullhash}{4da458dbd9498602e81a26b967068737}
+      \field{sortinit}{S}
+      \field{labeltitle}{Parliament homepage}
+      \field{title}{Parliament homepage}
+      \field{urlday}{08}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://parliament.semwebcentral.org/
+      \endverb
+    \endentry
+    \entry{tilkov2010node}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=71539e822b9d217e558698b79d84a8f4}{Tilkov}{T\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ec36bb9d2db7215ce32871a7fb8526ee}{Vinoski}{V\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=71539e822b9d217e558698b79d84a8f4}{Tilkov}{T\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ec36bb9d2db7215ce32871a7fb8526ee}{Vinoski}{V\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{07ea5eeb05273c4db5828278c617ab85}
+      \strng{fullhash}{07ea5eeb05273c4db5828278c617ab85}
+      \field{sortinit}{T}
+      \field{labeltitle}{Node.js: Using JavaScript to Build High-Performance Network Programs.}
+      \field{journaltitle}{IEEE Internet Computing}
+      \field{number}{6}
+      \field{title}{Node.js: Using JavaScript to Build High-Performance Network Programs.}
+      \field{volume}{14}
+      \field{year}{2010}
+    \endentry
+    \entry{v8}{online}{}
+      \field{sortinit}{v}
+      \field{labeltitle}{v8 Javascript Engine}
+      \field{title}{v8 Javascript Engine}
+      \field{urlday}{14}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb https://code.google.com/p/v8/
+      \endverb
+    \endentry
+    \entry{w3contologies}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=446a1ae6601a5c59360c7d591c3992da}{W3C}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=446a1ae6601a5c59360c7d591c3992da}{W3C}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{labeltitle}{Ontologies - W3C}
+      \field{title}{Ontologies - W3C}
+      \field{urlday}{01}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://www.w3.org/standards/semanticweb/ontology
+      \endverb
+    \endentry
+    \entry{rdfprimer11}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=446a1ae6601a5c59360c7d591c3992da}{W3C}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=446a1ae6601a5c59360c7d591c3992da}{W3C}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{labeltitle}{RDF 1.1 Primer}
+      \field{month}{02}
+      \field{title}{RDF 1.1 Primer}
+      \field{urlday}{01}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.w3.org/TR/rdf11-primer/
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

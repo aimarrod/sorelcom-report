@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.5.28)  1 JUN 2014 18:22
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.5.28)  16 JUN 2014 12:08
  \write18 enabled.
 **plantilla.tex
 (./plantilla.tex
@@ -28,8 +28,8 @@ File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2013/12/03 3.9h The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
@@ -39,13 +39,9 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
 luatex-hyphen: using data file: /var/lib/texmf/tex/generic/config/language.dat.l
 ua))
-\es@datefmt=\count89
-\es@quottoks=\toks14
-\es@quotdepth=\count90
-Package babel Info: Making " an active character on input line 496.
-Package babel Info: Making . an active character on input line 599.
-Package babel Info: Making < an active character on input line 644.
-Package babel Info: Making > an active character on input line 644.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
@@ -55,21 +51,21 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count91
+\et@xins=\count89
 )
-\etb@tempcnta=\count92
+\etb@tempcnta=\count90
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks14
 )
-\csq@reset=\count93
-\csq@gtype=\count94
-\csq@glevel=\count95
-\csq@qlevel=\count96
-\csq@maxlvl=\count97
-\csq@tshold=\count98
-\csq@ltx@everypar=\toks16
+\csq@reset=\count91
+\csq@gtype=\count92
+\csq@glevel=\count93
+\csq@qlevel=\count94
+\csq@maxlvl=\count95
+\csq@tshold=\count96
+\csq@ltx@everypar=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
@@ -108,7 +104,7 @@ Package ifluatex Info: LuaTeX detected.
 ))))
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count99
+\lrq@indent=\count97
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -120,44 +116,44 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count100
-\c@listtotal=\count101
-\c@listcount=\count102
-\c@liststart=\count103
-\c@liststop=\count104
-\c@citecount=\count105
-\c@citetotal=\count106
-\c@multicitecount=\count107
-\c@multicitetotal=\count108
-\c@instcount=\count109
-\c@maxnames=\count110
-\c@minnames=\count111
-\c@maxitems=\count112
-\c@minitems=\count113
-\c@citecounter=\count114
-\c@savedcitecounter=\count115
-\c@uniquelist=\count116
-\c@uniquename=\count117
-\c@refsection=\count118
-\c@refsegment=\count119
-\c@maxextratitle=\count120
-\c@maxextratitleyear=\count121
-\c@maxextrayear=\count122
-\c@maxextraalpha=\count123
-\c@abbrvpenalty=\count124
-\c@highnamepenalty=\count125
-\c@lownamepenalty=\count126
-\c@maxparens=\count127
-\c@parenlevel=\count128
-\blx@tempcnta=\count129
-\blx@tempcntb=\count130
-\blx@tempcntc=\count131
-\blx@maxsection=\count132
-\blx@maxsegment@0=\count133
-\blx@notetype=\count134
-\blx@parenlevel@text=\count135
-\blx@parenlevel@foot=\count136
-\blx@sectionciteorder@0=\count137
+\c@tabx@nest=\count98
+\c@listtotal=\count99
+\c@listcount=\count100
+\c@liststart=\count101
+\c@liststop=\count102
+\c@citecount=\count103
+\c@citetotal=\count104
+\c@multicitecount=\count105
+\c@multicitetotal=\count106
+\c@instcount=\count107
+\c@maxnames=\count108
+\c@minnames=\count109
+\c@maxitems=\count110
+\c@minitems=\count111
+\c@citecounter=\count112
+\c@savedcitecounter=\count113
+\c@uniquelist=\count114
+\c@uniquename=\count115
+\c@refsection=\count116
+\c@refsegment=\count117
+\c@maxextratitle=\count118
+\c@maxextratitleyear=\count119
+\c@maxextrayear=\count120
+\c@maxextraalpha=\count121
+\c@abbrvpenalty=\count122
+\c@highnamepenalty=\count123
+\c@lownamepenalty=\count124
+\c@maxparens=\count125
+\c@parenlevel=\count126
+\blx@tempcnta=\count127
+\blx@tempcntb=\count128
+\blx@tempcntc=\count129
+\blx@maxsection=\count130
+\blx@maxsegment@0=\count131
+\blx@notetype=\count132
+\blx@parenlevel@text=\count133
+\blx@parenlevel@foot=\count134
+\blx@sectionciteorder@0=\count135
 \labelnumberwidth=\skip43
 \labelalphawidth=\skip44
 \shorthandwidth=\skip45
@@ -169,9 +165,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip51
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count138
-\c@maxcomprange=\count139
-\c@mincompwidth=\count140
+\c@mincomprange=\count136
+\c@maxcomprange=\count137
+\c@mincompwidth=\count138
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -182,72 +178,72 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count141
-\c@savedafterword=\count142
-\c@annotator=\count143
-\c@savedannotator=\count144
-\c@author=\count145
-\c@savedauthor=\count146
-\c@bookauthor=\count147
-\c@savedbookauthor=\count148
-\c@commentator=\count149
-\c@savedcommentator=\count150
-\c@editor=\count151
-\c@savededitor=\count152
-\c@editora=\count153
-\c@savededitora=\count154
-\c@editorb=\count155
-\c@savededitorb=\count156
-\c@editorc=\count157
-\c@savededitorc=\count158
-\c@foreword=\count159
-\c@savedforeword=\count160
-\c@holder=\count161
-\c@savedholder=\count162
-\c@introduction=\count163
-\c@savedintroduction=\count164
-\c@namea=\count165
-\c@savednamea=\count166
-\c@nameb=\count167
-\c@savednameb=\count168
-\c@namec=\count169
-\c@savednamec=\count170
-\c@shortauthor=\count171
-\c@savedshortauthor=\count172
-\c@shorteditor=\count173
-\c@savedshorteditor=\count174
-\c@translator=\count175
-\c@savedtranslator=\count176
-\c@labelname=\count177
-\c@savedlabelname=\count178
-\c@institution=\count179
-\c@savedinstitution=\count180
-\c@lista=\count181
-\c@savedlista=\count182
-\c@listb=\count183
-\c@savedlistb=\count184
-\c@listc=\count185
-\c@savedlistc=\count186
-\c@listd=\count187
-\c@savedlistd=\count188
-\c@liste=\count189
-\c@savedliste=\count190
-\c@listf=\count191
-\c@savedlistf=\count192
-\c@location=\count193
-\c@savedlocation=\count194
-\c@organization=\count195
-\c@savedorganization=\count196
-\c@origlocation=\count197
-\c@savedoriglocation=\count198
-\c@origpublisher=\count199
-\c@savedorigpublisher=\count200
-\c@publisher=\count201
-\c@savedpublisher=\count202
-\c@language=\count203
-\c@savedlanguage=\count204
-\c@pageref=\count205
-\c@savedpageref=\count206
+\c@afterword=\count139
+\c@savedafterword=\count140
+\c@annotator=\count141
+\c@savedannotator=\count142
+\c@author=\count143
+\c@savedauthor=\count144
+\c@bookauthor=\count145
+\c@savedbookauthor=\count146
+\c@commentator=\count147
+\c@savedcommentator=\count148
+\c@editor=\count149
+\c@savededitor=\count150
+\c@editora=\count151
+\c@savededitora=\count152
+\c@editorb=\count153
+\c@savededitorb=\count154
+\c@editorc=\count155
+\c@savededitorc=\count156
+\c@foreword=\count157
+\c@savedforeword=\count158
+\c@holder=\count159
+\c@savedholder=\count160
+\c@introduction=\count161
+\c@savedintroduction=\count162
+\c@namea=\count163
+\c@savednamea=\count164
+\c@nameb=\count165
+\c@savednameb=\count166
+\c@namec=\count167
+\c@savednamec=\count168
+\c@shortauthor=\count169
+\c@savedshortauthor=\count170
+\c@shorteditor=\count171
+\c@savedshorteditor=\count172
+\c@translator=\count173
+\c@savedtranslator=\count174
+\c@labelname=\count175
+\c@savedlabelname=\count176
+\c@institution=\count177
+\c@savedinstitution=\count178
+\c@lista=\count179
+\c@savedlista=\count180
+\c@listb=\count181
+\c@savedlistb=\count182
+\c@listc=\count183
+\c@savedlistc=\count184
+\c@listd=\count185
+\c@savedlistd=\count186
+\c@liste=\count187
+\c@savedliste=\count188
+\c@listf=\count189
+\c@savedlistf=\count190
+\c@location=\count191
+\c@savedlocation=\count192
+\c@organization=\count193
+\c@savedorganization=\count194
+\c@origlocation=\count195
+\c@savedoriglocation=\count196
+\c@origpublisher=\count197
+\c@savedorigpublisher=\count198
+\c@publisher=\count199
+\c@savedpublisher=\count200
+\c@language=\count201
+\c@savedlanguage=\count202
+\c@pageref=\count203
+\c@savedpageref=\count204
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -259,13 +255,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 
-\c@textcitecount=\count207
-\c@textcitetotal=\count208
-\c@textcitemaxnames=\count209
-\c@biburlnumpenalty=\count210
-\c@biburlucpenalty=\count211
-\c@biburllcpenalty=\count212
-\c@smartand=\count213
+\c@textcitecount=\count205
+\c@textcitetotal=\count206
+\c@textcitemaxnames=\count207
+\c@biburlnumpenalty=\count208
+\c@biburlucpenalty=\count209
+\c@biburllcpenalty=\count210
+\c@smartand=\count211
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -277,16 +273,16 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count214
-\c@bbx:relatedtotal=\count215
+\c@bbx:relatedcount=\count212
+\c@bbx:relatedtotal=\count213
 ))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count216
-\c@cbx@tempcntb=\count217
+\c@cbx@tempcnta=\count214
+\c@cbx@tempcntb=\count215
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -319,9 +315,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count218
-\Gm@cntv=\count219
-\c@Gm@tempcnt=\count220
+\Gm@cnth=\count216
+\Gm@cntv=\count217
+\c@Gm@tempcnt=\count218
 \Gm@bindingoffset=\dimen104
 \Gm@wd@mp=\dimen105
 \Gm@odd@mp=\dimen106
@@ -330,7 +326,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen109
 \Gm@layouthoffset=\dimen110
 \Gm@layoutvoffset=\dimen111
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -339,9 +335,9 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip52
 \enit@outerparindent=\dimen112
-\enit@toks=\toks18
+\enit@toks=\toks17
 \enit@inbox=\box26
-\enitdp@description=\count221
+\enitdp@description=\count219
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTeX
@@ -371,7 +367,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks19
+\pdftexcmds@toks=\toks18
 ))
 Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
 )
@@ -603,7 +599,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.044 seconds
+luaotfload: fontloader loaded in 0.045 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -715,8 +711,8 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
 uc: /home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/lmsans10-regular.l
 uc))
 \tipaTiiicode=\count315
-\tipasavetokens=\toks20
-\tipachecktokens=\toks21
+\tipasavetokens=\toks19
+\tipachecktokens=\toks20
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -983,9 +979,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count329
-\float@exts=\toks22
+\float@exts=\toks21
 \float@box=\box272
-\@float@everytoks=\toks23
+\@float@everytoks=\toks22
 \@floatcapt=\box273
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
@@ -1016,7 +1012,7 @@ runsystem(rm -- "plantilla.w18")...executed.
 )
 \minted@bgbox=\box274
 \minted@code=\write5
-\@float@every@listing=\toks24
+\@float@every@listing=\toks23
 \c@listing=\count333
 )
 runsystem(which pygmentize && touch plantilla.aex)...executed.
@@ -1031,7 +1027,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \aftertitleunit=\skip275
 \ttl@plus=\dimen314
 \ttl@minus=\dimen315
-\ttl@toksa=\toks25
+\ttl@toksa=\toks24
 \titlewidth=\dimen316
 \titlewidthlast=\dimen317
 \titlewidthfirst=\dimen318
@@ -1040,9 +1036,9 @@ luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/texgyrebonum-regular.lu
 c)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature lnum for script la
+luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature zero for script la
 tn
-luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature lnum for script la
+luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature zero for script la
 tn
 \g_fontspec_family_texgyrebonum_int=\count334
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1256,7 +1252,7 @@ Package hyperref Info: Option `plainpages' set `false' on input line 104.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks26
+\MT@toks=\toks25
 \MT@count=\count349
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen323
@@ -1286,45 +1282,38 @@ Package: hologo 2012/04/26 v1.10 A logo collection with bookmark support (HO)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
-(./plantilla.aux
-LaTeX Info: Redefining \sptext on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
+(./plantilla.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Info: Redefining \sptext on input line 16.
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1332,8 +1321,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'plantilla.bbl' found.
  (./plantilla.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: Reference section=0 on input line 15.
+Package biblatex Info: Reference segment=0 on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1376,12 +1365,12 @@ Package biblatex Info: Reference segment=0 on input line 16.
 \scratchbox=\box276
 \nofMPsegments=\count352
 \nofMParguments=\count353
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count354
 \MPscratchDim=\dimen325
 \MPnumerator=\count355
 \makeMPintoPDFobject=\count356
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1404,63 +1393,63 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
-LaTeX Font Info:    Redeclaring math accent \check on input line 16.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
+LaTeX Font Info:    Redeclaring math accent \check on input line 15.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 16.
+(Font)              `operators' in the math version `normal' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/Arial(0)/m/n on input line 16.
+(Font)                  OT1/cmr/m/n --> EU2/Arial(0)/m/n on input line 15.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 16.
+(Font)              `operators' in the math version `bold' on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/m/n on input line 16.
+(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 16.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 16.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU2/Arial(0)/m/it on input line 16.
+(Font)                  OT1/cmr/m/it --> EU2/Arial(0)/m/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/bx/n on input line 16.
+(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 16.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 16.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 15.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 16.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 15.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU2/Arial(0)/bx/it on input line 16.
+(Font)                  OT1/cmr/bx/it --> EU2/Arial(0)/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 16.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1470,7 +1459,7 @@ runsystem(pygmentize -S default -f latex > plantilla.pyg)...executed.
 
 (./plantilla.pyg)
 \AtBeginShipoutBox=\box277
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1478,13 +1467,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./plantilla.out) (./plantilla.out)
 \@outlinefile=\write6
-LaTeX Info: Redefining \microtypecontext on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 15.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1533,67 +1522,18 @@ Package microtype Info: Loading generic settings for font family
 
 LuaTeX warning (file fig/portada.pdf): PDF inclusion: found PDF version <1.6>, b
 ut at most version <1.5> allowed
-<fig/portada.pdf, id=120, 597.50829pt x 845.0471pt>
+<fig/portada.pdf, id=68, 597.50829pt x 845.0471pt>
 File: fig/portada.pdf Graphic file (type pdf)
  <use fig/portada.pdf>
-Package pdftex.def Info: fig/portada.pdf used on input line 26.
+Package pdftex.def Info: fig/portada.pdf used on input line 25.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 27.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 27.
 
 [1
 
 
 
 
- <./fig/portada.pdf>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 29.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 29.
- [2
+ <./fig/portada.pdf>] [2
 
 
 ] (./tex/summary.tex
@@ -1613,76 +1553,11 @@ luaotfload | load : no defaults for script "latn", falling back to "dflt"
 LaTeX Font Warning: Font shape `EU2/Arial(0)/bx/n' undefined
 (Font)              using `EU2/Arial(0)/m/n' instead on input line 14.
 
-)
+) [3
 
-LaTeX Font Warning: Font shape `EU2/Arial(0)/m/sc' undefined
-(Font)              using `EU2/Arial(0)/m/n' instead on input line 35.
-
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-
-Package spanish Warning: Replacing `EU2/Arial(0)/m/sc' by 
-(spanish)                faked small caps on input line 35.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 35.
-[3
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 35.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 35.
- [4
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [4
 
 ] (./plantilla.toc
-LaTeX Info: Redefining \sptext on input line 3.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
@@ -1708,342 +1583,76 @@ RS)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt)
 \tf@toc=\write7
+ [5
 
-
-Package spanish Warning: Replacing `EU2/Arial(0)/m/sc' by 
-(spanish)                faked small caps on input line 36.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 36.
-[5
+] [6
 
 ]
-
-Package spanish Warning: Replacing `EU2/Arial(0)/m/sc' by 
-(spanish)                faked small caps on input line 36.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 36.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 36.
-[6] (./plantilla.lof
-LaTeX Info: Redefining \sptext on input line 3.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-)
+(./plantilla.lof)
 \tf@lof=\write8
+ [7
 
+] [8
 
-Package spanish Warning: Replacing `EU2/Arial(0)/m/sc' by 
-(spanish)                faked small caps on input line 37.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
-[7
-
-
-]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
- [8
-
-] (./plantilla.lot
-LaTeX Info: Redefining \sptext on input line 3.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-)
+] (./plantilla.lot)
 \tf@lot=\write9
+ [9
 
+] [10
 
-Package spanish Warning: Replacing `EU2/Arial(0)/m/sc' by 
-(spanish)                faked small caps on input line 38.
+] (./plantilla.lol
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 42.
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 38.
-[9
-
-]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 38.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 38.
- [10
-
-] (./plantilla.lol)
+(/home/obssidian/texmf/tex/latex/euenc/eu2lmtt.fd
+File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
+uc: /home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/lmmono10-regular.l
+uc)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: EU2).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 \tf@lol=\write10
+ [11
 
-
-Package spanish Warning: Replacing `EU2/Arial(0)/m/sc' by 
-(spanish)                faked small caps on input line 40.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
-[11
+] [12
 
 ]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
- [12
-
-] (./tex/introduction.tex
-Cap\'{\i }tulo 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
+(./tex/introduction.tex
+Chapter 1.
 
 LaTeX Font Warning: Font shape `EU2/Arial(0)/m/it' undefined
 (Font)              using `EU2/Arial(0)/m/n' instead on input line 3.
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 11.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 11.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 11.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 11.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 11.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 11.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 13.
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt" [1
 
-LaTeX Warning: Citation 'berners2001semantic' on page 1 undefined on input line 
-15.
+] <fig/semwebstack.png, id=233, 592.2125pt x 592.2125pt>
+File: fig/semwebstack.png Graphic file (type png)
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 21.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 21.
-
-LaTeX Warning: Citation 'w3crdf' on page 1 undefined on input line 26.
-
-<fig/rdfexample.png, id=243, 501.875pt x 401.5pt>
-File: fig/rdfexample.png Graphic file (type png)
- <use fig/rdfexample.png>
-Package pdftex.def Info: fig/rdfexample.png used on input line 31.
-(pdftex.def)             Requested size: 213.39568pt x 170.71794pt.
+<use fig/semwebstack.png>
+Package pdftex.def Info: fig/semwebstack.png used on input line 51.
+(pdftex.def)             Requested size: 213.39568pt x 213.39513pt.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 
 LaTeX Font Warning: Font shape `EU2/Arial(0)/bx/it' undefined
-(Font)              using `EU2/Arial(0)/bx/n' instead on input line 34.
+(Font)              using `EU2/Arial(0)/bx/n' instead on input line 54.
 
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 34.
-(/home/obssidian/texmf/tex/latex/euenc/eu2lmtt.fd
-File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 
 LaTeX Font Warning: Font shape `EU2/lmtt/bx/it' in size <8> not available
-(Font)              Font shape `EU2/lmtt/b/sl' tried instead on input line 34.
+(Font)              Font shape `EU2/lmtt/b/sl' tried instead on input line 54.
 
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
@@ -2051,10 +1660,6 @@ uc: /home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/lmmonolt10-boldobl
 ique.luc)
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: EU2).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt
@@ -2062,316 +1667,54 @@ luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <8> on input line 54.
 luaotfload | load : auto-selecting default features for script: dflt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <6> on input line 54.
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
- [1
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
 
-])
-
-LaTeX Warning: Citation 'miktex' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Citation 'texlive' on page 2 undefined on input line 59.
-
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
-uc: /home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/lmmono10-regular.l
-uc)
-
-LaTeX Warning: Citation 'corefonts' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'fuente' on page 2 undefined on input line 76.
-
-
-LaTeX Font Warning: Font shape `EU2/Arial(0)/bx/sc' undefined
-(Font)              using `EU2/Arial(0)/bx/n' instead on input line 84.
-
-
-LaTeX Warning: Citation 'refworks' on page 2 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'mendeley' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Citation 'youtube' on page 2 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'wikilibro' on page 2 undefined on input line 103.
-
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-LaTeX Info: Redefining \sptext on input line 104.
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 104.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 104.
-[2]
-
-LaTeX Warning: Citation 'pygments' on page 3 undefined on input line 129.
-
+ (./plantilla.out.pyg
 LaTeX Font Info:    Font shape `EU2/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `EU2/lmtt/b/n' tried instead on input line 131.
+(Font)              Font shape `EU2/lmtt/b/n' tried instead on input line 2.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
 uc: /home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/lmmonolt10-bold.lu
 c)
 luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 144.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 144.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 144.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 144.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 144.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 144.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 149.
- [3 <./fig/rdfexample.png>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 149.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 160.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 160.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 160.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 160.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 160.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 160.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 175.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 175.
-
-
-LaTeX Warning: Reference `cha:introduccion' on page 4 undefined on input line 17
-7.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 194.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 194.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 194.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 194.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 194.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 194.
-LaTeX Info: Redefining \sptext on input line 203.
-LaTeX Info: Redefining \. on input line 203.
-LaTeX Info: Redefining \% on input line 203.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 203.
-[4]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 203.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 203.
- <fig/ud.pdf, id=284, 166.28825pt x 49.93466pt>
-File: fig/ud.pdf Graphic file (type pdf)
- <use fig/ud.pdf>
-Package pdftex.def Info: fig/ud.pdf used on input line 214.
-(pdftex.def)             Requested size: 166.28784pt x 49.93454pt.
-File: fig/ud.pdf Graphic file (type pdf)
-
-<use fig/ud.pdf>
-Package pdftex.def Info: fig/ud.pdf used on input line 222.
-(pdftex.def)             Requested size: 128.0387pt x 38.4498pt.
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt" <fig/
-dt.pdf, id=285, 417.0822pt x 97.1638pt>
-File: fig/dt.pdf Graphic file (type pdf)
- <use fig/dt.pdf>
-Package pdftex.def Info: fig/dt.pdf used on input line 227.
-(pdftex.def)             Requested size: 128.0387pt x 29.8269pt.
-
-<fig/ESIDE.pdf, id=286, 166.28825pt x 52.66576pt>
-File: fig/ESIDE.pdf Graphic file (type pdf)
- <use fig/ESIDE.pdf>
-Package pdftex.def Info: fig/ESIDE.pdf used on input line 232.
-(pdftex.def)             Requested size: 128.0387pt x 40.55273pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 239.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 239.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 239.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 239.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 239.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 239.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 295.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 295.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 295.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 295.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 295.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 295.
-runsystem(pygmentize -l c -f latex -F tokenmerge            -P linenos -P "verbo
-ptions= " -o plantilla.out.pyg plantilla.pyg)...executed.
-
-(./plantilla.out.pyg)
+luaotfload | load : no defaults for script "latn", falling back to "dflt")
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on input
- line 311.
-runsystem(pygmentize -l python -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
+ line 83.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt" [2] [
+3 <./fig/semwebstack.png>]) (./tex/technological-research.tex [4]
+Chapter 2.
+[5
+
+] <fig/rdfgraph.jpg, id=279, 853.1875pt x 736.7525pt>
+File: fig/rdfgraph.jpg Graphic file (type jpg)
+ <use fig/rdfgraph.jpg>
+Package pdftex.def Info: fig/rdfgraph.jpg used on input line 46.
+(pdftex.def)             Requested size: 256.07741pt x 221.12863pt.
+
+[6]
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
 
  (./plantilla.out.pyg
 luaotfload | load : auto-selecting default features for script: latn
@@ -2382,501 +1725,264 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 326.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 326.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 326.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 326.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 326.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 326.
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [7 <./fig/rdfgraph.jpg>]
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [8]
+runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
+scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
+xecuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
+scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
+xecuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
 
 
-LaTeX Warning: Reference `cha:introduccion' on page 5 undefined on input line 33
-7.
+[9]
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 339.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 339.
-[5 <./fig/ud.pdf>]
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
 
-LaTeX Warning: Citation 'article' on page 6 undefined on input line 350.
+runsystem(rm plantilla.pyg)...executed.
 
 
-LaTeX Warning: Citation 'conference' on page 6 undefined on input line 350.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Citation 'book' on page 6 undefined on input line 350.
+[10]
+runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
+scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
+xecuted.
 
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
 
-LaTeX Warning: Citation 'phd' on page 6 undefined on input line 350.
+runsystem(rm plantilla.pyg)...executed.
 
-
-LaTeX Warning: Citation 'master' on page 6 undefined on input line 350.
-
-
-LaTeX Warning: Empty bibliography on input line 352.
-
-LaTeX Info: Redefining \sptext on input line 356.
-LaTeX Info: Redefining \. on input line 356.
-LaTeX Info: Redefining \% on input line 356.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
-[6 <./fig/dt.pdf> <./fig/ESIDE.pdf>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
- [7]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
- [8
-
-]
-Ap\'{e}ndice A.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 356.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 356.
-(./normativa.tex
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 9.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 9.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 9.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 9.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 9.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 9.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 28.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 28.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 28.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 28.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 28.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 28.
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 42.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 42.
- [9]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 51.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 51.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 51.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 51.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 51.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 51.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 56.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 86.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 86.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 86.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 86.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 86.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 86.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 87.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 87.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 87.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 87.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 87.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 87.
-LaTeX Info: Redefining \sptext on input line 91.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 91.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 91.
- [10]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 94.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 97.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 97.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 97.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 97.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 97.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 97.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 105.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 105.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 105.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 105.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 105.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 105.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 108.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 108.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 108.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 108.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 108.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 108.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 125.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 125.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 125.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 125.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 125.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 129.
  [11]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 129.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 133.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 133.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 133.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 133.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 133.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 133.
-)
-LaTeX Info: Redefining \sptext on input line 364.
-LaTeX Info: Redefining \. on input line 364.
-LaTeX Info: Redefining \% on input line 364.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 364.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 364.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
  [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
- (./plantilla.aux
-LaTeX Info: Redefining \sptext on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [13] <fig/angular-scope.png, id=377, 602.25pt x 173.14688pt>
+File: fig/angular-scope.png Graphic file (type png)
+
+<use fig/angular-scope.png>
+Package pdftex.def Info: fig/angular-scope.png used on input line 340.
+(pdftex.def)             Requested size: 341.43437pt x 98.16634pt.
+ [14 <./fig/angular-scope.png>]
+runsystem(pygmentize -l html -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt" [15]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+<fig/leaflet-osmmapnik.png, id=402, 703.62875pt x 321.2pt>
+File: fig/leaflet-osmmapnik.png Graphic file (type png)
+
+<use fig/leaflet-osmmapnik.png>
+Package pdftex.def Info: fig/leaflet-osmmapnik.png used on input line 424.
+(pdftex.def)             Requested size: 341.43437pt x 155.86023pt.
+ [16]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./fig/leaflet-osmmapnik.png>] [18]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+<fig/phonegap-build.png, id=434, 861.2175pt x 301.125pt>
+File: fig/phonegap-build.png Graphic file (type png)
+
+<use fig/phonegap-build.png>
+Package pdftex.def Info: fig/phonegap-build.png used on input line 520.
+(pdftex.def)             Requested size: 341.43437pt x 119.38646pt.
+ [19 <./fig/phonegap-build.png>]
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
+
+
+(./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]
+runsystem(pygmentize -l json -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
+runsystem(pygmentize -l json -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+) [22]
+Overfull \hbox (14.26361pt too wide) in paragraph at lines 47--47
+\EU2/Arial(0)/bx/it/10 (-20) In-ter-op-er-abil-ity, Us-abil-ity, Appl. http://w
+ww. semantic-web-journal. net/sites/de-fault/files/swj176_0.
+ []
+
+[23
+
+] [24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+ (./plantilla.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `plantilla.out' has not changed.
-(rerunfilecheck)             Checksum: 4885576E963B55784D6EA223F80AA9D7;3668.
+(rerunfilecheck)             Checksum: 5332A692C595EEB55A7FAFC20C7673AD;1823.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                plantilla
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'plantilla.run.xml'.
  )
 
 Here is how much of LuaTeX's memory you used:
- 33210 strings out of 493803
+ 33124 strings out of 493803
  100000,1144653 words of node,token memory allocated
- 543 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 79 glue_spec, 5 attrib
-ute_list, 2 write nodes
-   avail lists: 1:4,2:10406,3:251,4:1553,5:109,6:3475,7:275,8:32,9:310,10:468
- 35812 multiletter control sequences out of 65536+600000
- 93 fonts using 13545615 bytes
- 55i,12n,48p,891b,1337s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 669 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 80 glue_spec, 5 attrib
+ute_list, 2 action, 2 write nodes
+   avail lists: 1:4,2:9757,3:337,4:1157,5:116,6:3301,7:63,8:29,9:187,10:287
+ 35519 multiletter control sequences out of 65536+600000
+ 98 fonts using 14594247 bytes
+ 55i,11n,50p,1002b,1732s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-italic.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/p
-ublic/lm/lmmonolt10-boldoblique.otf></usr/share/texmf/fonts/opentype/public/lm/l
-mmono10-regular.otf></usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrebonu
-m-italic.otf></usr/share/fonts/truetype/msttcorefonts/Arial.ttf></usr/share/texm
+ublic/lm/lmmonolt10-boldoblique.otf></usr/share/texmf/fonts/opentype/public/tex-
+gyre/texgyrebonum-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10
+-regular.otf></usr/share/fonts/truetype/msttcorefonts/Arial.ttf></usr/share/texm
 f/fonts/opentype/public/tex-gyre/texgyrebonum-bold.otf></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb>
-Output written on plantilla.pdf (24 pages, 165583 bytes).
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on plantilla.pdf (36 pages, 491976 bytes).
 
-PDF statistics: 413 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 131072)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 545 PDF objects out of 1000 (max. 8388607)
+ 461 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 131072)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

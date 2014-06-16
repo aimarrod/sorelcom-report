@@ -3,7 +3,7 @@
 
 \LoadClass[a4paper,10pt]{book}          % Leemos la plantilla book sobre la que nos basamos
 
-\RequirePackage[spanish,es-tabla]{babel}% Castellanizamos LaTeX
+\RequirePackage[english]{babel}% Castellanizamos LaTeX
 \RequirePackage{csquotes}               % Usamos comillas espa\~nolas
 \RequirePackage[citestyle=numeric-comp, % Paquete para definir el estilo de la Bibliograf\'ia
                 bibstyle=numeric,
@@ -69,8 +69,8 @@
 \RequirePackage{subcaption}             % Paquete para hacer subfiguras
 \RequirePackage[chapter]{minted}        % Paquete para introducir c\'odigo fuente
                                         % Personalizaci\'on del entorno para el c\'odigo fuente
-\renewcommand\listingscaption{Algoritmo}
-\renewcommand\listoflistingscaption{\'Indice de algoritmos}
+\renewcommand\listingscaption{Algorithm}
+\renewcommand\listoflistingscaption{Algorithm index}
 \renewcommand{\listoflistings}{%
   %\addcontentsline{toc}{chapter}{\listoflistingscaption}%
   \listof{listing}{\listoflistingscaption}%

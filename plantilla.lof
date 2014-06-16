@@ -1,15 +1,21 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\select@language {spanish}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 {\bfseries Cap\'itulo 1\vskip 10pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces An RDF graph representing Eric Miller\relax }}{3}{figure.caption.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Logotipo de la Universidad de Deusto.\relax }}{5}{figure.caption.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Ejemplo de subfiguras con los logotipos de la universidad, facultad y DeustoTech.\relax }}{6}{figure.caption.8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The semantic web architecture\relax }}{3}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+{\bfseries Cap\'itulo 2\vskip 10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A set of triples and their corresponding graph\relax }}{7}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces View-controller binding through the scope\relax }}{14}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Leaflet with OSM mapnik tile layer\relax }}{17}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Phonegap Build process\relax }}{19}{figure.caption.10}
