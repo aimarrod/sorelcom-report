@@ -1,0 +1,276 @@
+\chapter{Requirements Specification}\label{ch:requirements}
+
+\section{Overview}
+
+This chapter provides a specifications of the requirements, both functional and non-functional, that the project to be developed must satisfy, which define the overall functioning of the system to be produced. Each requirement will have a code associated for identification purposes.
+
+To achieve a better understanding of these requirements, they are divided into the following sections, each corresponding to a different phase of product of the project.
+
+\begin{itemize}
+\item \textbf{Requirements of the ontology:} The requirements to be satisfied by the ontology as well as a minimum subset of classes and properties it must have are listed.
+\item \textbf{Requirements of the server:} The requirements to be satisfied by the server and the system overall are defined in this section.
+\item \textbf{Requirements of the web application:} The requirements to be satisfied by the web client are defined in this section.
+\item \textbf{Requirements of the mobile application:} The requirements to be met by the mobile client are defined in this section.
+\item \textbf{Non-functional requirements:} The requirements which don't specify any particular .
+\end{itemize}
+
+\section{Requirements for the ontology}
+
+The requirement for the ontology are the ones which define the characteristics that the vocabulary to be produced must meet. This requirements are listed below:
+
+\begin{description}
+\item[RONT1] The ontology must support spatial reasoning.
+\item[RONT2] The ontology must support the following inference mechanisms:
+\begin{itemize}
+\item disjoint classes
+\item subclasses
+\item subproperties
+\item inverse properties
+\item symmetric properties
+\item functional properties
+\item maximum cardinalities
+\end{itemize}
+\item[RONT3] The ontology must be designed following Linked Open Data best practices, so it should reuse existing vocabularies.
+\item[RONT4] The ontology must represent the following types of resources:
+\begin{itemize}
+ \item Features
+ \begin{itemize}
+  \item Trails
+  \item Points of Interest
+  \item Geolocated Notes
+ \end{itemize}
+ \item Persons
+ \item Multimedia Resources
+ \begin{itemize}
+  \item Text
+  \item Images
+  \item Video
+ \end{itemize}
+\end{itemize}
+\item[RONT5] The resources of type \textit{Trail} must contain the information below:
+\begin{itemize}
+\item name
+\item description
+\item difficulty score
+\item maximum altitude
+\item minimum altitude
+\item ascending slope
+\item descending slope
+\item posts
+\item images
+\item author
+\item persons who traversed it
+\item coordinates
+\end{itemize}
+\item[RONT6] The resources of type \textit{Point of Interest} must contain the following information:
+\begin{itemize}
+\item name
+\item description
+\item altitude
+\item category
+\item posts
+\item images
+\item author
+\item coordinates
+\end{itemize}
+\item[RONT7] The resources of type \textit{Geolocated Note} must contain the following information:
+\begin{itemize}
+\item text
+\item multimedia
+\item author
+\item privacy level
+\item creation time
+\item duration
+\item action radius
+\item coordinates
+\end{itemize}
+\item[RONT8] Resources of type \textit{Person} must contain the following information:
+\begin{itemize}
+\item nickname
+\item email
+\item first name
+\item family name
+\item avatar
+\item description
+\item people in which is interested
+\item trail buddies
+\item optionally external homepage
+\item added trails
+\item added points of interest
+\item added notes
+\item added multimedia
+\end{itemize}
+\item[RONT9] Multimedia resources of type \textit{Text} must contain the following information.
+\begin{itemize}
+\item author
+\item content
+\item feature they belong to
+\end{itemize}
+\item[RONT10] Multimedia resources of type \textit{Image} and \textit{Video} must contain the following information.
+\begin{itemize}
+\item author
+\item download link
+\item addition date
+\item feature they belong to
+\end{itemize}
+\end{description}
+
+\section{Requirements specification for the server}
+
+The requirements for the server specify the functionality that the server must implement as well as the function and resources exposed by the API and overall inter-component communication, for the server is the central piece of the system.
+
+\begin{description}
+\item[RSV1] The system must be able to operate on Points.
+\item[RSV2] The system must be able to operate on LineStrings.
+\item[RSV3] The server must be able to obtain the following data from a LineString representing a trail.
+ \begin{itemize}
+ \item distance
+ \item difficulty
+ \item ascending slope
+ \item descending slope
+ \item maximum altitude
+ \item minimum altitude
+ \end{itemize}
+\item[RSV4] The system must be able to create and send SPARQL queries to a data store.
+\item[RSV5] The system must be able to retrieve data from Geonames and OpenStreetMap and aggregate it to the dataset.
+\item[RSV6] The server must expose a SPARQL read-only endpoint.
+\item[RSV7] The server must expose a public API.
+\item[RSV8] The public API must follow the REST style.
+\item[RSV9] The API must expose the following resources
+  \begin{itemize}
+  \item Trails
+  \item Points of Interest
+  \item Geolocated Notes
+  \item Users
+  \end{itemize}
+\item[RSV10] The resources must expose the following operations:
+  \begin{itemize}
+  \item Read
+  \item Update (Except Geolocated Notes)
+  \item Create
+  \end{itemize}
+\item[RSV11] The resources must expose information about other related resources, such as posts, images, etc.
+\item[RSV12] The API must offer additional operations which expose the following functionality:
+  \begin{itemize}
+  \item Search
+  \item Features within a area
+  \item Features near each other
+  \item Information about the system
+  \item Information about the API
+  \end{itemize} 
+\item[RSV13] The server must offer secure authentication.
+\item[RSV14] The system must be able to provide recommendations based on preferences and location.
+\item[RSV15] The system must be able to store user preferences, for recommendation and filtering purposes.
+\item[RSV16] Signing in the system will be done via e-mail and password.
+\end{description}
+
+\section{Requirements of the web application}
+
+The requirements for the web application detail the constraints that the web based client must fulfill, as well as the functionality that need to be implemented.
+
+\begin{description}
+\item[RWEB1] The web application must work on most major browsers. The minimum browsers specified are the following:
+  \begin{itemize}
+  \item Google Chrome 26
+  \item Mozilla Firefox 22
+  \item Safari 6
+  \item Internet Explorer 10
+  \item Opera 12
+  \end{itemize}
+\item[RWEB2] The web application must communicate with the server using the public API.
+\item[RWEB3] The web application will have a homepage presenting the platform and linking to the rest of the sections.
+\item[RWEB4] The web application must have a section allowing the following features:
+  \begin{itemize}
+  \item Explore data based on its location
+  \item Draw and edit trails and points of interest
+  \end{itemize}
+\item[RWEB5] The web application must have a section which provides the following functionality.
+  \begin{itemize}
+  \item Search over the data on the system
+  \item Upload a trail or point of interest from a GPX file
+  \item View detailed information about any data on the platform
+  \end{itemize}
+\item[RWEB6] The web application must have a section which provides the following features:
+  \begin{itemize}
+  \item Register a user on the system
+  \item Log in the system
+  \item Modify the profile of a user
+  \end{itemize}
+\item[RWEB7] All geographic data must be shown on a interactive map.
+\item[RWEB8] All operations that require manipulation of spatial data have to be performed without any need of GIS knowledge from the user.
+\item[RWEB9] Signing in only has to be needed for write operations.
+\item[RWEB10] Registering a user via web platform will require the following information:
+  \begin{itemize}
+  \item User name
+  \item Email
+  \item Password
+  \end{itemize}
+\item[RWEB11] Creating a trail via web platform will require the following information:
+  \begin{itemize}
+  \item Name
+  \item Description
+  \item Geographic representation
+  \end{itemize}
+\item[RWEB12] Creating a point of interest via web platform will require the following information:
+  \begin{itemize}
+  \item Name
+  \item Description
+  \item Category
+  \item Geographic representation
+  \end{itemize}
+    
+\end{description}
+
+\section{Requirements of the mobile application}
+
+The requirements to the mobile specify the operations that can be done with the mobile application and the functionality it must implement.
+
+\begin{description}
+\item[RMOB1] The application must allow the recording of a trail.
+\item[RMOB2] The application must allow exporting trails in GPX format or uploading them to the system when a network connection is available.
+\item[RMOB3] The application must allow the creation of Geolocated Notes on the current position of the user.
+\item[RMOB4] The application must keep track of the current position of the user at all times.
+\item[RMOB5] The application must be able to receive real time notifications of nearby features.
+\item[RMOB6] The application must be able to notify the user when a new feature is discovered, even if it is not currently active.
+\item[RMOB7] The application must allow search and detailed view of information on the system.
+\item[RMOB8] The application must provide log in and registration functionalities.
+\item[RMOB9] The application can only be used by registered users.
+\item[RMOB10] Registering a user via mobile platform will require the following information:
+  \begin{itemize}
+  \item User name
+  \item Email
+  \item Password
+  \end{itemize}
+\item[RMOB11] Creating a trail via mobile platform will require the following information:
+  \begin{itemize}
+  \item Name
+  \item Description
+  \item Recording of the trail
+  \end{itemize}
+\item[RMOB11] Creating a geolocated note via web mobile platform will require the following information:
+  \begin{itemize}
+  \item Text, Image or video
+  \item Privacy level
+  \item Range
+  \item Coordinates
+  \end{itemize} 
+\item[RMOB12] Once signed in the mobile application, the system will store the password and username, for convenience purposes.
+\end{description}
+
+\section{Non-functional requirements}
+
+The requirements not belonging to a specific category are listed in this sections. This refers to information visibility and privacy, performance and user interaction issues mainly.
+
+\begin{description}
+\item[RNF1] All the information, except a few sensible data, has to be published according to Linked Open Data best practices.
+\item[RNF2] The following data must be kept private:
+  \begin{itemize}
+  \item User passwords
+  \item The current location of the users
+  \end{itemize}
+\item[RNF3] The server should be able to handle high loads of connection.
+\item[RNF4] The interface on the web application must be responsive, that is, the interface must adapt to mobile and tablet devices.
+\item[RNF5] The web application must have a fast loading time and small memory footprint, in order to be adapted to mobile devices.
+\item[RNF6] The applications must have intuitive and easy to use and read interfaces.
+\item[RNF7] The style of the mobile and web applications must be similar.
+\end{description}

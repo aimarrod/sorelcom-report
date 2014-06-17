@@ -69,8 +69,8 @@
 \RequirePackage{subcaption}             % Paquete para hacer subfiguras
 \RequirePackage[chapter]{minted}        % Paquete para introducir c\'odigo fuente
                                         % Personalizaci\'on del entorno para el c\'odigo fuente
-\renewcommand\listingscaption{Algorithm}
-\renewcommand\listoflistingscaption{Algorithm index}
+\renewcommand\listingscaption{Listing}
+\renewcommand\listoflistingscaption{Listings index}
 \renewcommand{\listoflistings}{%
   %\addcontentsline{toc}{chapter}{\listoflistingscaption}%
   \listof{listing}{\listoflistingscaption}%

@@ -125,6 +125,17 @@
       \field{year}{2001}
       \field{pages}{28\bibrangedash 37}
     \endentry
+    \entry{bower}{online}{}
+      \field{sortinit}{B}
+      \field{labeltitle}{Bower - A package manager for the web}
+      \field{title}{Bower - A package manager for the web}
+      \field{urlday}{17}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://bower.io/
+      \endverb
+    \endentry
     \entry{rdfschema}{article}{}
       \name{labelname}{2}{}{%
         {{hash=e12edfe7ea67a8d960a85df6442dc2d3}{Brickley}{B\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
@@ -227,7 +238,7 @@
       \field{title}{SPARQL protocol for RDF}
       \field{year}{2008}
     \endentry
-    \entry{open2011opengis}{article}{}
+    \entry{wkt}{article}{}
       \true{morelabelname}
       \name{labelname}{1}{}{%
         {{hash=c51defefcf5f65526425ac5e8b0297a3}{Consortium}{C\bibinitperiod}{Open\bibnamedelima Geospatial}{O\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
@@ -561,9 +572,9 @@
       \strng{namehash}{b464ae154350f1f77e4b6a1a9846965e}
       \strng{fullhash}{b464ae154350f1f77e4b6a1a9846965e}
       \field{sortinit}{P}
-      \field{labeltitle}{2: Datatypes}
+      \field{labeltitle}{XML Schema - 2: Datatypes}
       \field{journaltitle}{W3C Recommendation}
-      \field{title}{2: Datatypes}
+      \field{title}{XML Schema - 2: Datatypes}
       \field{volume}{2}
       \field{year}{2001}
     \endentry
@@ -674,6 +685,24 @@
       \verb{url}
       \verb http://parliament.semwebcentral.org/
       \endverb
+    \endentry
+    \entry{pellet}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=612a45e4b96f8bb391a930cf99cd7be8}{Sirin}{S\bibinitperiod}{Evren}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=d3a5757e7ae6ee7b209f2b76e6997a42}{Parsia}{P\bibinitperiod}{Bijan}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=612a45e4b96f8bb391a930cf99cd7be8}{Sirin}{S\bibinitperiod}{Evren}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=d3a5757e7ae6ee7b209f2b76e6997a42}{Parsia}{P\bibinitperiod}{Bijan}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bb1596c26b0d6a1b0d8807305d77a0a5}
+      \strng{fullhash}{bb1596c26b0d6a1b0d8807305d77a0a5}
+      \field{sortinit}{S}
+      \field{labeltitle}{Pellet: An OWL DL reasoner}
+      \field{booktitle}{Proc. of the 2004 Description Logic Workshop (DL 2004)}
+      \field{title}{Pellet: An OWL DL reasoner}
+      \field{year}{2004}
+      \field{pages}{212\bibrangedash 213}
     \endentry
     \entry{tilkov2010node}{article}{}
       \name{labelname}{2}{}{%

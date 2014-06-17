@@ -14,26 +14,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Introduction to GIS systems}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Technological Research}{5}{chapter.2}
+\contentsline {chapter}{\numberline {2}Project Goals}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Technological Research}{7}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \vskip 10pt
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Overview}{5}{section.2.1}
+\contentsline {section}{\numberline {3.1}Overview}{7}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}RDF}{5}{section.2.2}
+\contentsline {section}{\numberline {3.2}RDF}{7}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}SPARQL}{9}{section.2.3}
+\contentsline {section}{\numberline {3.3}OWL}{11}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}GeoSPARQL}{10}{section.2.4}
+\contentsline {section}{\numberline {3.4}SPARQL}{14}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}NodeJS}{12}{section.2.5}
+\contentsline {section}{\numberline {3.5}GeoSPARQL}{15}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Leaflet}{16}{section.2.6}
+\contentsline {section}{\numberline {3.6}NodeJS}{17}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Phonegap}{18}{section.2.7}
+\contentsline {section}{\numberline {3.7}Leaflet}{21}{section.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}GPX}{20}{section.2.8}
+\contentsline {section}{\numberline {3.8}Phonegap}{23}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}GeoJSON}{21}{section.2.9}
+\contentsline {section}{\numberline {3.9}GPX}{25}{section.3.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{23}{chapter*.11}
+\contentsline {section}{\numberline {3.10}GeoJSON}{26}{section.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Requirements Specification}{29}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Overview}{29}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Requirements for the ontology}{29}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Requirements specification for the server}{31}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Requirements of the web application}{32}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Requirements of the mobile application}{33}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Non-functional requirements}{34}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Design specification}{37}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Implementation details}{39}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Testing}{41}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}User guide}{43}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{45}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{47}{chapter*.12}

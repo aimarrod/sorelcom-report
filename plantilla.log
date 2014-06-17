@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.5.28)  16 JUN 2014 12:08
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.5.28)  17 JUN 2014 21:47
  \write18 enabled.
 **plantilla.tex
 (./plantilla.tex
@@ -599,7 +599,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.045 seconds
+luaotfload: fontloader loaded in 0.065 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1036,9 +1036,9 @@ luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/obssidian/.texmf-var/luatex-cache/generic/fonts/otf/texgyrebonum-regular.lu
 c)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature zero for script la
+luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature cpsp for script la
 tn
-luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature zero for script la
+luaotfload: font no 23 (TeXGyreBonum-Regular) defines feature cpsp for script la
 tn
 \g_fontspec_family_texgyrebonum_int=\count334
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1290,30 +1290,30 @@ Package biblatex Info: ... file 'english.lbx' found.
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
 (./plantilla.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 14.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1321,8 +1321,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'plantilla.bbl' found.
  (./plantilla.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1393,63 +1393,63 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
-LaTeX Font Info:    Redeclaring math accent \check on input line 15.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
+LaTeX Font Info:    Redeclaring math accent \check on input line 14.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 15.
+(Font)              `operators' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  OT1/cmr/m/n --> EU2/Arial(0)/m/n on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 15.
+(Font)              `operators' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU2/Arial(0)/m/it on input line 15.
+(Font)                  OT1/cmr/m/it --> EU2/Arial(0)/m/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/bx/n on input line 15.
+(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 15.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 15.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 14.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 14.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU2/Arial(0)/bx/it on input line 15.
+(Font)                  OT1/cmr/bx/it --> EU2/Arial(0)/bx/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 15.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 15.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 14.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1459,7 +1459,7 @@ runsystem(pygmentize -S default -f latex > plantilla.pyg)...executed.
 
 (./plantilla.pyg)
 \AtBeginShipoutBox=\box277
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 14.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1467,13 +1467,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./plantilla.out) (./plantilla.out)
 \@outlinefile=\write6
-LaTeX Info: Redefining \microtypecontext on input line 15.
+LaTeX Info: Redefining \microtypecontext on input line 14.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1522,10 +1522,10 @@ Package microtype Info: Loading generic settings for font family
 
 LuaTeX warning (file fig/portada.pdf): PDF inclusion: found PDF version <1.6>, b
 ut at most version <1.5> allowed
-<fig/portada.pdf, id=68, 597.50829pt x 845.0471pt>
+<fig/portada.pdf, id=124, 597.50829pt x 845.0471pt>
 File: fig/portada.pdf Graphic file (type pdf)
  <use fig/portada.pdf>
-Package pdftex.def Info: fig/portada.pdf used on input line 25.
+Package pdftex.def Info: fig/portada.pdf used on input line 24.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 [1
@@ -1581,16 +1581,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload | load : auto-selecting default features for script: dflt)
+luaotfload | load : auto-selecting default features for script: dflt [5
+
+])
 \tf@toc=\write7
- [5
-
-] [6
-
-]
+ [6]
 (./plantilla.lof)
 \tf@lof=\write8
  [7
+
 
 ] [8
 
@@ -1601,7 +1600,7 @@ luaotfload | load : auto-selecting default features for script: dflt)
 ] [10
 
 ] (./plantilla.lol
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 42.
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 48.
 
 (/home/obssidian/texmf/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1628,19 +1627,20 @@ LaTeX Font Warning: Font shape `EU2/Arial(0)/m/it' undefined
 (Font)              using `EU2/Arial(0)/m/n' instead on input line 3.
 
 luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt"
-luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt" [1
 
-] <fig/semwebstack.png, id=233, 592.2125pt x 592.2125pt>
+]
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt" <fig/
+semwebstack.png, id=313, 592.2125pt x 592.2125pt>
 File: fig/semwebstack.png Graphic file (type png)
 
 <use fig/semwebstack.png>
-Package pdftex.def Info: fig/semwebstack.png used on input line 51.
+Package pdftex.def Info: fig/semwebstack.png used on input line 53.
 (pdftex.def)             Requested size: 213.39568pt x 213.39513pt.
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
@@ -1648,11 +1648,11 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 
 LaTeX Font Warning: Font shape `EU2/Arial(0)/bx/it' undefined
-(Font)              using `EU2/Arial(0)/bx/n' instead on input line 54.
+(Font)              using `EU2/Arial(0)/bx/n' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `EU2/lmtt/bx/it' in size <8> not available
-(Font)              Font shape `EU2/lmtt/b/sl' tried instead on input line 54.
+(Font)              Font shape `EU2/lmtt/b/sl' tried instead on input line 56.
 
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"(load l
@@ -1667,10 +1667,10 @@ luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 54.
+(Font)              <8> on input line 56.
 luaotfload | load : auto-selecting default features for script: dflt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 54.
+(Font)              <6> on input line 56.
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1694,24 +1694,28 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on input
- line 83.
+ line 85.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt" [2] [
-3 <./fig/semwebstack.png>]) (./tex/technological-research.tex [4]
+3 <./fig/semwebstack.png>]) (./tex/goals.tex [4]
 Chapter 2.
-[5
+) (./tex/technological-research.tex [5
 
-] <fig/rdfgraph.jpg, id=279, 853.1875pt x 736.7525pt>
+] [6
+
+]
+Chapter 3.
+[7] <fig/rdfgraph.jpg, id=368, 853.1875pt x 736.7525pt>
 File: fig/rdfgraph.jpg Graphic file (type jpg)
  <use fig/rdfgraph.jpg>
-Package pdftex.def Info: fig/rdfgraph.jpg used on input line 46.
+Package pdftex.def Info: fig/rdfgraph.jpg used on input line 47.
 (pdftex.def)             Requested size: 256.07741pt x 221.12863pt.
 
-[6]
+[8 <./fig/rdfgraph.jpg>]
 runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
 pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
 uted.
@@ -1734,35 +1738,6 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [7 <./fig/rdfgraph.jpg>]
-runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
-pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
-uted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
- [8]
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
 
 [9]
 runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
@@ -1774,24 +1749,26 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
+ [10]
+<fig/owl-stack.png, id=414, 950.55125pt x 239.89626pt>
+File: fig/owl-stack.png Graphic file (type png)
+ <use fig/owl-stack.png>
+Package pdftex.def Info: fig/owl-stack.png used on input line 146.
+(pdftex.def)             Requested size: 341.43437pt x 86.16856pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10]
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
+[11 <./fig/owl-stack.png>]
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [11]
-runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
-athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
-...executed.
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
@@ -1799,90 +1776,6 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [12]
-runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
-athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
-...executed.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
- [13] <fig/angular-scope.png, id=377, 602.25pt x 173.14688pt>
-File: fig/angular-scope.png Graphic file (type png)
-
-<use fig/angular-scope.png>
-Package pdftex.def Info: fig/angular-scope.png used on input line 340.
-(pdftex.def)             Requested size: 341.43437pt x 98.16634pt.
- [14 <./fig/angular-scope.png>]
-runsystem(pygmentize -l html -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
-ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
-cuted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-luaotfload | load : auto-selecting default features for script: latn
-luaotfload | load : no defaults for script "latn", falling back to "dflt" [15]
-runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
-athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
-...executed.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-
-<fig/leaflet-osmmapnik.png, id=402, 703.62875pt x 321.2pt>
-File: fig/leaflet-osmmapnik.png Graphic file (type png)
-
-<use fig/leaflet-osmmapnik.png>
-Package pdftex.def Info: fig/leaflet-osmmapnik.png used on input line 424.
-(pdftex.def)             Requested size: 341.43437pt x 155.86023pt.
- [16]
-runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
-athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
-...executed.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
-athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
-...executed.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17 <./fig/leaflet-osmmapnik.png>] [18]
-runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
-athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
-...executed.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-
-<fig/phonegap-build.png, id=434, 861.2175pt x 301.125pt>
-File: fig/phonegap-build.png Graphic file (type png)
-
-<use fig/phonegap-build.png>
-Package pdftex.def Info: fig/phonegap-build.png used on input line 520.
-(pdftex.def)             Requested size: 341.43437pt x 119.38646pt.
- [19 <./fig/phonegap-build.png>]
 runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
 pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
 uted.
@@ -1893,6 +1786,153 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
+ [13]
+runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
+scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
+xecuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
+scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
+xecuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15]
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
+scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
+xecuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [16]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [18]
+<fig/angular-scope.png, id=492, 602.25pt x 173.14688pt>
+File: fig/angular-scope.png Graphic file (type png)
+
+<use fig/angular-scope.png>
+Package pdftex.def Info: fig/angular-scope.png used on input line 475.
+(pdftex.def)             Requested size: 341.43437pt x 98.16634pt.
+ [19]
+runsystem(pygmentize -l html -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [20 <./fig/angular-scope.png>]
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script "latn", falling back to "dflt"
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig/leaflet-osmmapnik.png, id=517, 703.62875pt x 321.2pt>
+File: fig/leaflet-osmmapnik.png Graphic file (type png)
+
+<use fig/leaflet-osmmapnik.png>
+Package pdftex.def Info: fig/leaflet-osmmapnik.png used on input line 559.
+(pdftex.def)             Requested size: 341.43437pt x 155.86023pt.
+ [21]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [22 <./fig/leaflet-osmmapnik.png>]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [23]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge  -F gobble:n=6    -P m
+athescape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)
+...executed.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+<fig/phonegap-build.png, id=547, 861.2175pt x 301.125pt>
+File: fig/phonegap-build.png Graphic file (type png)
+
+<use fig/phonegap-build.png>
+Package pdftex.def Info: fig/phonegap-build.png used on input line 655.
+(pdftex.def)             Requested size: 341.43437pt x 119.38646pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24]
 runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
 pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
 uted.
@@ -1915,12 +1955,11 @@ runsystem(rm plantilla.pyg)...executed.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20]
-runsystem(pygmentize -l json -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
-ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
-cuted.
+runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
+pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
+uted.
 
- (./plantilla.out.pyg)
+(./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -1929,7 +1968,7 @@ runsystem(rm plantilla.pyg)...executed.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
+[25 <./fig/phonegap-build.png>] [26]
 runsystem(pygmentize -l json -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
 ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
 cuted.
@@ -1939,22 +1978,55 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
-) [22]
-Overfull \hbox (14.26361pt too wide) in paragraph at lines 47--47
+runsystem(pygmentize -l json -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+) (./tex/requirements.tex [27] [28
+
+]
+Chapter 4.
+[29] [30] [31] [32] [33] [34]) (./tex/design.tex [35] [36
+
+]
+Chapter 5.
+) (./tex/implementation.tex [37] [38
+
+]
+Chapter 6.
+) (./tex/testing.tex [39] [40
+
+]
+Chapter 7.
+) (./tex/user-guide.tex [41] [42
+
+]
+Chapter 8.
+) (./tex/conclusions.tex [43] [44
+
+]
+Chapter 9.
+) [45] [46
+
+]
+Overfull \hbox (14.26361pt too wide) in paragraph at lines 52--52
 \EU2/Arial(0)/bx/it/10 (-20) In-ter-op-er-abil-ity, Us-abil-ity, Appl. http://w
 ww. semantic-web-journal. net/sites/de-fault/files/swj176_0.
  []
 
-[23
-
-] [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+[47] [48]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./plantilla.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `plantilla.out' has not changed.
-(rerunfilecheck)             Checksum: 5332A692C595EEB55A7FAFC20C7673AD;1823.
+(rerunfilecheck)             Checksum: 9ED63CFCA2120F7650CA3A5F70DA3EA8;4156.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1963,15 +2035,15 @@ Package logreq Info: Writing requests to 'plantilla.run.xml'.
  )
 
 Here is how much of LuaTeX's memory you used:
- 33124 strings out of 493803
+ 33290 strings out of 493803
  100000,1144653 words of node,token memory allocated
- 669 words of node memory still in use:
+ 709 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 80 glue_spec, 5 attrib
 ute_list, 2 action, 2 write nodes
-   avail lists: 1:4,2:9757,3:337,4:1157,5:116,6:3301,7:63,8:29,9:187,10:287
- 35519 multiletter control sequences out of 65536+600000
- 98 fonts using 14594247 bytes
- 55i,11n,50p,1002b,1732s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:4,2:10246,3:394,4:1296,5:153,6:3367,7:63,8:33,9:226,10:288
+ 35555 multiletter control sequences out of 65536+600000
+ 99 fonts using 14804211 bytes
+ 55i,12n,50p,1000b,1828s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-italic.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmmonolt10-boldoblique.otf></usr/share/texmf/fonts/opentype/public/tex-
@@ -1979,10 +2051,10 @@ gyre/texgyrebonum-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10
 -regular.otf></usr/share/fonts/truetype/msttcorefonts/Arial.ttf></usr/share/texm
 f/fonts/opentype/public/tex-gyre/texgyrebonum-bold.otf></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on plantilla.pdf (36 pages, 491976 bytes).
+Output written on plantilla.pdf (60 pages, 535199 bytes).
 
-PDF statistics: 545 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 129 named destinations out of 1000 (max. 131072)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 741 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 131072)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,21 +7,23 @@ This project has been carried by Aimar Rodr\'iguez Soto, 4th year student of an 
 The different chapters that form this document are the following:
 
 \begin{enumerate}
-	\item \textit{Introduction:} This chapter offers a brief descriptions of the contents of the report, as well as a small introduction to the concepts of Semantic Web and GIS System.
+	\item \textbf{Introduction:} Brief descriptions of the contents of the report, as well as a small introduction to the concepts of Semantic Web and GIS System.
 	
-	\item \textit{Project goals:} The goals, the limits, the tasks to perform, working methodologies and the working plan are presented.
+	\item \textbf{Project goals:} The goals, the limits, the tasks to perform, working methodologies and the working plan are presented.
 	
-	\item \textit{Technological research:} This chapter describes on detail the different technologies used throughout the project, thus presenting the results of the technological research.
+	\item \textbf{Technological research:} Detailed description of the different technologies used throughout the project, thus presenting the results of the technological research.
 	
-	\item \textit{Requirement Specification:} The requirements of the project and the final product are listed and analyzed.
+	\item \textbf{Requirement Specification:} Requirements of the project and the final product are listed and analyzed.
 	
-	\item \textit{Design specification:} The design considerations of the project are described, both from the technological and the user experience point of views.
+	\item \textbf{Design specification:} Design considerations of the project are described, both from the technological and the user experience point of views.
 	
-	\item \textit{Development:}
+	\item \textbf{Development:} Usage of the described technologies, solutions to the common problems and details about the implementation are given.
 	
-	\item \textit{User guide:} 
+	\item \textbf{Testing:} Testing plan, tools, methodologies and special test cases are described. 
 	
-	\item \textit{Conclusions:} This final chapter presents the results obtained, the reached goals and considers possible future work.
+	\item \textbf{User guide:} Document explaining how to use the developed tools and platforms at a user level.
+	
+	\item \textbf{Conclusions and future lines of work:} Analysis of the results of the project and further considerations, such as improvements and future work to be done.
 \end{enumerate}
 
 \section{The Semantic Web}
@@ -68,7 +70,7 @@ This framework has several uses, such as:
 	\item Using datasets labeled as Linked Data to build aggregations of data around specific topics or concepts.
 \end{itemize} 
 
-RDF information is stored in triples which follow a simple subject-predicate-object pattern. One example of RDF triples which represent knowledge about a person named Bob can be found in algorithm \ref{lst:bobtriples}. Note that in this set of triples, most attributes appear between brackets, these are International Resource Identifiers (IRIs) linking to other resources, while the other attributes are just literal values. 
+RDF information is stored in triples which follow a simple subject-predicate-object pattern. One example of RDF triples which represent knowledge about a person named Bob can be found in listing \ref{lst:bobtriples}. Note that in this set of triples, most attributes appear between brackets, these are International Resource Identifiers (IRIs) linking to other resources, while the other attributes are just literal values. 
 
 \begin{listing}\centering
   \begin{minipage}{.4\textwidth}
@@ -83,7 +85,7 @@ RDF information is stored in triples which follow a simple subject-predicate-obj
   \caption{Set of triples in pseudocode representing Bob.}\label{lst:bobtriples}
 \end{listing}
 
-These IRIs are identifiers for resourcers on the Semantic Web. Up to now the concepts of URI and IRI have been mixed, to make it clear, an IRI is a generalization of an URI. The form of a IRI is similar to that of the Uniform Resource Locators (URL) used in the World Wide Web, in fact these last are just a form of IRI, thus they look like the following:  \url{http://dbpedia.org/resource/Leonardo_da_Vinci}
+These IRIs are identifiers for resources on the Semantic Web. Up to now the concepts of URI and IRI have been mixed, to make it clear, an IRI is a generalization of an URI. The form of a IRI is similar to that of the Uniform Resource Locators (URL) used in the World Wide Web, in fact these last are just a form of IRI, thus they look like the following:  \url{http://dbpedia.org/resource/Leonardo_da_Vinci}
  
 
 \subsection{Introduction to Ontologies}

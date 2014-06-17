@@ -8,6 +8,7 @@ The list of tools and frameworks used on the project is the following:
 
 \begin{itemize}
 	\item RDF
+	\item OWL
 	\item SPARQL
 	\item GeoSPARQL
 	\item NodeJS
@@ -41,7 +42,7 @@ Data in RDF is formed by statements. This statements are called \textit{triples}
 
 The same subject is often referenced in multiple triples and can of course be the object of other triples. These ability to have the same resource as subject and object in different triples makes it possible to find connections between RDF resources and is one of the most powerful features of the framework. A set of triples can be viewed as a connected \textbf{graph}, in figure \ref{fig:rdfgraph} we can se an example of a set of triples in pseudo-code and the graph representing them.
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=.6\textwidth]{fig/rdfgraph}
   \caption{A set of triples and their corresponding graph}
@@ -64,9 +65,9 @@ In SPARQL (see \ref{sec:sparql}) and in some RDF serialization models prefixes c
 
 Literals are the basic values that are not IRIs. Literals are associated with data types, for example, the \textit{Integer} and \textit{Float} data types are equivalent to the traditional types from the programming languages. The string typed literals may optionally have a language associated allowing internationalization. Most of the regularly used data types are defined by XML Schema\cite{xmlschema}.
 
-One particularity of RDF data types is that they can be defined on ontologies. Due to this, it is possible to find custom types, such as a string representing the serialization in WKT\cite{open2011opengis} format of a geometry. 
+One particularity of RDF data types is that they can be defined on ontologies. Due to this, it is possible to find custom types, such as a string representing the serialization in WKT\cite{wkt} format of a geometry. 
 
-An example of different types of triples, including literals can be found in algorithm \ref{lst:triplesliterals}.
+An example of different types of triples, including literals can be found in listing \ref{lst:triplesliterals}.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -83,7 +84,7 @@ An example of different types of triples, including literals can be found in alg
 
 \subsubsection*{Blank nodes}
 
-Blank nodes are used to refer to resources who don't have or need a global identifier (an IRI). For example, we may want to refer to the right arm of a person, however, we may think that it is too verbose or unnecessary to actually give a identifier to this arm, so we could use a blank node to represent it, as illustrated in algorithm \ref{lst:triplesblanknode}. In this example it makes sense to have a blank node, for the right arm is directly dependent on the person, an arm (usually) makes no sense detached from a person.
+Blank nodes are used to refer to resources who don't have or need a global identifier (an IRI). For example, we may want to refer to the right arm of a person, however, we may think that it is too verbose or unnecessary to actually give a identifier to this arm, so we could use a blank node to represent it, as illustrated in listing \ref{lst:triplesblanknode}. In this example it makes sense to have a blank node, for the right arm is directly dependent on the person, an arm (usually) makes no sense detached from a person.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -100,7 +101,7 @@ Blank nodes are used to refer to resources who don't have or need a global ident
 
 The data model of RDF does not make any assumptions about the meaning of the IRIs representing the resources. However, in the reality, RDF is usually used in conjunction with a series of vocabularies or other conventions that give semantic information about these resources.
 
-To allow the definition of vocabularies, RDF-schema\cite{rdfschema} is provided. This language allows the definition of RDF semantics, for example, one could define that the resource my:knows is a property or that the subjects of the previous triple are of type foaf:Person. RDF schema uses the concept of class, analogous to that on object oriented programming, to categorize resources. The property \textit{rdf:type} is used when specifying a class. This way, hierarchies of classes and sub-classes, properties and sub-properties can be defined. Domains and ranges can be also specified for properties, which specify the type of the subject and the object on these properties respectively. An example of RDF-schema can be found in algorithm \ref{lst:rdfschema}. There are alternatives for data modeling and inference to RDFS, such as OWL, however in many cases RDFS is enough to represent the logic on the system.
+To allow the definition of vocabularies, RDF-schema\cite{rdfschema} is provided. This language allows the definition of RDF semantics, for example, one could define that the resource my:knows is a property or that the subjects of the previous triple are of type foaf:Person. RDF schema uses the concept of class, analogous to that on object oriented programming, to categorize resources. The property \textit{rdf:type} is used when specifying a class. This way, hierarchies of classes and sub-classes, properties and sub-properties can be defined. Domains and ranges can be also specified for properties, which specify the type of the subject and the object on these properties respectively. An example of RDF-schema can be found in listing \ref{lst:rdfschema}. There are alternatives for data modeling and inference to RDFS, such as OWL, however in many cases RDFS is enough to represent the logic on the system.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -130,15 +131,149 @@ RDF schema is not the only generally accepted vocabulary, there are several othe
 
 Using RDF can greatly benefit this project. It can give a representation of the relationships on the system which can be easily analyses by machines. This can help building important functions, such as the recommendation system.
 
-However, since one of the goals of the project is developing a semantic representation of GPS data, it becomes mandatory the use of RDF.
+However, the use of RDF on this project is almost mandatory, for one of the goals is achieving data interoperability and publishing the data as Linked Open Data on the web.
 
+\section{OWL}\label{sec:owl}
+
+The Web Ontology Language (OWL) is a semantic markup language for publishing and sharing ontologies in the World Wide Web\cite{bechhofer2009owl}. The language is designed for applications that need to process the content of the information instead of just presenting it to humans. OWL provides greater machine interpretability than RDF or RDF schema by providing additional vocabularies along formal semantics.
+
+OWL is used to explicitly represent the meaning of terms in vocabularies and the relationships among these terms. These representations are called ontologies\cite{mcguinness2004owl}. The standard is part of the stack of W3C recommendations for the semantic web, together with XML, XML Schema, RDF and RDF Schema.
+
+OWL provides three sub-languages with increasing expressive power. Each subset of OWL includes all the previous ones, in addition to RDFS and RDF, so that there is no loss on expressive power as illustrated in figure \ref{fig:owlstack}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\textwidth]{fig/owl-stack}
+  \caption{The OWL levels of expressivity}
+  \captionsetup{font={footnotesize,bf,it}}
+  \caption*{source: \url{http://www.w3.org/}}
+  \label{fig:owlstack}
+\end{figure} 
+
+
+\subsection*{OWL Lite}
+
+OWL Lite is designed to support those users who need only a classification hierarchy and simple constraints. For example, while supporting cardinality constraints, it only allows cardinality 0 or 1, for the sake of simplicity. Due to this it should be simpler to provide tool support for OWL lite than to its other, more expressive, relatives. It also has a lower level of formal complexity than its more expressive siblings.
+
+This sub-language contains all the features of RDF schema, such as category definitions through classes and hierarchical classification through subclasses, plus additional restrictions and expressions. OWL Lite provides tools for defining equality and inequality relations, property characteristics, property restrictions, restricted cardinalities and class intersections.
+
+\subsubsection*{Equality and Inequality}
+
+They are used to indicate equality and inequality relations among classes. One example
+
+\begin{description}
+\item[\texttt{equivalentClass}] Two classes may be stated as equivalents. This equality is used to create synonyms.
+
+\item[\texttt{equivalentProperty}] It is used to define synonymous properties, the same way as with classes.
+
+\item[\texttt{sameAs}] It states that two individuals are the same.
+
+\item[\texttt{differentFrom}] The opposite to \texttt{sameAs}, used to indicate that two individuals are different. 
+
+\item[\texttt{allDifferent}] It can ve used to state that a number of individuals are different from each other.
+\end{description}
+
+\subsubsection*{Property characteristics}
+
+Property characteristics are special identifiers in OWL that provide information concerning the properties and their values. These characteristics are placed on properties, with relation to no class, as in listing \ref{lst:owl1}.
+
+
+\begin{listing}\centering
+  \begin{minipage}{.8\textwidth}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
+      <owlx:ObjectProperty owlx:name="adjacentRegion" owlx:symmetric="true">
+        <owlx:domain owlx:class="#Region" /> 
+        <owlx:range owlx:class="#Region" />
+      </owlx:ObjectProperty>
+    \end{minted}
+  \end{minipage}
+  \caption{OWL property characteristic example.}\label{lst:owl1}
+\end{listing}
+
+
+\begin{description}
+\item[\texttt{inverseOf}] Describes that a property is inverse to another. If A is related to B by the property P1 and P2 is the inverse of P1, then B will relate to A by property P2.
+
+\item[\texttt{TransitiveProperty}] States that a property is transitive. For example, if A is related by transitive property P to B and B is related by P to C, then A will also be related by P to C.
+
+\item[\texttt{SymmetrycProperty}] If a property is stated to be symmetric, then if A is related to B by the property, B will also by related to A by the same property.
+
+\item{\texttt{FunctionalProperty}} If a property is functional, then it can have no more than one value for each individual. This mean that there will be no two triples of the same individual containing this property as a predicate.
+
+\item[\texttt{InverseFunctionalProperty}] It states that the inverse of a property is a functional property.
+\end{description}
+
+\subsubsection*{Property restrictions}
+
+OWL Lite allows to place restrictions regarding on how properties can be used inside of instances of classes. One example can be found in listing \ref{lst:owl2}
+
+\begin{listing}\centering
+  \begin{minipage}{.8\textwidth}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
+      <owlx:Class owlx:name="Wine" owlx:complete="false">
+        <owlx:Class owlx:name="&food;PotableLiquid" />  
+        <owlx:ObjectRestriction owlx:property="#hasMaker"> 
+          <owlx:allValuesFrom owlx:class="#Winery" />
+        </owlx:ObjectRestriction> 
+      </owlx:Class>
+    \end{minted}
+  \end{minipage}
+  \caption{OWL property restriction example.}\label{lst:owl2}
+\end{listing}
+
+
+\begin{description}
+\item[\texttt{allValuesFrom}] This restriction is placed on a property in relation to a class. It indicates that a property on a particular class has a local range restriction associated with it. For example, the class \textit{Person} may have a property \textit{hasDaugther}, restricted to have all values from class \textit{Woman}. This means that if an individual of type person is related by a relation \textit{hasDaugther} to other individual, we can infer that this individual will be a woman.
+
+\item[\texttt{someValuesFrom}] This restriction is placed on a property in relation to a class. It indicates that at least one value from the property is of a certain type. For example, the class \textit{SemanticWebPaper} may have a property \textit{hasKeyword} restricted to have some values from \textit{SemanticWebTopic}. This would mean that a semantic web paper can have any number of keywords from any topic, as long as at least one of them belongs to a semantic web topic.
+\end{description}
+
+\subsubsection*{Restricted cardinalities}
+
+OWL includes a limited form of cardinality restrictions. These are placed on properties with respect to classes, that is, the restrictions constrain the cardinality of the property in instances of a specific class.
+
+\begin{description}
+\item[\texttt{minCardinality}] If a minimum cardinality of 1 is stated on a property with respect to a particular class, then any instance of that class will be related to at least one individual by that property. For example, a person must have some sort of identifying card, thus, a minimum cardinality of 1 should be placed on the relation \textit{hasIDCard} with respect to \textit{Person}.
+
+\item[\texttt{maxCardinality}] If a maximum cardinality of 1 is placed on a property with respect to a particular class, then any instance of that class will be related to at most one individual by that property. For example, a person should have at most one ID card, thus, the relation \textit{hasID} would have a maximum cardinality of 1.
+
+\item[\texttt{cardinality}] It is used as a convenience to indicate that a property has both a maximum and a minimum cardinality with the same values. 
+\end{description}
+
+\subsubsection*{Intersection}
+
+OWL Lite offers a very limited expressibility for intersections through the property \texttt{intersectionOf}. With this expression one could express that a \textit{EmployedPerson} is a intersection of a \textit{Employee} and a \textit{Person}. An example for this is shown in listing \ref{lst:owl3}
+
+\begin{listing}\centering
+  \begin{minipage}{.8\textwidth}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
+      <owlx:Class owlx:name="WhiteWine" owlx:complete="true">
+        <owlx:IntersectionOf>
+          <owlx:Class owlx:name="#Wine" />
+          <owlx:ObjectRestriction owlx:property="#hasColor">
+            <owlx:hasValue owlx:name="#White" /> 
+          </owlx:ObjectRestriction>
+        </owlx:IntersectionOf>
+      </owlx:Class>
+    \end{minted}
+  \end{minipage}
+  \caption{OWL property restriction example.}\label{lst:owl3}
+\end{listing}
+
+\subsection*{OWL DL and OWL Full}
+
+OWL DL is the second among the OWL sub-languages. It includes all the expressive power of OWL lite and adds on top of it. Similarly OWL Full adds on top of OWL DL. However, OWL Full is usually deemed as undecidable, in fact, there are no reasoners that can guarantee a solution in finite time. Due to this, many reasoners for OWL DL, such as Pellet try to find a way to convert OWL Full ontologies to a more a previous level of expressivity, since most ontologists use the highest expressive power when they only need OWL DL at most \cite{pellet}.
+
+\subsection*{Why OWL?}
+
+RDF schema provides a very limited way of expressing ontologies, it only allows to build classification hierarchies. Due to this, using OWL to describe the ontology would be the most recommendable thing. More specifically, the expression level of OWL DL, which allows to describe disjoint relations between classes (among other relation) plus all of the OWL Lite characteristics listed above, will allow to build a complete and correct ontology.
 \section{SPARQL}\label{sec:sparql}
 
 SPARQL is the recursive acronym for SPARQL Protocol and RDF Query Language. As its name indicates, it is a protocol and query language for RDF data. The idea behind this language is to allow the querying over RDF datasets in a similar language in which triples are expressed \cite{sparqlprotocol}.
 
 SPARQL allows querying \cite{sparqlquery} and updating\cite{sparqlupdate} of RDF datasets. Similar to RDF, this language is composed of triples, however among the subjects predicates and objects, variables can be introduced. The logic behind SPARQL is stating a set of triples and introducing a variable somewhere among these triples. By doing so, the query engine will look and retrieve for all the cases which satisfy the set of triples in the query. Nothing impedes to query for a certain triple without specifying any variable, which can be useful when the goal is to know if the triple actually exists, but it is not the usual case.
 
-In SPARQL prefixes can be used to indicate name spaces. By using the keyword prefix, it is possible to specify a URI which will be prepended to all triples using that resource. Variables are specified by using a interrogation mark (?) before an arbitrary name. Two examples can be found in algorithms \ref{lst:sparqlbasic} and \ref{lst:sparqlmedium}.
+In SPARQL prefixes can be used to indicate name spaces. By using the keyword prefix, it is possible to specify a URI which will be prepended to all triples using that resource. Variables are specified by using a interrogation mark (?) before an arbitrary name. Two examples can be found in listings \ref{lst:sparqlbasic} and \ref{lst:sparqlmedium}.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -154,7 +289,7 @@ In SPARQL prefixes can be used to indicate name spaces. By using the keyword pre
 This example is very basic, it does not actually specify any concrete triple it states subject object and predicate as variables. Due to this, the query engine will match every existing statement in the database and will retrieve all triples.
 
 \begin{listing}\centering
-  \begin{minipage}{.4\textwidth}
+  \begin{minipage}{.7\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
       PREFIX my: <http://example.org>
       PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -171,7 +306,7 @@ This example is very basic, it does not actually specify any concrete triple it 
 
 This case is slightly more elaborated than the previous one. First the keyword PREFIX appears, which specifies namespaces for the query, similar to how XML namespaces work. After the prefix declaration, there is a SELECT keyword. Here the operation to be done is specified, among the options of SELECT for regular queries, ASK for boolean queries, INSERT for data insertion and DELETE for data removal. After the select, the variables to be retrieved, bound in SPARQL terms, are specified. After that, the actual triples of the query are written. In this case a \textit{person} variable is used to retrieve every resource of type \textit{Person} in the dataset. Then if that resource contains a name, it is bound to the variable.
 
-It is possible to use more advanced operations in SPARQL. Every triple statement is a implicit intersection, however, it is possible to use the KEYWORD union as well. It is also possible to count the amount of occurrences of a variable, to order by variable values and even to filter with regular expressions.
+It is possible to use more advanced operations in SPARQL. Every triple statement is a implicit intersection, however, it is possible to use the keyword UNION as well. It is also possible to count the amount of occurrences of a variable, to order by variable values and even to filter with regular expressions. Utilities for retrieving only a certain subset of query matching elements are also provided, allowing to limit the result to a certain amount of triples or event to offset the start of the result to a certain triple.
 
 \subsection*{Why SPARQL?}
 
@@ -197,7 +332,7 @@ The ontology used to represent spatial data is domain independent in the sense t
 
 The ontology provides two type of top-level classes, \textit{Features} and \textit{Geometries}. Features are simply entities in the real world with some spatial location. A feature can have any kind of spatial form that cannot be precisely defined, for example, a lake or a forest. A \textit{Geometry} on the other hand is any geometric shape, such as a point or a polygon used as a representation of the spatial location of a feature.
 
-Together with these types, a medium for representing the exact geometries of the object is provided. By using the properties \textit{asWKT} and \textit{asGML} it is possible to provide the exact spatial information as a WKT or GML\cite{gmlspec} string, as in the algorithm \ref{lst:geosparql1}.
+Together with these types, a medium for representing the exact geometries of the object is provided. By using the properties \textit{asWKT} and \textit{asGML} it is possible to provide the exact spatial information as a WKT or GML\cite{gmlspec} string, as in the listing \ref{lst:geosparql1}.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -217,7 +352,7 @@ Besides, there is also a way to provide represent non-exact relation, using qual
 
 Exploiting the qualitative relations in the system is simple, a regular query can be used. However, in order to take advantage of the serialization of geometries, GeoSPARQL defines a series of functions that allow the manipulation and querying of spatial data. For example, the function \textit{geof:distance} will return the shortest distance between two geometries.
 
-This way, a extension for SPARQL is provided, which allows to find the implicit spatial relations in the dataset, as in the query shown in algorithm \ref{lst:geosparql2}
+This way, a extension for SPARQL is provided, which allows to find the implicit spatial relations in the dataset, as in the query shown in listing \ref{lst:geosparql2}
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -249,7 +384,7 @@ However due to the innovative character of this standard, there are few systems 
 
 Parliament\texttrademark\cite{parliament} is a triple-store, SPARQL endpoint and reasoner created by SemWebCentral in 2009. It is one of the few existing semantic databases which support the GeoSPARQL protocol, and it does so without then need of a relational spatial database on the back-end. 
 
-Parliament provides a SPARQL endpoint over which selection or update queries can be done. Besides it provides a reasoner which allows to make spatial queries. This database-reasoner-endpoint bundle makes this software very adequate to support the semantic GIS system to be produced.
+Parliament provides a SPARQL endpoint over which selection or update queries can be done. Besides it provides a reasoner which allows to make spatial queries. This database-reasoner-endpoint bundle makes this software very adequate to support the semantic GIS system to be produced. In addition, the reasoner that the bundle provides supports OWL lite, thus it is not necessary to use any additional software to reason over the data. 
 
 \section{NodeJS}
 
@@ -259,7 +394,7 @@ The reason behind the development of this framework is mainly that Thread-Based 
 
 Node differs from other frameworks such as Django or Rails in that it uses a event driven programming model. In Node, the event model is taken further that in the rest of frameworks, the event loop is presented as a language construct instead of a library. In other languages the event loop is typically started through a blocking call such as \texttt{EventMachine.run()} however, in Node, there is no event loop start call, it simply enters it after executing the input script and exits it when there are no more callbacks to execute.
 
-One example of Node's programming model is shown in algorithm \ref{lst:node1}. In the example, a web server listening on port 1337 is created. To when creating this server a callback is passed; every time a connection is made the web server responds with a "Hello world". The process will tell the operating systems to notify it when a new connection is made, and then go to sleep. When new connections are made the callback will be executed, each connection is just a small memory allocation.
+One example of Node's programming model is shown in listing \ref{lst:node1}. In the example, a web server listening on port 1337 is created. To when creating this server a callback is passed; every time a connection is made the web server responds with a "Hello world". The process will tell the operating systems to notify it when a new connection is made, and then go to sleep. When new connections are made the callback will be executed, each connection is just a small memory allocation.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -291,7 +426,7 @@ When using Node to build applications it is almost unavoidable to use NPM to ins
 
 Express is a minimalist and flexible web application development library built on top of NodeJS. It offers a URL routes, template engine utilities and middle ware among other things. 
 
-Express is currently the de facto standard in Node web application development, mainly due to the ease of use it offers. The library offers an \texttt{express} object on which callback functions for different HTTP requests can be registered. These callbacks are provided with a request and response object which can be used to analyse the request made to the server and to respond respestively. The example on algorithm \ref{lst:node2} creates a express server on port 3000, which will respond to queries on the route "/hello".
+Express is currently the de facto standard in Node web application development, mainly due to the ease of use it offers. The library offers an \texttt{express} object on which callback functions for different HTTP requests can be registered. These callbacks are provided with a request and response object which can be used to analyse the request made to the server and to respond respestively. The example on listing \ref{lst:node2} creates a express server on port 3000, which will respond to queries on the route "/hello".
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -346,7 +481,7 @@ The MVC pattern is implemented in this framework by separating the application i
 
 In addition to the mentioned, the framework allows the definition of \textit{Services} and \textit{Directives}. Services are object that can be injected into a controller and have a wide array of uses, from code reusing to data sharing among controllers. Directives on the other side are utilities to manipulate the views and aren  used in the HTML views. One example of such directives is \texttt{ng-click} which is used to specify which operation will be executed when a element on the DOM is clicked.
 
-The MVC in Angular works using a two-way binding. Data is bound to the view through the \texttt{\$scope} object; if a change happens in the view, the data in the models is automatically updated and if a controller modifies the data in the models, the view is automatically updated. An example is shown on algorithm \ref{lst:angular1}. In this example. when the button is clicked, the function \texttt{change} will be executed, changing the value on the variable \texttt{text} which will automatically update the paragraph on the view.
+The MVC in Angular works using a two-way binding. Data is bound to the view through the \texttt{\$scope} object; if a change happens in the view, the data in the models is automatically updated and if a controller modifies the data in the models, the view is automatically updated. An example is shown on listing \ref{lst:angular1}. In this example. when the button is clicked, the function \texttt{change} will be executed, changing the value on the variable \texttt{text} which will automatically update the paragraph on the view.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -373,7 +508,7 @@ The MVC in Angular works using a two-way binding. Data is bound to the view thro
 
 \subsection*{Modules}
 
-Similar to NodeJS, Angular provides it's own module system. Modules act as libraries, providing the application with services and directives. The framework does not provide with any tool for installation and management of modules, however, external package manages such as bower\footnote{http://bower.io/}, have been built.
+Similar to NodeJS, Angular provides it's own module system. Modules act as libraries, providing the application with services and directives. The framework does not provide with any tool for installation and management of modules, however, external package manages such as bower\cite{bower} have been built.
 
 There are other tools that offer support for this framework. Yeoman is a widely used tool for scaffolding web applications. It is used to build skeletons for different types of projects such as Angular projects.
 
@@ -402,7 +537,7 @@ Some alternatives exist currently, such as Ember or Knockout, however Angular is
 
 Leaflet is a JavaScript library for building mobile friendly interactive maps. It is designed with simplicity, usability and performance in mind and it works efficiently among all major mobile and desktop browsers, taking advantage of HTML5 and CSS3 when it can\cite{leafletjs}.
 
-The library has quickly become one of the most if not the most popular mapping library since it's release in 2011, due to its small size, ease of use and extendability. The example in algorithm \ref{lst:leaflet1} shows the creation of a map.
+The library has quickly become one of the most if not the most popular mapping library since it's release in 2011, due to its small size, ease of use and extendability. The example in listing \ref{lst:leaflet1} shows the creation of a map.
 
 \begin{listing}\centering
   \begin{minipage}{.8\textwidth}
@@ -454,9 +589,9 @@ Leaflet works with the concept of Layer. A layer is a visual representation of a
 
 Leaflet is built with the idea of creating interactive maps, thus, it offers methods for manipulating the map and firing and receiving events. It is possible to register listener on map actions, such as when a map is moved or zoomed, or to register listeners on layers, to check when a layer is added, removed, clicked, etc.
 
-This way, it is possible to respond to user actions via callbacks. The framework provides some shortcuts, for example, it is possible to bind the showing of a small popup to the click on a marker without the need to register a callback, as shown in algorithm \ref{lst:leaflet2}
+This way, it is possible to respond to user actions via callbacks. The framework provides some shortcuts, for example, it is possible to bind the showing of a small popup to the click on a marker without the need to register a callback, as shown in listing \ref{lst:leaflet2}
 
-Another example on the usage of leaflet events can be found in algorithm \ref{lst:leaflet3}. In the example, a callback is registered for the event of the user moving the map. This is useful for updating the map with information from the layers on the current view.
+Another example on the usage of leaflet events can be found in listing \ref{lst:leaflet3}. In the example, a callback is registered for the event of the user moving the map. This is useful for updating the map with information from the layers on the current view.
 
 \begin{listing}\centering
   \begin{minipage}{.5\textwidth}
@@ -494,7 +629,7 @@ The development tools used on a Phonegap application are identical to those used
 
 This is possible because what the library does is opening a enhanced web view (a browser) on the mobile device and loading the files into it. Normally, this would mean that much of the sensors of the device, such as the camera and the gyroscope are not usable, however, the browser created by the framework is extended to allow access to all the hardware on the device.
 
-Phonegap is based on Apache Cordova\cite{apachecordova} which works with a set of plugins. These plugins provide the web view with the functionality it lacks, and expose it as JavaScript APIs. One example of this is the reading of the battery status, as shown on algorithm \ref{lst:phonegap1}. Aside from the plugins that come shipped with the core libraries, the community has developed a considerable amount of them to provide functionalities that mobile browsers usually lack, such as HTML5 web socket support.
+Phonegap is based on Apache Cordova\cite{apachecordova} which works with a set of plugins. These plugins provide the web view with the functionality it lacks, and expose it as JavaScript APIs. One example of this is the reading of the battery status, as shown on listing \ref{lst:phonegap1}. Aside from the plugins that come shipped with the core libraries, the community has developed a considerable amount of them to provide functionalities that mobile browsers usually lack, such as HTML5 web socket support.
 
 \begin{listing}\centering
   \begin{minipage}{.8\textwidth}
@@ -515,7 +650,7 @@ As convenient using HTML5 for developing cross platform applications is, there i
 
 In the face of this issue, Phonegap offers a platform called Phonegap Build, a cloud based service which helps agile development and allows to compile applications for six of the seven platforms supported by the framework. The Phonegap team illustrated this process in figure \ref{fig:phonegapbuild} on their web page.
 
-\begin{figure}
+\begin{figure}[h]]
   \centering
   \includegraphics[width=.8\textwidth]{fig/phonegap-build}
   \caption{Phonegap Build process}
@@ -539,7 +674,7 @@ GPX is a lightweight XML data format for the interchange of GPS data (tracks, ro
 The format represents three types of data, in the following manner:
 
 \begin{description}
-\item[Way points:] A way point is a set of coordinates that identifies a point in space. They are represented using the \texttt{<wpt>} tag, as shown in algorithm \ref{lst:gpx1}
+\item[Way points:] A way point is a set of coordinates that identifies a point in space. They are represented using the \texttt{<wpt>} tag, as shown in listing \ref{lst:gpx1}
 
 \begin{listing}\centering
   \begin{minipage}{.5\textwidth}
@@ -555,7 +690,7 @@ The format represents three types of data, in the following manner:
 \end{listing}
 
 
-\item[Tracks:] A track is a segment containing way points, that is, a set of coordinates that describe a path. In GPX tracks are represented by the \texttt{trk} element and point inside one by \texttt{trkpt} elements (see algorithm \ref{lst:gpx2}).
+\item[Tracks:] A track is a segment containing way points, that is, a set of coordinates that describe a path. In GPX tracks are represented by the \texttt{trk} element and point inside one by \texttt{trkpt} elements (see listing \ref{lst:gpx2}).
 
 \begin{listing}\centering
   \begin{minipage}{.5\textwidth}
@@ -574,7 +709,7 @@ The format represents three types of data, in the following manner:
   \caption{GPX track representation.}\label{lst:gpx2}
 \end{listing}
 
-\item[Routes:] A route is identical to a track in its encoding, with the difference that the tags \texttt{rte} and \texttt{rtept} are used (see algorithm \ref{lst:gpx3}). However, there is a difference in the meaning of this concepts; while a track is a record of where a person has been, a route is a suggestion about where someone might go in the future. For this reasons, tracks may have timestamps attached while routes will not.
+\item[Routes:] A route is identical to a track in its encoding, with the difference that the tags \texttt{rte} and \texttt{rtept} are used (see listing \ref{lst:gpx3}). However, there is a difference in the meaning of this concepts; while a track is a record of where a person has been, a route is a suggestion about where someone might go in the future. For this reasons, tracks may have timestamps attached while routes will not.
 
 \begin{listing}\centering
   \begin{minipage}{.5\textwidth}
@@ -618,7 +753,7 @@ Geometries are GeoJSON objects whose type is different from \texttt{Feature} or 
 
 Positions are represented by an array of numbers, one for the longitude, one for the latitude and an optional one for the elevation, in that order. The coordinates of a object are formed by a array of positions, except for \texttt{Point} element, which have a single position.
 
-A \texttt{GeometryCollection} must have a member named \texttt{geometries}, an array of GeoJSON geometry objects. An example of this can be found on algorithm \ref{lst:geojson1}.
+A \texttt{GeometryCollection} must have a member named \texttt{geometries}, an array of GeoJSON geometry objects. An example of this can be found on listing \ref{lst:geojson1}.
 
 \begin{listing}\centering
   \begin{minipage}{.6\textwidth}
@@ -642,7 +777,7 @@ A \texttt{GeometryCollection} must have a member named \texttt{geometries}, an a
 
 A Feature is a object with some spatial representation. A feature must have two essential members, aside from the type, which are \texttt{geometry} and \texttt{properties}. The first of these members must contain a GeoJSON geometry object, the spatial representation of the object.
 
-The \texttt{properties} member on the other side, is a regular JSON object (a name/value dictionary) and contains all the non-spatial data belonging to the feature. A \texttt{FeatureCollection} does not contain a \texttt{geometry} member, instead it has a \texttt{features} object, an array of feature object in the collection. An example of a feature is shown on algorithm \ref{lst:geojson2}
+The \texttt{properties} member on the other side, is a regular JSON object (a name/value dictionary) and contains all the non-spatial data belonging to the feature. A \texttt{FeatureCollection} does not contain a \texttt{geometry} member, instead it has a \texttt{features} object, an array of feature object in the collection. An example of a feature is shown on listing \ref{lst:geojson2}
 
 \begin{listing}\centering
   \begin{minipage}{.8\textwidth}
