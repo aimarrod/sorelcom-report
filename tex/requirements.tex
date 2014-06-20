@@ -4,7 +4,7 @@
 
 This chapter provides a specifications of the requirements, both functional and non-functional, that the project to be developed must satisfy, which define the overall functioning of the system to be produced. Each requirement will have a code associated for identification purposes.
 
-To achieve a better understanding of these requirements, they are divided into the following sections, each corresponding to a different phase of product of the project.
+This requirements specify the minimum possible constraints or characteristics that the system must fulfill. Most technology is kept outside of the requirement specification so that it does not affect the implementation or the design. To achieve a better understanding of these requirements, they are divided into the following sections, each corresponding to a different phase of product of the project.
 
 \begin{itemize}
 \item \textbf{Requirements of the ontology:} The requirements to be satisfied by the ontology as well as a minimum subset of classes and properties it must have are listed.
@@ -60,7 +60,7 @@ The requirement for the ontology are the ones which define the characteristics t
 \item images
 \item author
 \item persons who traversed it
-\item coordinates
+\item spatial representation
 \end{itemize}
 \item[RONT6] The resources of type \textit{Point of Interest} must contain the following information:
 \begin{itemize}
@@ -71,7 +71,7 @@ The requirement for the ontology are the ones which define the characteristics t
 \item posts
 \item images
 \item author
-\item coordinates
+\item spatial representation
 \end{itemize}
 \item[RONT7] The resources of type \textit{Geolocated Note} must contain the following information:
 \begin{itemize}
@@ -82,7 +82,7 @@ The requirement for the ontology are the ones which define the characteristics t
 \item creation time
 \item duration
 \item action radius
-\item coordinates
+\item spatial representation
 \end{itemize}
 \item[RONT8] Resources of type \textit{Person} must contain the following information:
 \begin{itemize}
@@ -92,9 +92,9 @@ The requirement for the ontology are the ones which define the characteristics t
 \item family name
 \item avatar
 \item description
-\item people in which is interested
 \item trail buddies
 \item optionally external homepage
+\item traversed trails
 \item added trails
 \item added points of interest
 \item added notes
@@ -103,14 +103,15 @@ The requirement for the ontology are the ones which define the characteristics t
 \item[RONT9] Multimedia resources of type \textit{Text} must contain the following information.
 \begin{itemize}
 \item author
+\item addition date
 \item content
 \item feature they belong to
 \end{itemize}
 \item[RONT10] Multimedia resources of type \textit{Image} and \textit{Video} must contain the following information.
 \begin{itemize}
 \item author
-\item download link
 \item addition date
+\item download link
 \item feature they belong to
 \end{itemize}
 \end{description}
@@ -132,7 +133,11 @@ The requirements for the server specify the functionality that the server must i
  \item minimum altitude
  \end{itemize}
 \item[RSV4] The system must be able to create and send SPARQL queries to a data store.
-\item[RSV5] The system must be able to retrieve data from Geonames and OpenStreetMap and aggregate it to the dataset.
+\item[RSV5] The system must be able to retrieve, transform and aggregate it to the dataset, spatial data from the following sources:
+  \begin{itemize}
+  \item OpenStreetMap
+  \item Geonames
+  \end{itemize}
 \item[RSV6] The server must expose a SPARQL read-only endpoint.
 \item[RSV7] The server must expose a public API.
 \item[RSV8] The public API must follow the REST style.

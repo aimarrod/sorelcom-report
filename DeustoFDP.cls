@@ -29,7 +29,7 @@
 \setlist[description,3]{font=\normalfont\itshape}
 
 \RequirePackage{fontspec}               % Cargamos las fuentes
-\setmainfont{Arial}                     % Arial para el cuerpo del texto
+%\setmainfont{Arial}                     % Arial para el cuerpo del texto
 
 \RequirePackage{fancyhdr}               % Paquete para personalizar la cabecera y los pie de p\'agina
 
@@ -84,7 +84,7 @@
 \titleformat{name=\chapter,numberless}{\sectionfont\bfseries}{}{0pt}{\Large}[\vspace{-2em}]
 \titleformat{\section}{\sectionfont\bfseries}{}{0pt}{\Large\thesection. \uppercase}
 \titleformat*{\subsection}{\large\bfseries\sectionfont}
-\titleformat*{\subsubsection}{\large\bfseries\sectionfont}
+\titleformat*{\subsubsection}{\normalsize\bfseries\sectionfont}
 
 \RequirePackage{etoolbox}
 %\RequirePackage{tocbibind}              % Paquete para incluir los distintos \'indices en el \'indice
@@ -105,3 +105,5 @@
 \RequirePackage{microtype}              % Paquete que incluye microtipado
 
 \RequirePackage{flafter}                % No permite a los objetos flotantes ir hacia atras
+
+\renewcommand{\arraystretch}{1.2}

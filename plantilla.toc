@@ -6,64 +6,154 @@
 \defcounter {refsection}{0}\relax 
 \vskip 10pt
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}The Semantic Web}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Introduction to RDF}{2}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}State of the art}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Introduction to Ontologies}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The Semantic Web}{2}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Introduction to GIS systems}{4}{section.1.2}
+\contentsline {subsubsection}{Introduction to RDF}{3}{subsubsection*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Project Goals}{5}{chapter.2}
+\contentsline {subsubsection}{Introduction to Ontologies}{4}{subsubsection*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Technological Research}{7}{chapter.3}
+\contentsline {subsection}{\numberline {1.2.2}Linked Open Data}{4}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\vskip 10pt
+\contentsline {subsection}{\numberline {1.2.3}Introduction to GIS systems}{5}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Overview}{7}{section.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}RDF}{7}{section.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}OWL}{11}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}SPARQL}{14}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}GeoSPARQL}{15}{section.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}NodeJS}{17}{section.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Leaflet}{21}{section.3.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Phonegap}{23}{section.3.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}GPX}{25}{section.3.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}GeoJSON}{26}{section.3.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Requirements Specification}{29}{chapter.4}
+\contentsline {chapter}{\numberline {2}Project Goals}{7}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \vskip 10pt
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Overview}{29}{section.4.1}
+\contentsline {section}{\numberline {2.1}Overview}{7}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Requirements for the ontology}{29}{section.4.2}
+\contentsline {section}{\numberline {2.2}Project definition}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Requirements specification for the server}{31}{section.4.3}
+\contentsline {subsection}{\numberline {2.2.1}Goals}{7}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Requirements of the web application}{32}{section.4.4}
+\contentsline {subsection}{\numberline {2.2.2}Scope of the project}{8}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Requirements of the mobile application}{33}{section.4.5}
+\contentsline {section}{\numberline {2.3}Final product}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Non-functional requirements}{34}{section.4.6}
+\contentsline {subsection}{\numberline {2.3.1}Server}{9}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Design specification}{37}{chapter.5}
+\contentsline {subsection}{\numberline {2.3.2}Web application}{10}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Implementation details}{39}{chapter.6}
+\contentsline {subsection}{\numberline {2.3.3}Mobile application}{11}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Testing}{41}{chapter.7}
+\contentsline {section}{\numberline {2.4}Project realization}{11}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}User guide}{43}{chapter.8}
+\contentsline {subsection}{\numberline {2.4.1}Realization methodology}{11}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{45}{chapter.9}
+\contentsline {subsection}{\numberline {2.4.2}Intermediate products}{15}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{47}{chapter*.12}
+\contentsline {section}{\numberline {2.5}Organization and team}{15}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Organizational structure}{15}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Human resources plan}{16}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Graphical designer}{17}{subsubsection*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Systems architect}{17}{subsubsection*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Execution conditions}{17}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.1}Hardware}{18}{subsection.2.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.2}Software}{18}{subsection.2.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.3}Change control}{19}{subsection.2.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.4}Product reception}{19}{subsection.2.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Planning}{20}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}Project budget}{25}{section.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Technological Research}{27}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Overview}{27}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}RDF}{27}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}OWL}{32}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}SPARQL}{35}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}GeoSPARQL}{36}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}NodeJS}{38}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Leaflet}{43}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Phonegap}{45}{section.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}GPX}{46}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}GeoJSON}{47}{section.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Requirements Specification}{51}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Overview}{51}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Requirements for the ontology}{51}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Requirements specification for the server}{53}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Requirements of the web application}{54}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Requirements of the mobile application}{56}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Non-functional requirements}{57}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Design specification}{59}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Overview}{59}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}System architecture}{59}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Central server}{59}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Semantic spatial storage system}{61}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Web client}{61}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Mobile application}{61}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Design of the ontology}{61}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Class hierarchy}{61}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Properties}{63}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Advantages of ontology based design}{67}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Schema and data separation and reusability}{68}{subsubsection*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Linked Open data}{69}{subsubsection*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Development environment}{69}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Prot\'eg\'e-OWL}{70}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}UML}{70}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}SASS}{71}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Twitter Bootstrap}{71}{subsection.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Implementation details}{73}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Testing}{75}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}User guide}{77}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{79}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{81}{chapter*.50}

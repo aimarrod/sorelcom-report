@@ -8,25 +8,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces The semantic web architecture\relax }}{3}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The Linked Data cloud\relax }}{5}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+{\bfseries Cap\'itulo 2\vskip 10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Iterative development phases\relax }}{11}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Work breakdown structure\relax }}{14}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Organizational structure\relax }}{16}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Gantt diagram\relax }}{23}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Network diagram\relax }}{24}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 {\bfseries Cap\'itulo 3\vskip 10pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A set of triples and their corresponding graph\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An RDF graph describing a person\relax }}{28}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The OWL levels of expressivity\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The OWL levels of expressivity\relax }}{32}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces View-controller binding through the scope\relax }}{20}{figure.caption.9}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces View-controller binding through the scope\relax }}{41}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Leaflet with OSM mapnik tile layer\relax }}{22}{figure.caption.10}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Leaflet with OSM mapnik tile layer\relax }}{43}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Phonegap Build process\relax }}{25}{figure.caption.11}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Phonegap Build process\relax }}{46}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+{\bfseries Cap\'itulo 5\vskip 10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture design of the system\relax }}{60}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The SORELCOM ontology\relax }}{62}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Inference of the husband relation as inverse of the wife relation\relax }}{68}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Inference of all the classes of a Trail\relax }}{68}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Inference of the husband relation as inverse of the wife relation\relax }}{69}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The Prot\'eg\'e OWL ontology editor\relax }}{70}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces SASS to CSS transformation\relax }}{71}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

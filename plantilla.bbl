@@ -55,7 +55,7 @@
       \strng{fullhash}{1c1a7495ab0361d0ca8f2c7ddc91b9ff}
       \field{sortinit}{B}
       \field{labeltitle}{Linking geospatial data with GeoSPARQL}
-      \field{journaltitle}{Semant Web J Interoperability, Usability, Appl. http://www. semantic-web-journal. net/sites/default/files/swj176\_0. pdf. Accessed}
+      \field{journaltitle}{Semantic Web Journal of Interoperability, Usability, Applicability}
       \field{title}{Linking geospatial data with GeoSPARQL}
       \field{volume}{24}
       \field{year}{2011}
@@ -125,6 +125,65 @@
       \field{year}{2001}
       \field{pages}{28\bibrangedash 37}
     \endentry
+    \entry{linkeddataprinciples}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c040f12898283360a9825ed80f52e777}{Heath}{H\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c040f12898283360a9825ed80f52e777}{Heath}{H\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{119c89bf63ca82bd819dbc4a7a4326c7}
+      \strng{fullhash}{119c89bf63ca82bd819dbc4a7a4326c7}
+      \field{sortinit}{B}
+      \field{labeltitle}{Linked data: Principles and state of the art}
+      \field{booktitle}{World Wide Web Conference}
+      \field{title}{Linked data: Principles and state of the art}
+      \field{year}{2008}
+    \endentry
+    \entry{linkeddata}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c040f12898283360a9825ed80f52e777}{Heath}{H\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c040f12898283360a9825ed80f52e777}{Heath}{H\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{Berners-Lee}{B\bibinithyphendelim L\bibinitperiod}{Tim}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{119c89bf63ca82bd819dbc4a7a4326c7}
+      \strng{fullhash}{119c89bf63ca82bd819dbc4a7a4326c7}
+      \field{sortinit}{B}
+      \field{labeltitle}{Linked data-the story so far}
+      \field{journaltitle}{International journal on semantic web and information systems}
+      \field{number}{3}
+      \field{title}{Linked data-the story so far}
+      \field{volume}{5}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 22}
+    \endentry
+    \entry{d2rq}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b0f2e76dd842dc9052f49422b3cc10e6}{Seaborne}{S\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{Bizer}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b0f2e76dd842dc9052f49422b3cc10e6}{Seaborne}{S\bibinitperiod}{Andy}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6654e9767317184c839f49059ed874c0}
+      \strng{fullhash}{6654e9767317184c839f49059ed874c0}
+      \field{sortinit}{B}
+      \field{labeltitle}{D2RQ-treating non-RDF databases as virtual RDF graphs}
+      \field{booktitle}{Proceedings of the 3rd international semantic web conference (ISWC2004)}
+      \field{title}{D2RQ-treating non-RDF databases as virtual RDF graphs}
+      \field{volume}{2004}
+      \field{year}{2004}
+    \endentry
     \entry{bower}{online}{}
       \field{sortinit}{B}
       \field{labeltitle}{Bower - A package manager for the web}
@@ -170,6 +229,37 @@
       \field{volume}{9}
       \field{year}{2012}
     \endentry
+    \entry{rdfs1}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=0b849ea55e2ea52510d3276939842df0}{Broekstra}{B\bibinitperiod}{Jeen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=0d7586fa17dd595a74f8073ba149234b}{Klein}{K\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=2a1e6ec26f3229ee6817fdc4087dc2b0}{Decker}{D\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ba4603066ec9f23db109035b8d738b0c}{Fensel}{F\bibinitperiod}{Dieter}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=2ee8911bffcd1b0c3b084e3b6f2d3a64}{Van\bibnamedelima Harmelen}{V\bibinitperiod\bibinitdelim H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=fb33c2b55c178be2daf66ac89cdac9cc}{Horrocks}{H\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=0b849ea55e2ea52510d3276939842df0}{Broekstra}{B\bibinitperiod}{Jeen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=0d7586fa17dd595a74f8073ba149234b}{Klein}{K\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=2a1e6ec26f3229ee6817fdc4087dc2b0}{Decker}{D\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ba4603066ec9f23db109035b8d738b0c}{Fensel}{F\bibinitperiod}{Dieter}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=2ee8911bffcd1b0c3b084e3b6f2d3a64}{Van\bibnamedelima Harmelen}{V\bibinitperiod\bibinitdelim H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=fb33c2b55c178be2daf66ac89cdac9cc}{Horrocks}{H\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5380b0e2ccadcb696b367de88ed94473}
+      \strng{fullhash}{5380b0e2ccadcb696b367de88ed94473}
+      \field{sortinit}{B}
+      \field{labeltitle}{Enabling knowledge representation on the web by extending RDF schema}
+      \field{journaltitle}{Computer networks}
+      \field{number}{5}
+      \field{title}{Enabling knowledge representation on the web by extending RDF schema}
+      \field{volume}{39}
+      \field{year}{2002}
+      \field{pages}{609\bibrangedash 634}
+    \endentry
     \entry{geojson}{misc}{}
       \name{labelname}{6}{}{%
         {{hash=62d71942fdae89036bbdf78623e9a21d}{Butler}{B\bibinitperiod}{Howard}{H\bibinitperiod}{}{}{}{}}%
@@ -194,6 +284,25 @@
       \field{journaltitle}{2009-03]. http://www. geojson. org/geojson-spec. html}
       \field{title}{The GeoJSON Format Specification}
       \field{year}{2008}
+    \endentry
+    \entry{sass}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=be84b1b1bdca4937d59190759f9824dc}{Catlin}{C\bibinitperiod}{Hampton}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=263b3fbd18a77915f3f3d9cdbcdb045c}{Catlin}{C\bibinitperiod}{Michael\bibnamedelima Lintorn}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=be84b1b1bdca4937d59190759f9824dc}{Catlin}{C\bibinitperiod}{Hampton}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=263b3fbd18a77915f3f3d9cdbcdb045c}{Catlin}{C\bibinitperiod}{Michael\bibnamedelima Lintorn}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Pragmatic Bookshelf}%
+      }
+      \strng{namehash}{f18d35f472d51d0e9e4a386369ce3445}
+      \strng{fullhash}{f18d35f472d51d0e9e4a386369ce3445}
+      \field{sortinit}{C}
+      \field{labeltitle}{Pragmatic guide to Sass}
+      \field{title}{Pragmatic guide to Sass}
+      \field{year}{2011}
     \endentry
     \entry{chandrasekaran1999ontologies}{article}{}
       \true{morelabelname}
@@ -482,6 +591,64 @@
       \field{title}{Dublin core metadata element set, version 1.1}
       \field{year}{2008}
     \endentry
+    \entry{protege3}{incollection}{}
+      \name{labelname}{4}{}{%
+        {{hash=0976c9ea4273720766d1f30c98e29f16}{Knublauch}{K\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=1a7a64dcf23b30b9349e2b4208f190c3}{Fergerson}{F\bibinitperiod}{Ray\bibnamedelima W}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=11019fe6d458fdbc69d1fc0f476670a1}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima F}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=bf77b632ff41499510a0c0854387ae0f}{Musen}{M\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0976c9ea4273720766d1f30c98e29f16}{Knublauch}{K\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=1a7a64dcf23b30b9349e2b4208f190c3}{Fergerson}{F\bibinitperiod}{Ray\bibnamedelima W}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=11019fe6d458fdbc69d1fc0f476670a1}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima F}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=bf77b632ff41499510a0c0854387ae0f}{Musen}{M\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b0768ab642097eb65f60228abbd57956}
+      \strng{fullhash}{b0768ab642097eb65f60228abbd57956}
+      \field{sortinit}{K}
+      \field{labeltitle}{The Protégé OWL plugin: An open development environment for semantic web applications}
+      \field{booktitle}{The Semantic Web--ISWC 2004}
+      \field{title}{The Protégé OWL plugin: An open development environment for semantic web applications}
+      \field{year}{2004}
+      \field{pages}{229\bibrangedash 243}
+    \endentry
+    \entry{protege4}{inproceedings}{}
+      \name{labelname}{10}{}{%
+        {{hash=0976c9ea4273720766d1f30c98e29f16}{Knublauch}{K\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=92fdcbdf58626ebe99594fa1c5fb181d}{Horridge}{H\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=bf77b632ff41499510a0c0854387ae0f}{Musen}{M\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f2b90bb61ddfc20045863660c25179af}{Rector}{R\bibinitperiod}{Alan\bibnamedelima L}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=a5e9a8a60f1755d4158e6c1d4b79c2ef}{Stevens}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=6b4319c405dce6051b6cd7be7297fbd1}{Drummond}{D\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=2b3ec7128c65c1ef5b4e922f702ca196}{Lord}{L\bibinitperiod}{Phillip\bibnamedelima W}{P\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=78484c0136c9cb1e60e3c576598143db}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima Fridman}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=b439ef3f2cd275f1f1ea62951ab80ada}{Seidenberg}{S\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cce09707befb1515471f6653e5d141b7}{Wang}{W\bibinitperiod}{Hai}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=0976c9ea4273720766d1f30c98e29f16}{Knublauch}{K\bibinitperiod}{Holger}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=92fdcbdf58626ebe99594fa1c5fb181d}{Horridge}{H\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=bf77b632ff41499510a0c0854387ae0f}{Musen}{M\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f2b90bb61ddfc20045863660c25179af}{Rector}{R\bibinitperiod}{Alan\bibnamedelima L}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=a5e9a8a60f1755d4158e6c1d4b79c2ef}{Stevens}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=6b4319c405dce6051b6cd7be7297fbd1}{Drummond}{D\bibinitperiod}{Nick}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=2b3ec7128c65c1ef5b4e922f702ca196}{Lord}{L\bibinitperiod}{Phillip\bibnamedelima W}{P\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=78484c0136c9cb1e60e3c576598143db}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima Fridman}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=b439ef3f2cd275f1f1ea62951ab80ada}{Seidenberg}{S\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cce09707befb1515471f6653e5d141b7}{Wang}{W\bibinitperiod}{Hai}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a442286c7a6bf240f8e8d47fbdc6b45d}
+      \strng{fullhash}{a442286c7a6bf240f8e8d47fbdc6b45d}
+      \field{sortinit}{K}
+      \field{labeltitle}{The Protege OWL Experience.}
+      \field{booktitle}{OWLED}
+      \field{title}{The Protege OWL Experience.}
+      \field{year}{2005}
+    \endentry
     \entry{leafletjs}{online}{}
       \field{sortinit}{L}
       \field{labeltitle}{Leaflet - An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps}
@@ -559,6 +726,29 @@
       \field{year}{2004}
       \field{pages}{10}
     \endentry
+    \entry{protege2}{incollection}{}
+      \name{labelname}{3}{}{%
+        {{hash=78484c0136c9cb1e60e3c576598143db}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima Fridman}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=1a7a64dcf23b30b9349e2b4208f190c3}{Fergerson}{F\bibinitperiod}{Ray\bibnamedelima W}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=bf77b632ff41499510a0c0854387ae0f}{Musen}{M\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=78484c0136c9cb1e60e3c576598143db}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima Fridman}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=1a7a64dcf23b30b9349e2b4208f190c3}{Fergerson}{F\bibinitperiod}{Ray\bibnamedelima W}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=bf77b632ff41499510a0c0854387ae0f}{Musen}{M\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{494617a43346378e00fd4e8385ec1fac}
+      \strng{fullhash}{494617a43346378e00fd4e8385ec1fac}
+      \field{sortinit}{N}
+      \field{labeltitle}{The knowledge model of Protege-2000: Combining interoperability and flexibility}
+      \field{booktitle}{Knowledge Engineering and Knowledge Management Methods, Models, and Tools}
+      \field{title}{The knowledge model of Protege-2000: Combining interoperability and flexibility}
+      \field{year}{2000}
+      \field{pages}{17\bibrangedash 32}
+    \endentry
     \entry{xmlschema}{article}{}
       \name{labelname}{1}{}{%
         {{hash=b464ae154350f1f77e4b6a1a9846965e}{Part}{P\bibinitperiod}{XML\bibnamedelima Schema}{X\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
@@ -578,6 +768,17 @@
       \field{volume}{2}
       \field{year}{2001}
     \endentry
+    \entry{pelletweb}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{Pellet: OWL 2 Reasoner for Java}
+      \field{title}{Pellet: OWL 2 Reasoner for Java}
+      \field{urlday}{18}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://clarkparsia.com/pellet/
+      \endverb
+    \endentry
     \entry{geosparqlspec}{article}{}
       \name{labelname}{2}{}{%
         {{hash=27d107dfc30b6f100d2d498a4751b639}{Perry}{P\bibinitperiod}{Matthew}{M\bibinitperiod}{}{}{}{}}%
@@ -594,6 +795,39 @@
       \field{journaltitle}{OGC Implementation Standard, ref: OGC}
       \field{title}{OGC geosparql, a geographic query language for rdf data}
       \field{year}{2011}
+    \endentry
+    \entry{postgis}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{PostGIS - Spatial and Geographic Object for PostgreSQL}
+      \field{title}{PostGIS - Spatial and Geographic Object for PostgreSQL}
+      \field{urlday}{18}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://postgis.net/
+      \endverb
+    \endentry
+    \entry{postgres}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{PostgreSQL: The world's most advanced open source database}
+      \field{title}{PostgreSQL: The world's most advanced open source database}
+      \field{urlday}{18}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://www.postgresql.org/
+      \endverb
+    \endentry
+    \entry{protege1}{online}{}
+      \field{sortinit}{P}
+      \field{labeltitle}{Protégé}
+      \field{title}{Protégé}
+      \field{urlday}{18}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://protege.stanford.edu/
+      \endverb
     \endentry
     \entry{sparqlquery}{article}{}
       \true{morelabelname}
@@ -615,6 +849,27 @@
       \field{volume}{15}
       \field{year}{2008}
     \endentry
+    \entry{css}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{hash=0803df03213f69c2633f57628867bf40}{Reed}{R\bibinitperiod}{Duncan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=f6cbc0f0daeb8c975b8758bdb14d69df}{Thomas}{T\bibinitperiod}{Peter\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0803df03213f69c2633f57628867bf40}{Reed}{R\bibinitperiod}{Duncan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=f6cbc0f0daeb8c975b8758bdb14d69df}{Thomas}{T\bibinitperiod}{Peter\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b53e4501f32fd96f7f5021012af6b841}
+      \strng{fullhash}{b53e4501f32fd96f7f5021012af6b841}
+      \field{sortinit}{R}
+      \field{labeltitle}{Cascading Style Sheets}
+      \field{booktitle}{Essential HTML fast}
+      \field{title}{Cascading Style Sheets}
+      \field{year}{1998}
+      \field{pages}{111\bibrangedash 121}
+    \endentry
     \entry{schemaspec}{article}{}
       \name{labelname}{1}{}{%
         {{hash=ccb635aa065a4930a2a3c8cac433f8ed}{Ronallo}{R\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
@@ -630,6 +885,27 @@
       \field{number}{16}
       \field{title}{HTML5 Microdata and Schema. org.}
       \field{year}{2011}
+    \endentry
+    \entry{uml}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=b8ace965f1ffa84dd4512f7e64c62d75}{Rumbaugh}{R\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3e8f03cc324f52193ab00c1fab4df61a}{Jacobson}{J\bibinitperiod}{Ivar}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=e4f07715269e006a4d4a4efa3ce3f996}{Booch}{B\bibinitperiod}{Grady}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b8ace965f1ffa84dd4512f7e64c62d75}{Rumbaugh}{R\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3e8f03cc324f52193ab00c1fab4df61a}{Jacobson}{J\bibinitperiod}{Ivar}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=e4f07715269e006a4d4a4efa3ce3f996}{Booch}{B\bibinitperiod}{Grady}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Higher Education}%
+      }
+      \strng{namehash}{6385cf8d48142625a33e857e6f69df87}
+      \strng{fullhash}{6385cf8d48142625a33e857e6f69df87}
+      \field{sortinit}{R}
+      \field{labeltitle}{Unified Modeling Language Reference Manual, The}
+      \field{title}{Unified Modeling Language Reference Manual, The}
+      \field{year}{2004}
     \endentry
     \entry{sparqlupdate}{article}{}
       \true{morelabelname}
@@ -703,6 +979,17 @@
       \field{title}{Pellet: An OWL DL reasoner}
       \field{year}{2004}
       \field{pages}{212\bibrangedash 213}
+    \endentry
+    \entry{linkingopendata}{online}{}
+      \field{sortinit}{T}
+      \field{labeltitle}{The Linking Open Data project}
+      \field{title}{The Linking Open Data project}
+      \field{urlday}{18}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://www.w3.org/wiki/SweoIG/TaskForces/CommunityProjects/LinkingOpenData
+      \endverb
     \endentry
     \entry{tilkov2010node}{article}{}
       \name{labelname}{2}{}{%

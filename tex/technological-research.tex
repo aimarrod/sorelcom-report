@@ -2,9 +2,9 @@
 
 \section{Overview}
 
-This chapter presents the results of the initial technological research done to carry out the project. In here, the different technologies used in the project are explained in detail, as well as the benefits of using them and the reasons for doing so.
+This chapter presents the results of the initial technological research done to carry out the project. In here, the main technologies used in the project are explained in detail, as well as the benefits of using them and the reasons for doing so.
 
-The list of tools and frameworks used on the project is the following:
+The most relevant tools and frameworks used on the project are the following:
 
 \begin{itemize}
 	\item RDF
@@ -19,7 +19,9 @@ The list of tools and frameworks used on the project is the following:
 	\item GeoJSON
 \end{itemize}
 
-\section{RDF}
+There are many other software tools and libraries are used through the project, however, only the most relevant of them, and the ones on which the initial investigation has been carried are shown in this chapter. The rest of the tools are briefly described in chapters \ref{ch:design}, \ref{ch:implementation} and \ref{ch:testing}.
+
+\section{RDF}\label{sec:rdf}
 
 RDF stands for Resource Description Framework, and it is a framework for expressing information about resources. These resources can be anything, documents, people, physical objects, even abstract concepts.
 
@@ -40,14 +42,14 @@ There are many reasons to choose using RDF, the following are some of them:
 
 Data in RDF is formed by statements. This statements are called \textit{triples} and follow a subject-predicate-object structure. A statement on RDF represents a relationship between two resources, the \textbf{subject} and \textbf{object} represent the resources being related while the \textbf{predicate} represents the nature of the relationship. These relationships are phrased in a unidirectional way, from subject to object, and are called properties.
 
-The same subject is often referenced in multiple triples and can of course be the object of other triples. These ability to have the same resource as subject and object in different triples makes it possible to find connections between RDF resources and is one of the most powerful features of the framework. A set of triples can be viewed as a connected \textbf{graph}, in figure \ref{fig:rdfgraph} we can se an example of a set of triples in pseudo-code and the graph representing them.
+The same subject is often referenced in multiple triples and can of course be the object of other triples. These ability to have the same resource as subject and object in different triples makes it possible to find connections between RDF resources and is one of the most powerful features of the framework. A set of triples can be viewed as a connected \textbf{graph}, in figure \ref{fig:rdfgraph} an example of the visual representation of an RDF graph is given.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.6\textwidth]{fig/rdfgraph}
-  \caption{A set of triples and their corresponding graph}
+  \includegraphics[width=.5\textwidth]{fig/rdfgraph}
+  \caption{An RDF graph describing a person}
   \captionsetup{font={footnotesize,bf,it}}
-  \caption*{source: \url{http://www.w3.org/TR/rdf11-primer/}}
+  \caption*{source: \url{http://www.w3.org/TR/2004/REC-rdf-primer-20040210/}}
   \label{fig:rdfgraph}
 \end{figure} 
 
@@ -63,13 +65,13 @@ In SPARQL (see \ref{sec:sparql}) and in some RDF serialization models prefixes c
 
 \subsubsection*{Literals}
 
-Literals are the basic values that are not IRIs. Literals are associated with data types, for example, the \textit{Integer} and \textit{Float} data types are equivalent to the traditional types from the programming languages. The string typed literals may optionally have a language associated allowing internationalization. Most of the regularly used data types are defined by XML Schema\cite{xmlschema}.
+Literals are the basic values that are not IRIs. Literals are associated with data types, for example, the \textit{Integer} and \textit{Float} data types are equivalent to the traditional types from the programming languages. The string typed literals may optionally have a language associated allowing internationalization. Most of the regularly used data types are defined by XML Schema \cite{xmlschema}.
 
-One particularity of RDF data types is that they can be defined on ontologies. Due to this, it is possible to find custom types, such as a string representing the serialization in WKT\cite{wkt} format of a geometry. 
+One particularity of RDF data types is that they can be defined on ontologies. Due to this, it is possible to find custom types, such as a string representing the serialization in WKT \cite{wkt} format of a geometry. 
 
 An example of different types of triples, including literals can be found in listing \ref{lst:triplesliterals}.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
       <my:Bob> <foaf:name> "Bob"
@@ -86,7 +88,7 @@ An example of different types of triples, including literals can be found in lis
 
 Blank nodes are used to refer to resources who don't have or need a global identifier (an IRI). For example, we may want to refer to the right arm of a person, however, we may think that it is too verbose or unnecessary to actually give a identifier to this arm, so we could use a blank node to represent it, as illustrated in listing \ref{lst:triplesblanknode}. In this example it makes sense to have a blank node, for the right arm is directly dependent on the person, an arm (usually) makes no sense detached from a person.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
       <my:Bob> <rdf:type> <foaf:Person> 
@@ -101,23 +103,7 @@ Blank nodes are used to refer to resources who don't have or need a global ident
 
 The data model of RDF does not make any assumptions about the meaning of the IRIs representing the resources. However, in the reality, RDF is usually used in conjunction with a series of vocabularies or other conventions that give semantic information about these resources.
 
-To allow the definition of vocabularies, RDF-schema\cite{rdfschema} is provided. This language allows the definition of RDF semantics, for example, one could define that the resource my:knows is a property or that the subjects of the previous triple are of type foaf:Person. RDF schema uses the concept of class, analogous to that on object oriented programming, to categorize resources. The property \textit{rdf:type} is used when specifying a class. This way, hierarchies of classes and sub-classes, properties and sub-properties can be defined. Domains and ranges can be also specified for properties, which specify the type of the subject and the object on these properties respectively. An example of RDF-schema can be found in listing \ref{lst:rdfschema}. There are alternatives for data modeling and inference to RDFS, such as OWL, however in many cases RDFS is enough to represent the logic on the system.
-
-\begin{listing}\centering
-  \begin{minipage}{.6\textwidth}
-    \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
-      <foaf:Person> <rdf:type> <rdfs:Class> 
-      <my:knows> <rdf:type> <rdf:Property>
-      <my:knows> <rdfs:domain> <foaf:Person>
-      <my:knows> <rdfs:range> <foaf:Person>
-      <my:friendOf> <rdfs:subPropertyOf> <my:knows>
-      :_b1 <rdf:type> <my:Arm>
-    \end{minted}
-  \end{minipage}
-  \caption{Triple statements with a blank node.}\label{lst:rdfschema}
-\end{listing}
-
-RDF schema is not the only generally accepted vocabulary, there are several others that are currently considered standard. Among them we can find the following:
+Many vocabularies are currently considered standard due to their wide use among Linked Open Data systems. Some of these ontologies are the following.
 
 \begin{description}
 	\item{Friend of a Friend (FOAF):} One of the first vocabularies used worldwide, it is used to represent persons, the properties that identify them and the relations among them \cite{foafspec}.
@@ -127,23 +113,91 @@ RDF schema is not the only generally accepted vocabulary, there are several othe
 	\item{schema.org: } A vocabulary for marking up web pages so that search engines can more easily find them \cite{schemaspec}.
 \end{description}
 
+\subsection*{RDF schema}
+
+RDF Schema (RDFS) is a extension of RDF. It provides a data-modeling vocabulary for RDF data, in this way, RDFS extends RDF by giving externally specified semantics to specific resources, semantics which cannot be captured in plain RDF \cite{rdfs1}. RDF Schema provides information about interpretation of the statements in a data model, however, it does not constrain the syntactical appearance of RDF descriptions.
+
+The extension provides mechanisms to describe groups of related resources and the relationships between these resources, as well as classification hierarchies. The class and property system that can be expressed is similar to the type systems of object oriented programming, however, instead of defining classes in terms of the properties their instance have, they are defined in terms of classes of resource to which they apply \cite{rdfschema}.
+
+RDF schema is written in plain RDF, thus it takes form of a vocabulary. The classes and properties provided are listed below:
+
+\subsubsection*{Classes}
+
+\begin{description}
+\item[\texttt{rdfs:Resource}] All things described by RDF are called resources and are instances of this class. It is the class of everything and all other classes are \textit{subclasses} of it.
+
+\item[\texttt{rdfs:Class}] It is the class of all the resources that are classes, thus, \texttt{rdfs:Class} is an instance of \texttt{rdfs:Class}.
+
+\item[\texttt{rdfs:Literal}] It is the class of literal values such as strings and integers. It is an instance of \texttt{rdfs:Class}.
+
+\item[\texttt{rdfs:Datatype}] It is the class of datatypes, such as \texttt{integer}.
+
+\item[\texttt{rdf:langString}] It is the class of language tagged string values, an instance of \texttt{rdfs:Datatype} and subclass of \texttt{rdfs:Literal}.
+
+\item[\texttt{rdf:HTML}] It is the class of HTML string values, an instance of \texttt{rdfs:Datatype} and subclass of \texttt{rdfs:Literal}.
+
+\item[\texttt{rdf:HTML}] It is the class of HTML string values, an instance of \texttt{rdfs:Datatype} and subclass of \texttt{rdfs:Literal}.
+
+\item[\texttt{rdf:XMLString}] It is the class of XML literal values, an instance of \texttt{rdfs:Datatype} and subclass of \texttt{rdfs:Literal}.
+
+\end{description}
+
+\subsubsection*{Properties}
+
+\begin{description}
+
+\item[\texttt{rdfs:range}] It is used to indicate that the values of a property are instances of a certain class.
+
+\item[\texttt{rdfs:domain}] It is used to indicate that any resource that has the given property is a instance of a certain class.
+
+\item[\texttt{rdfs:type}] It is used to state that a resource is a instance of a certain class.
+
+\item[\texttt{rdfs:subClassOf}] It is used to state that all instances of one class are also instances of another.
+
+\item[\texttt{rdfs:subPropertyOf}] It is used to state that all resources related by a class are also related by another.
+
+\item[\texttt{rdfs:label}] It is used to provide a human readable version of the name of the resource.
+
+\item[\texttt{rdfs:comment}] It is used to provide a human readable description of a resource.
+
+\end{description}
+
+\subsubsection*{Use of RDFS}
+
+RDFS provides with a vocabulary to express relations among RDF resources, which allow for reasoning and inference over datasets. However, this vocabulary is very limited, it does not allow much more that the definition of classification hierarchies. These hierarchies are defined in regular RDF triples, as shown in listing \ref{lst:rdfschema}.
+
+\begin{listing}[ht]\centering
+  \begin{minipage}{.6\textwidth}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
+      <foaf:Person> <rdf:type> <rdfs:Class> 
+      <my:knows> <rdf:type> <rdf:Property>
+      <my:knows> <rdfs:domain> <foaf:Person>
+      <my:knows> <rdfs:range> <foaf:Person>
+      <my:friendOf> <rdfs:subPropertyOf> <my:knows>
+    \end{minted}
+  \end{minipage}
+  \caption{RDFS class and property hierarchy.}\label{lst:rdfschema}
+\end{listing}
+
+In addition to ability to express relations, RDFS provides additional constructs for the representation of resources. The vocabulary defines containers, such as bags and sequences, in addition to properties to indicate membership to these. Besides collections, the ontology defines a more sophisticated mechanism for data structuring; RDF lists, which are similar to the Linked List data structure. However, the usage collections bring an additional layer of complexity to the dataset, thus they are scarcely used.
+
 \subsection*{Why RDF?}
 
 Using RDF can greatly benefit this project. It can give a representation of the relationships on the system which can be easily analyses by machines. This can help building important functions, such as the recommendation system.
 
-However, the use of RDF on this project is almost mandatory, for one of the goals is achieving data interoperability and publishing the data as Linked Open Data on the web.
+However, the use of RDF on this project is almost mandatory, for one of the goals is achieving data interoperability and publishing the data as Linked Open Data on the web. Anyway, the expressive level provided by RDF schema is not enough for the needs of the project, so another vocabulary must be used.
 
 \section{OWL}\label{sec:owl}
 
-The Web Ontology Language (OWL) is a semantic markup language for publishing and sharing ontologies in the World Wide Web\cite{bechhofer2009owl}. The language is designed for applications that need to process the content of the information instead of just presenting it to humans. OWL provides greater machine interpretability than RDF or RDF schema by providing additional vocabularies along formal semantics.
+The Web Ontology Language (OWL) is a semantic markup language for publishing and sharing ontologies in the World Wide Web \cite{bechhofer2009owl}. The language is designed for applications that need to process the content of the information instead of just presenting it to humans. OWL provides greater machine interpretability than RDF or RDF schema by providing additional vocabularies along formal semantics.
 
-OWL is used to explicitly represent the meaning of terms in vocabularies and the relationships among these terms. These representations are called ontologies\cite{mcguinness2004owl}. The standard is part of the stack of W3C recommendations for the semantic web, together with XML, XML Schema, RDF and RDF Schema.
+OWL is used to explicitly represent the meaning of terms in vocabularies and the relationships among these terms. These representations are called ontologies \cite{mcguinness2004owl}. The standard is part of the stack of W3C recommendations for the semantic web, together with XML, XML Schema, RDF and RDF Schema.
 
 OWL provides three sub-languages with increasing expressive power. Each subset of OWL includes all the previous ones, in addition to RDFS and RDF, so that there is no loss on expressive power as illustrated in figure \ref{fig:owlstack}.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.8\textwidth]{fig/owl-stack}
+  \includegraphics[width=.7\textwidth]{fig/owl-stack}
   \caption{The OWL levels of expressivity}
   \captionsetup{font={footnotesize,bf,it}}
   \caption*{source: \url{http://www.w3.org/}}
@@ -178,7 +232,7 @@ They are used to indicate equality and inequality relations among classes. One e
 Property characteristics are special identifiers in OWL that provide information concerning the properties and their values. These characteristics are placed on properties, with relation to no class, as in listing \ref{lst:owl1}.
 
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.8\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
       <owlx:ObjectProperty owlx:name="adjacentRegion" owlx:symmetric="true">
@@ -207,7 +261,7 @@ Property characteristics are special identifiers in OWL that provide information
 
 OWL Lite allows to place restrictions regarding on how properties can be used inside of instances of classes. One example can be found in listing \ref{lst:owl2}
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.8\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
       <owlx:Class owlx:name="Wine" owlx:complete="false">
@@ -244,7 +298,7 @@ OWL includes a limited form of cardinality restrictions. These are placed on pro
 
 OWL Lite offers a very limited expressibility for intersections through the property \texttt{intersectionOf}. With this expression one could express that a \textit{EmployedPerson} is a intersection of a \textit{Employee} and a \textit{Person}. An example for this is shown in listing \ref{lst:owl3}
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.8\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
       <owlx:Class owlx:name="WhiteWine" owlx:complete="true">
@@ -271,11 +325,11 @@ RDF schema provides a very limited way of expressing ontologies, it only allows 
 
 SPARQL is the recursive acronym for SPARQL Protocol and RDF Query Language. As its name indicates, it is a protocol and query language for RDF data. The idea behind this language is to allow the querying over RDF datasets in a similar language in which triples are expressed \cite{sparqlprotocol}.
 
-SPARQL allows querying \cite{sparqlquery} and updating\cite{sparqlupdate} of RDF datasets. Similar to RDF, this language is composed of triples, however among the subjects predicates and objects, variables can be introduced. The logic behind SPARQL is stating a set of triples and introducing a variable somewhere among these triples. By doing so, the query engine will look and retrieve for all the cases which satisfy the set of triples in the query. Nothing impedes to query for a certain triple without specifying any variable, which can be useful when the goal is to know if the triple actually exists, but it is not the usual case.
+SPARQL allows querying \cite{sparqlquery} and updating \cite{sparqlupdate} of RDF datasets. Similar to RDF, this language is composed of triples, however among the subjects predicates and objects, variables can be introduced. The logic behind SPARQL is stating a set of triples and introducing a variable somewhere among these triples. By doing so, the query engine will look and retrieve for all the cases which satisfy the set of triples in the query. Nothing impedes to query for a certain triple without specifying any variable, which can be useful when the goal is to know if the triple actually exists, but it is not the usual case.
 
 In SPARQL prefixes can be used to indicate name spaces. By using the keyword prefix, it is possible to specify a URI which will be prepended to all triples using that resource. Variables are specified by using a interrogation mark (?) before an arbitrary name. Two examples can be found in listings \ref{lst:sparqlbasic} and \ref{lst:sparqlmedium}.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
       SELECT ?s ?p ?o WHERE {
@@ -288,7 +342,7 @@ In SPARQL prefixes can be used to indicate name spaces. By using the keyword pre
 
 This example is very basic, it does not actually specify any concrete triple it states subject object and predicate as variables. Due to this, the query engine will match every existing statement in the database and will retrieve all triples.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.7\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
       PREFIX my: <http://example.org>
@@ -332,9 +386,9 @@ The ontology used to represent spatial data is domain independent in the sense t
 
 The ontology provides two type of top-level classes, \textit{Features} and \textit{Geometries}. Features are simply entities in the real world with some spatial location. A feature can have any kind of spatial form that cannot be precisely defined, for example, a lake or a forest. A \textit{Geometry} on the other hand is any geometric shape, such as a point or a polygon used as a representation of the spatial location of a feature.
 
-Together with these types, a medium for representing the exact geometries of the object is provided. By using the properties \textit{asWKT} and \textit{asGML} it is possible to provide the exact spatial information as a WKT or GML\cite{gmlspec} string, as in the listing \ref{lst:geosparql1}.
+Together with these types, a medium for representing the exact geometries of the object is provided. By using the properties \textit{asWKT} and \textit{asGML} it is possible to provide the exact spatial information as a WKT or GML \cite{gmlspec} string, as in the listing \ref{lst:geosparql1}.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
       <my:Point> <rdf:type> <geo:Feature> 
@@ -354,7 +408,7 @@ Exploiting the qualitative relations in the system is simple, a regular query ca
 
 This way, a extension for SPARQL is provided, which allows to find the implicit spatial relations in the dataset, as in the query shown in listing \ref{lst:geosparql2}
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
       SELECT ?p
@@ -382,13 +436,13 @@ However due to the innovative character of this standard, there are few systems 
 
 \subsubsection*{Parliament}
 
-Parliament\texttrademark\cite{parliament} is a triple-store, SPARQL endpoint and reasoner created by SemWebCentral in 2009. It is one of the few existing semantic databases which support the GeoSPARQL protocol, and it does so without then need of a relational spatial database on the back-end. 
+Parliament\texttrademark \cite{parliament} is a triple-store, SPARQL endpoint and reasoner created by SemWebCentral in 2009. It is one of the few existing semantic databases which support the GeoSPARQL protocol, and it does so without then need of a relational spatial database on the back-end. 
 
 Parliament provides a SPARQL endpoint over which selection or update queries can be done. Besides it provides a reasoner which allows to make spatial queries. This database-reasoner-endpoint bundle makes this software very adequate to support the semantic GIS system to be produced. In addition, the reasoner that the bundle provides supports OWL lite, thus it is not necessary to use any additional software to reason over the data. 
 
 \section{NodeJS}
 
-NodeJs is a framework based on Chrome's runtime engine\cite{v8} for developing high-performance, concurrent programs that instead of relying on the mainstream multi-threading approach use asynchronous I/O\cite{tilkov2010node}.
+NodeJs is a framework based on Chrome's runtime engine \cite{v8} for developing high-performance, concurrent programs that instead of relying on the mainstream multi-threading approach use asynchronous I/O \cite{tilkov2010node}.
 
 The reason behind the development of this framework is mainly that Thread-Based networking is inefficient and difficult to use. Node will be much more memory efficient under high load that systems which allocate threads for each connection.
 
@@ -396,7 +450,7 @@ Node differs from other frameworks such as Django or Rails in that it uses a eve
 
 One example of Node's programming model is shown in listing \ref{lst:node1}. In the example, a web server listening on port 1337 is created. To when creating this server a callback is passed; every time a connection is made the web server responds with a "Hello world". The process will tell the operating systems to notify it when a new connection is made, and then go to sleep. When new connections are made the callback will be executed, each connection is just a small memory allocation.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{javascript}
 	     var http = require('http');
@@ -428,7 +482,7 @@ Express is a minimalist and flexible web application development library built o
 
 Express is currently the de facto standard in Node web application development, mainly due to the ease of use it offers. The library offers an \texttt{express} object on which callback functions for different HTTP requests can be registered. These callbacks are provided with a request and response object which can be used to analyse the request made to the server and to respond respestively. The example on listing \ref{lst:node2} creates a express server on port 3000, which will respond to queries on the route "/hello".
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{javascript}
 	     var express = require('express');
@@ -470,7 +524,7 @@ The MVC pattern is implemented in this framework by separating the application i
 \item[The model:] Any data which belongs to the application domain is considered part of the model. Usually the data is obtained from the server, through REST APIs, since function to easy asynchronous requests are provided.
 \end{description}
 
-\begin{figure}
+\begin{figure}[ht]
   \centering
   \includegraphics[width=.8\textwidth]{fig/angular-scope}
   \caption{View-controller binding through the scope}
@@ -483,7 +537,7 @@ In addition to the mentioned, the framework allows the definition of \textit{Ser
 
 The MVC in Angular works using a two-way binding. Data is bound to the view through the \texttt{\$scope} object; if a change happens in the view, the data in the models is automatically updated and if a controller modifies the data in the models, the view is automatically updated. An example is shown on listing \ref{lst:angular1}. In this example. when the button is clicked, the function \texttt{change} will be executed, changing the value on the variable \texttt{text} which will automatically update the paragraph on the view.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{html}
 	     <div ng-controller="ExampleCtrl">
@@ -508,7 +562,7 @@ The MVC in Angular works using a two-way binding. Data is bound to the view thro
 
 \subsection*{Modules}
 
-Similar to NodeJS, Angular provides it's own module system. Modules act as libraries, providing the application with services and directives. The framework does not provide with any tool for installation and management of modules, however, external package manages such as bower\cite{bower} have been built.
+Similar to NodeJS, Angular provides it's own module system. Modules act as libraries, providing the application with services and directives. The framework does not provide with any tool for installation and management of modules, however, external package manages such as bower \cite{bower} have been built.
 
 There are other tools that offer support for this framework. Yeoman is a widely used tool for scaffolding web applications. It is used to build skeletons for different types of projects such as Angular projects.
 
@@ -535,11 +589,11 @@ Some alternatives exist currently, such as Ember or Knockout, however Angular is
 
 \section{Leaflet}\label{sec:leaflet}
 
-Leaflet is a JavaScript library for building mobile friendly interactive maps. It is designed with simplicity, usability and performance in mind and it works efficiently among all major mobile and desktop browsers, taking advantage of HTML5 and CSS3 when it can\cite{leafletjs}.
+Leaflet is a JavaScript library for building mobile friendly interactive maps. It is designed with simplicity, usability and performance in mind and it works efficiently among all major mobile and desktop browsers, taking advantage of HTML5 and CSS3 when it can \cite{leafletjs}.
 
 The library has quickly become one of the most if not the most popular mapping library since it's release in 2011, due to its small size, ease of use and extendability. The example in listing \ref{lst:leaflet1} shows the creation of a map.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.8\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{javascript}
 	     var map = L.map('map');
@@ -554,7 +608,7 @@ The library has quickly become one of the most if not the most popular mapping l
 
 Leaflet works with the concept of Layer. A layer is a visual representation of a geographic feature or set of features. There are three types of layers in the framework: tiles, vectors and layer groups.
 
-\begin{figure}
+\begin{figure}[ht]
   \centering
   \includegraphics[width=.8\textwidth]{fig/leaflet-osmmapnik}
   \caption{Leaflet with OSM mapnik tile layer}
@@ -572,7 +626,7 @@ Leaflet works with the concept of Layer. A layer is a visual representation of a
 
 \end{description}
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.7\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{javascript}
 	     var bounds = [[54.559322, -5.767822], [56.1210604, -3.021240]];
@@ -593,7 +647,7 @@ This way, it is possible to respond to user actions via callbacks. The framework
 
 Another example on the usage of leaflet events can be found in listing \ref{lst:leaflet3}. In the example, a callback is registered for the event of the user moving the map. This is useful for updating the map with information from the layers on the current view.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.5\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{javascript}
 	     // The moveend event is fired every time the
@@ -629,9 +683,9 @@ The development tools used on a Phonegap application are identical to those used
 
 This is possible because what the library does is opening a enhanced web view (a browser) on the mobile device and loading the files into it. Normally, this would mean that much of the sensors of the device, such as the camera and the gyroscope are not usable, however, the browser created by the framework is extended to allow access to all the hardware on the device.
 
-Phonegap is based on Apache Cordova\cite{apachecordova} which works with a set of plugins. These plugins provide the web view with the functionality it lacks, and expose it as JavaScript APIs. One example of this is the reading of the battery status, as shown on listing \ref{lst:phonegap1}. Aside from the plugins that come shipped with the core libraries, the community has developed a considerable amount of them to provide functionalities that mobile browsers usually lack, such as HTML5 web socket support.
+Phonegap is based on Apache Cordova \cite{apachecordova} which works with a set of plugins. These plugins provide the web view with the functionality it lacks, and expose it as JavaScript APIs. One example of this is the reading of the battery status, as shown on listing \ref{lst:phonegap1}. Aside from the plugins that come shipped with the core libraries, the community has developed a considerable amount of them to provide functionalities that mobile browsers usually lack, such as HTML5 web socket support.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.8\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{javascript}
 	     window.addEventListener("batterystatus", onBatteryStatus, false);
@@ -650,7 +704,7 @@ As convenient using HTML5 for developing cross platform applications is, there i
 
 In the face of this issue, Phonegap offers a platform called Phonegap Build, a cloud based service which helps agile development and allows to compile applications for six of the seven platforms supported by the framework. The Phonegap team illustrated this process in figure \ref{fig:phonegapbuild} on their web page.
 
-\begin{figure}[h]]
+\begin{figure}[h]
   \centering
   \includegraphics[width=.8\textwidth]{fig/phonegap-build}
   \caption{Phonegap Build process}
@@ -667,16 +721,16 @@ On the other side, native development is out of consideration. One of the requir
 
 Thus, the decision to use Phonegap is made, based on the cut on development times, the re usability of code and the fact that there is no need to learn other development languages.
 
-\section{GPX}\label{gpx}
+\section{GPX}\label{sec:gpx}
 
-GPX is a lightweight XML data format for the interchange of GPS data (tracks, routes and way points) between applications and web services on the Internet\cite{gpx}. GPX was released in 2004 and has since then been the de facto standard when it comes to the encoding and interchange of GPS data.
+GPX is a lightweight XML data format for the interchange of GPS data (tracks, routes and way points) between applications and web services on the Internet \cite{gpx}. GPX was released in 2004 and has since then been the de facto standard when it comes to the encoding and interchange of GPS data.
 
 The format represents three types of data, in the following manner:
 
 \begin{description}
 \item[Way points:] A way point is a set of coordinates that identifies a point in space. They are represented using the \texttt{<wpt>} tag, as shown in listing \ref{lst:gpx1}
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.5\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
 	     <wpt lat="42.438878" lon="-71.119277">
@@ -692,7 +746,7 @@ The format represents three types of data, in the following manner:
 
 \item[Tracks:] A track is a segment containing way points, that is, a set of coordinates that describe a path. In GPX tracks are represented by the \texttt{trk} element and point inside one by \texttt{trkpt} elements (see listing \ref{lst:gpx2}).
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.5\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
 	     <trk>
@@ -711,7 +765,7 @@ The format represents three types of data, in the following manner:
 
 \item[Routes:] A route is identical to a track in its encoding, with the difference that the tags \texttt{rte} and \texttt{rtept} are used (see listing \ref{lst:gpx3}). However, there is a difference in the meaning of this concepts; while a track is a record of where a person has been, a route is a suggestion about where someone might go in the future. For this reasons, tracks may have timestamps attached while routes will not.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.5\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{xml}
 	     <rte>
@@ -733,7 +787,16 @@ GPX has been the de facto standard when it comes to representing and interchangi
 
 \section{GeoJSON}\label{sec:geojson}
 
-GeoJSON is a format for encoding a variety of geographic data structures\cite{geojson}. GeoJSON objects may represent a geometry, a feature or a collection of features (see section \ref{sec:geosparql}, GeoSPARQL). The following geometry types are supported: \texttt{Point}, \texttt{LineString}, \texttt{Polygon}, \texttt{MultiPoint}, \texttt{MultiLineString}, \texttt{MultiPolygon} and \texttt{GeometryCollection}.
+GeoJSON is a format for encoding a variety of geographic data structures \cite{geojson}. GeoJSON objects may represent a geometry, a feature or a collection of features (see section \ref{sec:geosparql}, GeoSPARQL). The following geometry types are supported: 
+\begin{itemize}
+\item \texttt{Point}
+\item \texttt{LineString}
+\item \texttt{Polygon}
+\item \texttt{MultiPoint}
+\item \texttt{MultiLineString}
+\item \texttt{MultiPolygon} 
+\item \texttt{GeometryCollection}.
+\end{itemize}
 
 More than a file format in itself, it is a specification of how to encode geographical features in JSON format. A complete GeoJSON data structure is always a JSON object, which consists in a collection of key-value pairs, being the key a string and the values any other kind of data.
 
@@ -755,7 +818,7 @@ Positions are represented by an array of numbers, one for the longitude, one for
 
 A \texttt{GeometryCollection} must have a member named \texttt{geometries}, an array of GeoJSON geometry objects. An example of this can be found on listing \ref{lst:geojson1}.
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{json}
 	      { "type": "GeometryCollection",
@@ -779,7 +842,7 @@ A Feature is a object with some spatial representation. A feature must have two 
 
 The \texttt{properties} member on the other side, is a regular JSON object (a name/value dictionary) and contains all the non-spatial data belonging to the feature. A \texttt{FeatureCollection} does not contain a \texttt{geometry} member, instead it has a \texttt{features} object, an array of feature object in the collection. An example of a feature is shown on listing \ref{lst:geojson2}
 
-\begin{listing}\centering
+\begin{listing}[ht]\centering
   \begin{minipage}{.8\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{json}
 	        { "type": "Feature",

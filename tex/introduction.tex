@@ -26,7 +26,23 @@ The different chapters that form this document are the following:
 	\item \textbf{Conclusions and future lines of work:} Analysis of the results of the project and further considerations, such as improvements and future work to be done.
 \end{enumerate}
 
-\section{The Semantic Web}
+\section{Motivation}
+
+Geospatial data is becoming more and more relevant in our world. In roughly 30 years, we have evolved from a region based spatial information, to human and device centric information. The amount of location-aware devices has multiplied and with this, location-based services are thriving. Users can retrieve directions and information based on their current location, the number of social media users which set their devices to include location information on their phones is growing. There is no doubt that the amount of spatial data is increasing and that it is making an impact in our societies.
+
+As a consequence, the amount of Linked Open Data with spatial context made available on the web has also increased. The principles of Linked Open Data\cite{linkeddataprinciples} encourage the usage of RDF and SPARQL to query and model data. This is useful for querying for the explicit relations on the datasets, however, the implicit spatial relationships cannot be easily queried.
+
+To fight this issue, the Open Geospatial Consortium(OGC) has defined a standard, named GeoSPARQL to address the issues of spatial information representation and querying on the semantic web. Thanks to this, it is possible to include a spatial factor in the reasoning done over RDF datasets.
+
+The platform SORELCOM (Social Routes Empowered by Linked Contents and Context Mining) aims to use GeoSPARQL and data from over the web to create a user-centred GPS community which is able to offer location aware service to users and to publish the data generated in a spatially aware linked dataset.
+
+The platform aims to combine semantic and spatial technologies to create a tool to capture routes and enrich their information from sources around the web, providing in addition a powerful location and preference based recommendation service.
+
+\section{State of the art}
+
+This section introduces the main fields related to the projects and gives a small insight on the current state and work done on this fields.
+
+\subsection{The Semantic Web}
 
 The semantic web is a extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in cooperation. \cite{berners2001semantic}
 
@@ -34,7 +50,7 @@ The idea behind the semantic web is to bring meaning and structure to the conten
 
 This machine-readable web of data is based standard languages which allow a uniform representation of the information throughout the different semantic data sources. Through this common infrastructure it is possible to share and process information in a relatively simple way, enabling better solution to the usual problem of searching through the web of information. In short, the Semantic Web attempts to give meaning and structure to the contents on the web, allowing computers to better understand this information to do more useful work.
 
-\subsection*{The fundamentals}
+\subsubsection*{The fundamentals}
 
 The Semantic Web is based on standard formats used for a universal representation and manipulation of data. This standards are the following:
 
@@ -48,7 +64,7 @@ The Semantic Web is based on standard formats used for a universal representatio
 
 The idea of the semantic web is based on a stack architecture, illustrated on figure \ref{fig:semwebstack}. This stack includes more layers than the mentiones, such as RDF Schema (RDFS) and the eXtensible Markup Language (XML). For further detail into these technologies and their role in the semantic web refer to chapter \ref{cha:research}.
 
-\begin{figure}
+\begin{figure}[ht]
   \centering
   \includegraphics[width=.5\textwidth]{fig/semwebstack}
   \caption{The semantic web architecture}
@@ -57,7 +73,7 @@ The idea of the semantic web is based on a stack architecture, illustrated on fi
   \label{fig:semwebstack}
 \end{figure} 
 
-\subsection{Introduction to RDF}
+\subsubsection{Introduction to RDF}
 
 RDF provides a framework for representing information which can be exchanged between application without loss of meaning and it is intended for situation in which this information needs to be processed by machines instead of displayed to humans, thus making it fitting for the goals of The Semantic Web  \cite{rdfprimer11}.
 
@@ -88,7 +104,7 @@ RDF information is stored in triples which follow a simple subject-predicate-obj
 These IRIs are identifiers for resources on the Semantic Web. Up to now the concepts of URI and IRI have been mixed, to make it clear, an IRI is a generalization of an URI. The form of a IRI is similar to that of the Uniform Resource Locators (URL) used in the World Wide Web, in fact these last are just a form of IRI, thus they look like the following:  \url{http://dbpedia.org/resource/Leonardo_da_Vinci}
  
 
-\subsection{Introduction to Ontologies}
+\subsubsection{Introduction to Ontologies}
 
 In the Semantic Web, vocabularies or ontologies define the concepts and relationships used to describe and represent a certain area of knowledge, they define the terms that can be used on a application, the possible relationships and their constraints. They are used to help data integration when ambiguity may exist between terms in different datasets, or simply to organize knowledge \cite{w3contologies}.
 
@@ -104,19 +120,38 @@ We can find three types of ontologies:
 	\item[Application ontologies]: This is the least general type of ontology. It describes knowledge specific to a certain a application or task, due to this, they are useful for problem solving.
 \end{description}
 
-\section{Introduction to GIS systems}
+\subsection{Linked Open Data}
+
+Linked Data refers to a pattern for interlinking machine-readable data sets to each other, specially via the use of RDF and URIs. In summary, Linked Data is about using the web to create typed links between data from different sources \cite{linkeddata}.
+
+Linked data relies on technologies that are fundamental to the web, mainly Uniform Resource Identifiers (URIs) and the Hypertext Transfer Protocol (HTTP). URIs are used as a unique identifier across the web to the resources on the Linked Data sets and are looked up using the HTTP protocol.
+
+These technologies are supported by a technlogy that is crucial for the web of data - RDF. RDF and the ontology definition language OWL can be used to create vocabularies used to describe concepts and entities and how they are related.
+
+This idea's more visible adoption is the Linking Open Data project \cite{linkingopendata} whose aim is to bootstrap the Web of Data by identifying existing data sets that are available under open licenses, converting these to RDF according to the Linked Data principles, and publishing them on the Web. An cloud representing the already linked data sets can be found in figure \ref{fig:linked-data-cloud}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=.6\textwidth]{fig/linked-data-cloud}
+  \caption{The Linked Data cloud}
+  \captionsetup{font={footnotesize,bf,it}}
+  \caption*{source: \url{http://linkeddatabook.com/editions/1.0/}}
+  \label{fig:linked-data-cloud}
+\end{figure} 
+
+\subsection{Introduction to GIS systems}
 
 A Geographical Information System (GIS) integrates hardware, software and data for capturing, managing and displaying all forms of geographically referenced information \cite{esrigis} A GIS provides a framework for gathering and organizing spatial data and related information so it can be displayed and analyzed.
 
 Data on such a system is a digital representation of real world objects. Since this kind of data can be divided into two abstractions, discrete objects (a house, a park) or continuous fields (elevation), two methods are used to store data of this abstractions: Raster and Vector. \cite{giswikigis}
 
-\subsection*{Raster}
+\subsubsection*{Raster}
 
 Raster data types consist of rows and columns of cells each of them storing a single value, in the say way that a image is composed by pixels. In fact, a Raster data type is, in essence, a type of digital image represented in grids. On a Raster Image each pixels stores a color value which represents certain data, for example, the amount of rain in that region.
 
 This kind of data may be stored in different ways, for example, as a regular .JPEG image or directly in a relational database.
 
-\subsection*{Vector}
+\subsubsection*{Vector}
 
 Vector data is used to express geographical features, which are represented as geometrical shapes of different types.
 
