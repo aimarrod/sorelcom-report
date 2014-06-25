@@ -16,7 +16,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Introduction to Ontologies}{4}{subsubsection*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Linked Open Data}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Linked Open Data}{5}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Introduction to GIS systems}{5}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Scope of the project}{8}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Final product}{8}{section.2.3}
+\contentsline {section}{\numberline {2.3}Final product}{9}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Server}{9}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
@@ -44,11 +44,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Realization methodology}{11}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Intermediate products}{15}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Intermediate products}{14}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Organization and team}{15}{section.2.5}
+\contentsline {section}{\numberline {2.5}Organization and team}{16}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Organizational structure}{15}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Organizational structure}{16}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Human resources plan}{16}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
@@ -56,7 +56,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Systems architect}{17}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Execution conditions}{17}{section.2.6}
+\contentsline {section}{\numberline {2.6}Execution conditions}{18}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.1}Hardware}{18}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
@@ -82,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}SPARQL}{35}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}GeoSPARQL}{36}{section.3.5}
+\contentsline {section}{\numberline {3.5}GeoSPARQL}{37}{section.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}NodeJS}{38}{section.3.6}
 \defcounter {refsection}{0}\relax 
@@ -92,7 +92,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.9}GPX}{46}{section.3.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}GeoJSON}{47}{section.3.10}
+\contentsline {section}{\numberline {3.10}GeoJSON}{48}{section.3.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Requirements Specification}{51}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -104,7 +104,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Requirements specification for the server}{53}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Requirements of the web application}{54}{section.4.4}
+\contentsline {section}{\numberline {4.4}Requirements of the web application}{55}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Requirements of the mobile application}{56}{section.4.5}
 \defcounter {refsection}{0}\relax 
@@ -126,34 +126,166 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.4}Mobile application}{61}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Design of the ontology}{61}{section.5.3}
+\contentsline {subsection}{\numberline {5.2.5}Functioning of the system}{61}{subsection.5.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Class hierarchy}{61}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.3}Design of the ontology}{62}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Properties}{63}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.1}Class hierarchy}{63}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Advantages of ontology based design}{67}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.2}Properties}{64}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Schema and data separation and reusability}{68}{subsubsection*.46}
+\contentsline {subsection}{\numberline {5.3.3}Advantages of ontology based design}{68}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Linked Open data}{69}{subsubsection*.47}
+\contentsline {subsubsection}{Schema and data separation and reusability}{71}{subsubsection*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Development environment}{69}{section.5.4}
+\contentsline {subsubsection}{Linked Open data}{71}{subsubsection*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Prot\'eg\'e-OWL}{70}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.4}Design of the central server}{72}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}UML}{70}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.1}Web server}{72}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}SASS}{71}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.2}REST API}{75}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Twitter Bootstrap}{71}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.3}Data agregator}{76}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Implementation details}{73}{chapter.6}
+\contentsline {subsection}{\numberline {5.4.4}Socket server}{76}{subsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Testing}{75}{chapter.7}
+\contentsline {section}{\numberline {5.5}Design of the web application}{77}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}User guide}{77}{chapter.8}
+\contentsline {subsection}{\numberline {5.5.1}API connector}{79}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{79}{chapter.9}
+\contentsline {subsection}{\numberline {5.5.2}Web}{80}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{81}{chapter*.50}
+\contentsline {subsection}{\numberline {5.5.3}Map}{81}{subsection.5.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.4}Accounts}{84}{subsection.5.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.5}Dialogs}{84}{subsection.5.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.6}Graphical design}{85}{subsection.5.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mobile first}{86}{subsubsection*.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Design of the mobile application}{87}{section.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.1}Class design}{87}{subsection.5.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.2}Real time communication protocol}{88}{subsection.5.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.3}Plugin design}{89}{subsection.5.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.4}Graphical design}{90}{subsection.5.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.7}Development environment}{91}{section.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Implementation details}{95}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Coding style}{95}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Development environment}{95}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Atom text editor}{95}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Git}{96}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Yeoman}{96}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.4}Grunt}{97}{subsection.6.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.5}JSLint}{97}{subsection.6.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.6}Prot\'eg\'e-OWL}{97}{subsection.6.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Development of the server}{97}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}NodeJS application structure}{98}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Semantic database}{99}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}Database connector}{99}{subsection.6.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.4}Geography Utilities}{103}{subsection.6.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.5}Controllers}{105}{subsection.6.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.6}Routes}{106}{subsection.6.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.7}Recommendations}{106}{subsection.6.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.8}Authentication}{107}{subsection.6.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.9}Real time communication}{108}{subsection.6.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Development of the web application}{108}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.1}Angular application structure}{108}{subsection.6.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.2}Application}{109}{subsection.6.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.3}API}{109}{subsection.6.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.4}Accounts}{110}{subsection.6.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.5}Web}{111}{subsection.6.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.6}Map}{113}{subsection.6.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.7}Dialogs}{117}{subsection.6.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Development of the Mobile application}{119}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.1}Real time functionality - Server side}{120}{subsection.6.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Authentication}{121}{subsubsection*.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.2}Real time functionality - Client side}{122}{subsection.6.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}Application functionality}{128}{section.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Testing}{129}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Overview}{129}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Test plan}{129}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Unit tests}{129}{subsection.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Integration tests}{130}{subsection.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.3}Installation tests}{130}{subsection.7.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Special test cases}{131}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Ontology}{131}{subsection.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Trail recording and locator service}{131}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}User interaction}{132}{subsection.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}User guide}{133}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Overview}{133}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Web application guide}{133}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Homepage}{133}{subsection.8.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{135}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Overview}{135}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Goals achieved}{135}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Considerations}{135}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Future lines of work}{135}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{137}{chapter*.75}

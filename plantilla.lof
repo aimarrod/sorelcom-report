@@ -14,9 +14,9 @@
 \defcounter {refsection}{0}\relax 
 {\bfseries Cap\'itulo 2\vskip 10pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Iterative development phases\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Iterative development phases\relax }}{12}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Work breakdown structure\relax }}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Work breakdown structure\relax }}{15}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Organizational structure\relax }}{16}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
@@ -46,19 +46,59 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture design of the system\relax }}{60}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The SORELCOM ontology\relax }}{62}{figure.caption.35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The SORELCOM ontology\relax }}{63}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Inference of the husband relation as inverse of the wife relation\relax }}{68}{figure.caption.43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Inference of the husband relation as inverse of the wife relation\relax }}{70}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Inference of all the classes of a Trail\relax }}{68}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Inference of all the classes of a Trail\relax }}{70}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Inference of the husband relation as inverse of the wife relation\relax }}{69}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Inference of the husband relation as inverse of the wife relation\relax }}{71}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The Prot\'eg\'e OWL ontology editor\relax }}{70}{figure.caption.48}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Class diagram of the web server\relax }}{74}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces SASS to CSS transformation\relax }}{71}{figure.caption.49}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Resources and operations of the API\relax }}{75}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Socket server class diagram\relax }}{77}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Service processing sequence diagram\relax }}{77}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces High-level view of the web application components\relax }}{78}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces API connector class diagram\relax }}{80}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Web subsystem class diagram\relax }}{81}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Map subsystem class diagram\relax }}{83}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Accounts component class diagram\relax }}{84}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Dialog component class diagram\relax }}{85}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Responsive web design on SORELCOM\relax }}{86}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Class diagram of the new components of the mobile\relax }}{87}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Nearby checking flow diagram\relax }}{89}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Trail following flow diagram\relax }}{90}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Class diagram of the mobile application native plugin\relax }}{91}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Service subscription sequence diagram\relax }}{91}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces SASS to CSS transformation\relax }}{93}{figure.caption.69}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+{\bfseries Cap\'itulo 6\vskip 10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The Atom text editor\relax }}{96}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The Prot\'eg\'e OWL ontology editor\relax }}{98}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Web interface of the parliament triple store\relax }}{100}{figure.caption.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Sequence diagram for most controller requests\relax }}{105}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

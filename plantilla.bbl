@@ -19,6 +19,17 @@
 
 \refsection{0}
   \sortlist{entry}{nty}
+    \entry{atom}{online}{}
+      \field{sortinit}{A}
+      \field{labeltitle}{Atom - A hackable text editor for the 21st century}
+      \field{title}{Atom - A hackable text editor for the 21st century}
+      \field{urlday}{21}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb https://atom.io/
+      \endverb
+    \endentry
     \entry{battle2012enabling}{article}{}
       \name{labelname}{2}{}{%
         {{hash=09b41b4977bed90fa6cf5981a11a76f1}{Battle}{B\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
@@ -285,25 +296,6 @@
       \field{title}{The GeoJSON Format Specification}
       \field{year}{2008}
     \endentry
-    \entry{sass}{book}{}
-      \name{labelname}{2}{}{%
-        {{hash=be84b1b1bdca4937d59190759f9824dc}{Catlin}{C\bibinitperiod}{Hampton}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=263b3fbd18a77915f3f3d9cdbcdb045c}{Catlin}{C\bibinitperiod}{Michael\bibnamedelima Lintorn}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=be84b1b1bdca4937d59190759f9824dc}{Catlin}{C\bibinitperiod}{Hampton}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=263b3fbd18a77915f3f3d9cdbcdb045c}{Catlin}{C\bibinitperiod}{Michael\bibnamedelima Lintorn}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Pragmatic Bookshelf}%
-      }
-      \strng{namehash}{f18d35f472d51d0e9e4a386369ce3445}
-      \strng{fullhash}{f18d35f472d51d0e9e4a386369ce3445}
-      \field{sortinit}{C}
-      \field{labeltitle}{Pragmatic guide to Sass}
-      \field{title}{Pragmatic guide to Sass}
-      \field{year}{2011}
-    \endentry
     \entry{chandrasekaran1999ontologies}{article}{}
       \true{morelabelname}
       \name{labelname}{3}{}{%
@@ -327,6 +319,42 @@
       \field{volume}{14}
       \field{year}{1999}
       \field{pages}{20\bibrangedash 26}
+    \endentry
+    \entry{mongodb}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=5307ab27e1d22a04e88f8bffc57c547a}{Chodorow}{C\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5307ab27e1d22a04e88f8bffc57c547a}{Chodorow}{C\bibinitperiod}{Kristina}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {" O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{5307ab27e1d22a04e88f8bffc57c547a}
+      \strng{fullhash}{5307ab27e1d22a04e88f8bffc57c547a}
+      \field{sortinit}{C}
+      \field{labeltitle}{MongoDB: the definitive guide}
+      \field{title}{MongoDB: the definitive guide}
+      \field{year}{2013}
+    \endentry
+    \entry{sparql-json}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=59a6272d0eefe843a525a2b33d828daf}{Clark}{C\bibinitperiod}{Kendall\bibnamedelima Grant}{K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=f8dd0e2f716ed43efda2073d4e3577be}{Feigenbaum}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=98aeea4ed6f59bdbbde50a9367806378}{Torres}{T\bibinitperiod}{Elias}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=59a6272d0eefe843a525a2b33d828daf}{Clark}{C\bibinitperiod}{Kendall\bibnamedelima Grant}{K\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=f8dd0e2f716ed43efda2073d4e3577be}{Feigenbaum}{F\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=98aeea4ed6f59bdbbde50a9367806378}{Torres}{T\bibinitperiod}{Elias}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{53608bb11b9831a910b03ef4caaac69b}
+      \strng{fullhash}{53608bb11b9831a910b03ef4caaac69b}
+      \field{sortinit}{C}
+      \field{labeltitle}{Serializing sparql query results in json}
+      \field{journaltitle}{World Wide Web Consortium, Note NOTE-rdf-sparql-json-res-20070618}
+      \field{title}{Serializing sparql query results in json}
+      \field{year}{2007}
     \endentry
     \entry{sparqlprotocol}{article}{}
       \name{labelname}{3}{}{%
@@ -416,6 +444,22 @@
       \field{title}{OpenGIS® Geography Markup Language (GML) Implementation Specification, version}
       \field{year}{2002}
     \endentry
+    \entry{jslint}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e289d8e4f4648ab33fb5d884998637aa}{Crockford}{C\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e289d8e4f4648ab33fb5d884998637aa}
+      \strng{fullhash}{e289d8e4f4648ab33fb5d884998637aa}
+      \field{sortinit}{C}
+      \field{labeltitle}{JSLint: The JavaScript code quality tool}
+      \field{journaltitle}{URL http://www. jslint. com}
+      \field{title}{JSLint: The JavaScript code quality tool}
+      \field{volume}{95}
+      \field{year}{2010}
+    \endentry
     \entry{angularjs2}{book}{}
       \name{labelname}{2}{}{%
         {{hash=6550a6f0a829adeaf0200783b1d66ffd}{Darwin}{D\bibinitperiod}{Peter\bibnamedelima Bacon}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
@@ -474,6 +518,38 @@
       \verb http://www.esri.com/what-is-gis/overview#overview_panel
       \endverb
     \endentry
+    \entry{websocket}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=cdf249d29ccc7edcf24f6bfef0893ebd}{Fette}{F\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=8fa97ca9bca09f72482fe5f985ecef60}{Melnikov}{M\bibinitperiod}{Alexey}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=cdf249d29ccc7edcf24f6bfef0893ebd}{Fette}{F\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=8fa97ca9bca09f72482fe5f985ecef60}{Melnikov}{M\bibinitperiod}{Alexey}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a413dbe318e95f69f8330db28642e805}
+      \strng{fullhash}{a413dbe318e95f69f8330db28642e805}
+      \field{sortinit}{F}
+      \field{labeltitle}{The WebSocket protocol}
+      \field{title}{The WebSocket protocol}
+      \field{year}{2011}
+    \endentry
+    \entry{rest}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{Fielding}{F\bibinitperiod}{Roy}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{Fielding}{F\bibinitperiod}{Roy}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{fullhash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \field{sortinit}{F}
+      \field{labeltitle}{Representational state transfer}
+      \field{journaltitle}{Architectural Styles and the Design of Netowork-based Software Architecture}
+      \field{title}{Representational state transfer}
+      \field{year}{2000}
+      \field{pages}{76\bibrangedash 85}
+    \endentry
     \entry{gpx}{article}{}
       \name{labelname}{1}{}{%
         {{hash=396ec82cba746b749287d61de7613d9f}{Foster}{F\bibinitperiod}{Dan}{D\bibinitperiod}{}{}{}{}}%
@@ -509,6 +585,22 @@
       \field{year}{2014}
       \field{pages}{207\bibrangedash 231}
     \endentry
+    \entry{ajax}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=22592940f883711ce4e1cbe1bfc07a67}{Garrett}{G\bibinitperiod}{Jesse\bibnamedelima James}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=22592940f883711ce4e1cbe1bfc07a67}{Garrett}{G\bibinitperiod}{Jesse\bibnamedelima James}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f88d2227d36c1e3d09ed9b842f218cc8}
+      \strng{fullhash}{f88d2227d36c1e3d09ed9b842f218cc8}
+      \field{sortinit}{G}
+      \field{labeltitle}{Ajax: A new approach to web applications}
+      \field{title}{Ajax: A new approach to web applications}
+      \field{year}{2005}
+    \endentry
     \entry{phonegap}{book}{}
       \name{labelname}{2}{}{%
         {{hash=cbdd6b0cc7e54c85bcd5b62b39532a7e}{Ghatol}{G\bibinitperiod}{Rohit}{R\bibinitperiod}{}{}{}{}}%
@@ -537,6 +629,17 @@
       \field{urlyear}{2014}
       \verb{url}
       \verb http://wiki.gis.com/wiki/index.php/GIS
+      \endverb
+    \endentry
+    \entry{googlestyle}{online}{}
+      \field{sortinit}{G}
+      \field{labeltitle}{Google JavaScript Style Guide}
+      \field{title}{Google JavaScript Style Guide}
+      \field{urlday}{21}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://javascript.crockford.com/code.html
       \endverb
     \endentry
     \entry{angularjs1}{book}{}
@@ -571,6 +674,45 @@
       \field{labeltitle}{What is an Ontology}
       \field{title}{What is an Ontology}
       \field{year}{1993}
+    \endentry
+    \entry{grunt}{online}{}
+      \field{sortinit}{G}
+      \field{labeltitle}{Grunt: The JavaScript Task Runner}
+      \field{title}{Grunt: The JavaScript Task Runner}
+      \field{urlday}{21}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://gruntjs.com/
+      \endverb
+    \endentry
+    \entry{html5}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=db5f40593e9b2351c0da21f4e71fdd28}{Hickson}{H\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=a5061b9976af924155f3593d084a1a8f}{Hyatt}{H\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=db5f40593e9b2351c0da21f4e71fdd28}{Hickson}{H\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=a5061b9976af924155f3593d084a1a8f}{Hyatt}{H\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f89b0363664ac31cfafb564d613743b3}
+      \strng{fullhash}{f89b0363664ac31cfafb564d613743b3}
+      \field{sortinit}{H}
+      \field{labeltitle}{Html5}
+      \field{journaltitle}{W3C Working Draft WD-html5-20110525, May}
+      \field{title}{Html5}
+      \field{year}{2011}
+    \endentry
+    \entry{flowjs}{online}{}
+      \field{sortinit}{H}
+      \field{labeltitle}{HTML5 File Upload}
+      \field{title}{HTML5 File Upload}
+      \field{urlday}{22}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb https://github.com/flowjs
+      \endverb
     \endentry
     \entry{dublincorespec}{article}{}
       \true{morelabelname}
@@ -726,6 +868,23 @@
       \field{year}{2004}
       \field{pages}{10}
     \endentry
+    \entry{rwd}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9b9b0d95466e02267d729ac26ac4b25d}{Natda}{N\bibinitperiod}{Kailashkumar\bibnamedelima V}{K\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9b9b0d95466e02267d729ac26ac4b25d}{Natda}{N\bibinitperiod}{Kailashkumar\bibnamedelima V}{K\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9b9b0d95466e02267d729ac26ac4b25d}
+      \strng{fullhash}{9b9b0d95466e02267d729ac26ac4b25d}
+      \field{sortinit}{N}
+      \field{labeltitle}{Responsive Web Design}
+      \field{journaltitle}{Eduvantage}
+      \field{number}{1}
+      \field{title}{Responsive Web Design}
+      \field{volume}{1}
+      \field{year}{2013}
+    \endentry
     \entry{protege2}{incollection}{}
       \name{labelname}{3}{}{%
         {{hash=78484c0136c9cb1e60e3c576598143db}{Noy}{N\bibinitperiod}{Natalya\bibnamedelima Fridman}{N\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
@@ -748,6 +907,29 @@
       \field{title}{The knowledge model of Protege-2000: Combining interoperability and flexibility}
       \field{year}{2000}
       \field{pages}{17\bibrangedash 32}
+    \endentry
+    \entry{twitterbootstrap}{article}{}
+      \true{morelabelname}
+      \name{labelname}{4}{}{%
+        {{hash=66045c5f9b2a3e66f2672562ccd09cd6}{Otto}{O\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=2c62c9cd78e4706630d4e1a01301819a}{Thornton}{T\bibinitperiod}{Jacob}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6b32896691b6fedabdd6eda378ef1d9a}{Rebert}{R\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=04ed420945db3e289581e00eba181837}{Thilo}{T\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{4}{}{%
+        {{hash=66045c5f9b2a3e66f2672562ccd09cd6}{Otto}{O\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=2c62c9cd78e4706630d4e1a01301819a}{Thornton}{T\bibinitperiod}{Jacob}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6b32896691b6fedabdd6eda378ef1d9a}{Rebert}{R\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=04ed420945db3e289581e00eba181837}{Thilo}{T\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c662702f55c9e96d181350f63d39bb9f}
+      \strng{fullhash}{22853c37ced7f0bf2fdd794ea07b9206}
+      \field{sortinit}{O}
+      \field{labeltitle}{Twitter Bootstrap}
+      \field{journaltitle}{Dostupné z: http://twitter. github. io/bootstrap/base-css. html}
+      \field{title}{Twitter Bootstrap}
+      \field{year}{2012}
     \endentry
     \entry{xmlschema}{article}{}
       \name{labelname}{1}{}{%
@@ -849,26 +1031,19 @@
       \field{volume}{15}
       \field{year}{2008}
     \endentry
-    \entry{css}{incollection}{}
-      \name{labelname}{2}{}{%
-        {{hash=0803df03213f69c2633f57628867bf40}{Reed}{R\bibinitperiod}{Duncan}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=f6cbc0f0daeb8c975b8758bdb14d69df}{Thomas}{T\bibinitperiod}{Peter\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    \entry{socketio}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=6371b51611b2c9ecdc8fa4413aca3d8a}{Rauch}{R\bibinitperiod}{Guillermo}{G\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{2}{}{%
-        {{hash=0803df03213f69c2633f57628867bf40}{Reed}{R\bibinitperiod}{Duncan}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=f6cbc0f0daeb8c975b8758bdb14d69df}{Thomas}{T\bibinitperiod}{Peter\bibnamedelima J}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      \name{author}{1}{}{%
+        {{hash=6371b51611b2c9ecdc8fa4413aca3d8a}{Rauch}{R\bibinitperiod}{Guillermo}{G\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{b53e4501f32fd96f7f5021012af6b841}
-      \strng{fullhash}{b53e4501f32fd96f7f5021012af6b841}
+      \strng{namehash}{6371b51611b2c9ecdc8fa4413aca3d8a}
+      \strng{fullhash}{6371b51611b2c9ecdc8fa4413aca3d8a}
       \field{sortinit}{R}
-      \field{labeltitle}{Cascading Style Sheets}
-      \field{booktitle}{Essential HTML fast}
-      \field{title}{Cascading Style Sheets}
-      \field{year}{1998}
-      \field{pages}{111\bibrangedash 121}
+      \field{labeltitle}{Socket. IO-the cross-browser WebSocket for realtime apps}
+      \field{title}{Socket. IO-the cross-browser WebSocket for realtime apps}
+      \field{year}{2013}
     \endentry
     \entry{schemaspec}{article}{}
       \name{labelname}{1}{}{%
@@ -980,6 +1155,17 @@
       \field{year}{2004}
       \field{pages}{212\bibrangedash 213}
     \endentry
+    \entry{sublime}{online}{}
+      \field{sortinit}{S}
+      \field{labeltitle}{Sublime Text: The editor you'll fall in love with}
+      \field{title}{Sublime Text: The editor you'll fall in love with}
+      \field{urlday}{21}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://www.sublimetext.com/
+      \endverb
+    \endentry
     \entry{linkingopendata}{online}{}
       \field{sortinit}{T}
       \field{labeltitle}{The Linking Open Data project}
@@ -989,6 +1175,17 @@
       \field{urlyear}{2014}
       \verb{url}
       \verb http://www.w3.org/wiki/SweoIG/TaskForces/CommunityProjects/LinkingOpenData
+      \endverb
+    \endentry
+    \entry{yo}{online}{}
+      \field{sortinit}{T}
+      \field{labeltitle}{The web's scaffolding tool for moders webapps | Yeoman}
+      \field{title}{The web's scaffolding tool for moders webapps | Yeoman}
+      \field{urlday}{21}
+      \field{urlmonth}{06}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://yeoman.io/
       \endverb
     \endentry
     \entry{tilkov2010node}{article}{}
@@ -1008,6 +1205,23 @@
       \field{number}{6}
       \field{title}{Node.js: Using JavaScript to Build High-Performance Network Programs.}
       \field{volume}{14}
+      \field{year}{2010}
+    \endentry
+    \entry{git}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=d17810e1c711d76f64612b80b3ba67e9}{Torvalds}{T\bibinitperiod}{Linus}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=dadd84193f627d7147dfe192dbca9bfe}{Hamano}{H\bibinitperiod}{Junio}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=d17810e1c711d76f64612b80b3ba67e9}{Torvalds}{T\bibinitperiod}{Linus}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=dadd84193f627d7147dfe192dbca9bfe}{Hamano}{H\bibinitperiod}{Junio}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f9ae386387ee97091a96138b9c4a9410}
+      \strng{fullhash}{f9ae386387ee97091a96138b9c4a9410}
+      \field{sortinit}{T}
+      \field{labeltitle}{Git: Fast version control system}
+      \field{journaltitle}{URL http://git-scm. com}
+      \field{title}{Git: Fast version control system}
       \field{year}{2010}
     \endentry
     \entry{v8}{online}{}

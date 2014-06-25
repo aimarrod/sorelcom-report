@@ -1,1 +1,107 @@
 \chapter{Testing}\label{ch:testing}
+
+\section{Overview}
+
+During the project, several tests have been carried out in order to guarantee the quality of the code and minimizing the amount of errors that may appear in the development process. This chapter describes the tests carried out through the project.
+
+The following sections are described in the chapter:
+
+\begin{description}
+\item[Test plan] Different kind of tests and procedures to be carried out on the project.
+\item[Special test cases] Special cases that require more intensive or just different testing.
+\end{description}
+
+\section{Test plan}
+
+In order to test the application, different types of tests have been defined. The following test types have been carried out through the project.
+
+\begin{description}
+\item[Unit tests] Units tests are test procedures that verify the functionality at of a specific section of code, such as a class.
+
+\item[Integration tests] Tests are carried the correct integration of different kinds of components. These tests have been carried out iteratively, checking the integration of a component every time it is added.
+
+\item[Installation tests] Tests to check that the installation of a certain component has been carried out correctly.
+
+\item[Special test cases] Test carried out in cases where no other tests can be carried.
+\end{description}
+
+\subsection{Unit tests}
+
+The units test carried on the project usually have as a goal the verification of the implemented functionality when confronted with both regular values and extreme values or special cases. The tests are focused on the following aspects:
+
+\begin{itemize}
+\item \textit{Array indexes:} Checking if loops and other functions don't try and access values outside of the array bounds. This is important is JavaScript programming because no index out of bounds exception will be thrown, but a undefined value will be returned.
+
+\item \textit{Undefined and null variables:} Specially in condition checking it is important to check how variables behave. This is because in some browser a undefined, a null and a false are completely equivalent while in others no. Besides, some runtimes provide undefined values when others provide null values.
+
+\item \textit{Type casting:} On dynamic typed languages it is important to check cases sensible to the automated type casting done by the runtime. For example, when checking equality using a "==" instead of a "===" operator, a string may be cast to number. These errors are usually hard to find a debug, so it is important to check for them.
+
+\item \textit{String building:} String building is a very common operation in this project, due to the need of creating SPARQL queries. Thus, it is vital to check operations that perform this type of task.
+
+\item \textit{Iterations, conditions and callbacks:} Any project needs to check that the control flow is correct. In event oriented environment which make exhaustive use of callback functions it takes a higher importance due to the rise on the control flow complexity.
+\end{itemize}
+
+The unit test for each component has been carried out as the development of the component was carried out. This is done to detect early errors that may affect other parts of the component.
+
+However, due to the heavy amount of communication carried through the project, the amount of unit test has been relatively small, and integration tests have taken a bigger role.
+
+In order to carry these test units, two tools have been used:
+
+\subsection{Integration tests}
+
+Integration tests check that the integration of the different components on the system is correct. These test check that the APIs offered by these components are usable by other parts of the system, but not only this, they also check that the errors on one side do not affect the others.
+
+The integration tests carried can be divided in the following parts:
+
+\begin{itemize}
+\item \textit{Database connector:} The database is a central piece of the application, thus it is important to check that the communication of the server with it is correct. These tests include checking that the server can handle database errors, that the data sent to the database is valid and that the responses of the database can be always parsed correctly.
+
+\item \textit{API:} Testing the correctness of the API functions is important since it is used as a central point of communication. As usual this implies checking the validity of data received and the extreme cases. In addition, the connectors on the clients also need testing, in order to validate that they query the correct resources of the database.
+
+\item \textit{Socket communication:} The socket server is prone to error, for there are many operations involved, such as connection establishing and destroying. Authorization, session data storage and communication in itself must be checked, both in the client and in the server.
+\item 
+\end{itemize}
+
+\subsection{Installation tests}
+
+The installation tests aim to verify the installation of one or more components of the project. This means checking the validity of the installation of the database. This is needed because the data storage system includes uncommon functionality, that is, a reasoner, a triple store and a endpoint.
+
+The following tests have been carried out:
+
+\begin{itemize}
+\item \textit{SPARQL endpoint:} The endpoint has to accept queries and answer in the desired format in order to pass these tests. In addition, it must accept the different SPARQL protocols to be used on the project.
+
+\item \textit{Reasoner:} The correct functioning of the reasoner, that is, the capability of the system to generate knowledge from the provided triples must be validated.
+\end{itemize}
+
+Some of these tests, such as the SPARQL endpoint can be carried at the start of the project, however, they require hand made testing. This means manually writing SPARQL queries to the database to check it works.
+
+Testing the reasoner, on the other side, cannot be done so early. First it is needed to develop the ontology and create the spatial indexes of the database. Once this is done it is possible to elaborate spatial queries and to insert data to check the functioning of the inference engine.
+
+\section{Special test cases}
+
+The test plan comprehends different kinds of standard tests that are carried out in any project. Some tests, however, cannot be automated so easily and require manual work to check their validity. The following test have been considered special cases:
+
+\subsection{Ontology}
+ 
+When a ontology is not well designed errors may arise during the inference process. A typical example of this is inferring that a resource belongs to two different classes that should be disjoint.
+
+In order to test the validity of the ontology, data has been inserted to the storage system and then the generated triples have been analyzed. Analyzing the triples means just looking at them and determining if the results obtained conform with what was expected on the ontology.
+
+This approach however has a issue. It is very difficulty to check all the cases that may cause problems, thus, common sense and careful analysis are important when carrying out these tests. Still, it can be guaranteed that most of the cases are checked and that all major errors are solved. 
+
+\subsection{Trail recording and locator service}
+
+While it is possible to test the correct functioning of the communication protocol and the validity of server and client side functions, it cannot be certainly said that the services work correctly until they have been tested by a user.
+
+This means that even if the platform can query the server for nearby points of interest and read the response, there is no guarantee that the functionality provided is actually the desired one. In these cases, a certain amount of real data is needed to check that the provided service is the one required.
+
+This is usually done by alpha and beta testing, however, before these phases can begin in the project a small amount of field tests have been carried. This test consist in simply uploading a small amount of test data to the server and using the mobile application on a real environment.
+
+\subsection{User interaction}
+
+The interface of, the means of user interaction, the application need some testing too, as well as the logical components. This however does not imply testing for the validity of the interface, but for other features such as ease of use and learning.
+
+In order to do this, external testing and feedback is needed. It is impossible for the interface to be tested by the developers since they are biased, they know exactly what the functionality is, thus they will find it very hard to signal the unintuitive features of the interface.
+
+Due to this, this testing has been delayed to the beta phase of the project.

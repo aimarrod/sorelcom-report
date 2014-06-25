@@ -29,7 +29,7 @@
 \setlist[description,3]{font=\normalfont\itshape}
 
 \RequirePackage{fontspec}               % Cargamos las fuentes
-%\setmainfont{Arial}                     % Arial para el cuerpo del texto
+\setmainfont{Arial}                     % Arial para el cuerpo del texto
 
 \RequirePackage{fancyhdr}               % Paquete para personalizar la cabecera y los pie de p\'agina
 
