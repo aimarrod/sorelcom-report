@@ -331,7 +331,7 @@ In SPARQL prefixes can be used to indicate name spaces. By using the keyword pre
 
 \begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
-    \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{text}
       SELECT ?s ?p ?o WHERE {
       	?s ?o ?o .
       }
@@ -344,7 +344,7 @@ This example is very basic, it does not actually specify any concrete triple it 
 
 \begin{listing}[ht]\centering
   \begin{minipage}{.7\textwidth}
-    \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{text}
       PREFIX my: <http://example.org>
       PREFIX foaf: <http://xmlns.com/foaf/0.1/>
       PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -410,7 +410,7 @@ This way, a extension for SPARQL is provided, which allows to find the implicit 
 
 \begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
-    \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{text}
       SELECT ?p
       WHERE {
         ?p a geo:Feature

@@ -206,86 +206,114 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.3}Database connector}{99}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Geography Utilities}{103}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.4}Geography Utilities}{104}{subsection.6.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.5}Controllers}{105}{subsection.6.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.6}Routes}{106}{subsection.6.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.7}Recommendations}{106}{subsection.6.3.7}
+\contentsline {subsection}{\numberline {6.3.7}Recommendations}{107}{subsection.6.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.8}Authentication}{107}{subsection.6.3.8}
+\contentsline {subsection}{\numberline {6.3.8}Authentication}{108}{subsection.6.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.9}Real time communication}{108}{subsection.6.3.9}
+\contentsline {subsection}{\numberline {6.3.9}Real time communication}{109}{subsection.6.3.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Development of the web application}{108}{section.6.4}
+\contentsline {section}{\numberline {6.4}Development of the web application}{109}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Angular application structure}{108}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Angular application structure}{109}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.2}Application}{109}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}API}{109}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.3}API}{110}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Accounts}{110}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.4}Accounts}{111}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}Web}{111}{subsection.6.4.5}
+\contentsline {subsection}{\numberline {6.4.5}Web}{112}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.6}Map}{113}{subsection.6.4.6}
+\contentsline {subsection}{\numberline {6.4.6}Map}{114}{subsection.6.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.7}Dialogs}{117}{subsection.6.4.7}
+\contentsline {subsection}{\numberline {6.4.7}Dialogs}{118}{subsection.6.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Development of the Mobile application}{119}{section.6.5}
+\contentsline {section}{\numberline {6.5}Development of the Mobile application}{120}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.1}Real time functionality - Server side}{120}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}Real time functionality - Server side}{121}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Authentication}{121}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.2}Real time functionality - Client side}{122}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.2}Real time functionality - Client side}{124}{subsection.6.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Application functionality}{128}{section.6.6}
+\contentsline {section}{\numberline {6.6}Application functionality}{129}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Testing}{129}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\vskip 10pt
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Overview}{129}{section.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Test plan}{129}{section.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Unit tests}{129}{subsection.7.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Integration tests}{130}{subsection.7.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Installation tests}{130}{subsection.7.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Special test cases}{131}{section.7.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Ontology}{131}{subsection.7.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Trail recording and locator service}{131}{subsection.7.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}User interaction}{132}{subsection.7.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}User guide}{133}{chapter.8}
+\contentsline {chapter}{\numberline {7}Testing}{131}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \vskip 10pt
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Overview}{133}{section.8.1}
+\contentsline {section}{\numberline {7.1}Overview}{131}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Web application guide}{133}{section.8.2}
+\contentsline {section}{\numberline {7.2}Test plan}{131}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Homepage}{133}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {7.2.1}Unit tests}{131}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{135}{chapter.9}
+\contentsline {subsection}{\numberline {7.2.2}Integration tests}{132}{subsection.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.3}Installation tests}{132}{subsection.7.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Special test cases}{133}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Ontology}{133}{subsection.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Trail recording and locator service}{133}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}User interaction}{134}{subsection.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}User manual}{135}{chapter.8}
 \defcounter {refsection}{0}\relax 
 \vskip 10pt
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Overview}{135}{section.9.1}
+\contentsline {section}{\numberline {8.1}Overview}{135}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Goals achieved}{135}{section.9.2}
+\contentsline {section}{\numberline {8.2}Web application guide}{135}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Considerations}{135}{section.9.3}
+\contentsline {subsection}{\numberline {8.2.1}Homepage}{135}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Future lines of work}{135}{section.9.4}
+\contentsline {subsection}{\numberline {8.2.2}Navigation bar}{135}{subsection.8.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{137}{chapter*.75}
+\contentsline {subsection}{\numberline {8.2.3}World Map}{136}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}Editor}{137}{subsection.8.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.5}Explorer}{140}{subsection.8.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.6}Search page}{140}{subsection.8.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.7}Feature view}{141}{subsection.8.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.8}User view}{141}{subsection.8.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.9}Registration}{142}{subsection.8.2.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.10}Sign in}{142}{subsection.8.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.11}User profile}{143}{subsection.8.2.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.12}Mobile web}{143}{subsection.8.2.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusions and future lines of work}{145}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\vskip 10pt
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Overview}{145}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Goals achieved}{145}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Considerations}{145}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Future lines of work}{146}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{149}{chapter*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Terms glossary}{153}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Article for the UCAmI 2014}{155}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Appreciations}{167}{appendix.C}

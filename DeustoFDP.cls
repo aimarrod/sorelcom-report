@@ -70,7 +70,7 @@
 \RequirePackage[chapter]{minted}        % Paquete para introducir c\'odigo fuente
                                         % Personalizaci\'on del entorno para el c\'odigo fuente
 \renewcommand\listingscaption{Listing}
-\renewcommand\listoflistingscaption{Listings index}
+\renewcommand\listoflistingscaption{List of listings}
 \renewcommand{\listoflistings}{%
   %\addcontentsline{toc}{chapter}{\listoflistingscaption}%
   \listof{listing}{\listoflistingscaption}%

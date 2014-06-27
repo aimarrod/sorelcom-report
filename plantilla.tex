@@ -3,6 +3,7 @@
 \usepackage{caption}
 \usepackage{eurosym}
 \usepackage{placeins}
+\usepackage{pdfpages}
 
 \hypersetup{
   pdfauthor={Aimar Rodr\'iguez Soto},
@@ -52,9 +53,14 @@
 
 \printbibliography[heading=bibintoc]
 
-\backmatter
+
 
 \appendix
 
+\input{appendix/acronyms}
+\input{appendix/article}
+\input{appendix/appreciations}
+
+\backmatter
 
 \end{document}

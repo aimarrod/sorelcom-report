@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.5.28)  25 JUN 2014 23:13
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2014.5.28)  27 JUN 2014 14:07
  \write18 enabled.
 **plantilla.tex
 (./plantilla.tex
@@ -599,7 +599,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.044 seconds
+luaotfload: fontloader loaded in 0.065 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1283,6 +1283,20 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box277
+\AM@toc@title=\toks26
+\c@AM@survey=\count351
+\AM@templatesizebox=\box278
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1294,30 +1308,30 @@ Package biblatex Info: ... file 'english.lbx' found.
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
 (./plantilla.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1325,8 +1339,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'plantilla.bbl' found.
  (./plantilla.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1364,17 +1378,17 @@ Package biblatex Info: Reference segment=0 on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
+\scratchcounter=\count352
 \scratchdimen=\dimen324
-\scratchbox=\box277
-\nofMPsegments=\count352
-\nofMParguments=\count353
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count354
+\scratchbox=\box279
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count355
 \MPscratchDim=\dimen325
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1397,63 +1411,63 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
-LaTeX Font Info:    Redeclaring math accent \check on input line 15.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
+LaTeX Font Info:    Redeclaring math accent \check on input line 16.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 15.
+(Font)              `operators' in the math version `normal' on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  OT1/cmr/m/n --> EU2/Arial(0)/m/n on input line 16.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 15.
+(Font)              `operators' in the math version `bold' on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU2/Arial(0)/m/it on input line 15.
+(Font)                  OT1/cmr/m/it --> EU2/Arial(0)/m/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/bx/n on input line 15.
+(Font)                  OT1/cmr/bx/n --> EU2/Arial(0)/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 15.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 15.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 16.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 15.
+(Font)                  EU2/Arial(0)/m/n --> EU2/Arial(0)/bx/n on input line 16.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU2/Arial(0)/bx/it on input line 15.
+(Font)                  OT1/cmr/bx/it --> EU2/Arial(0)/bx/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 15.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 15.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 16.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1462,22 +1476,22 @@ runsystem(pygmentize -S default -f latex > plantilla.pyg)...executed.
 
 
 (./plantilla.pyg)
-\AtBeginShipoutBox=\box278
-Package hyperref Info: Link coloring OFF on input line 15.
+\AtBeginShipoutBox=\box280
+Package hyperref Info: Link coloring OFF on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count357
+\c@section@level=\count358
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./plantilla.out) (./plantilla.out)
 \@outlinefile=\write6
-LaTeX Info: Redefining \microtypecontext on input line 15.
+LaTeX Info: Redefining \microtypecontext on input line 16.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1526,10 +1540,10 @@ Package microtype Info: Loading generic settings for font family
 
 LuaTeX warning (file fig/portada.pdf): PDF inclusion: found PDF version <1.6>, b
 ut at most version <1.5> allowed
-<fig/portada.pdf, id=498, 597.50829pt x 845.0471pt>
+<fig/portada.pdf, id=570, 597.50829pt x 845.0471pt>
 File: fig/portada.pdf Graphic file (type pdf)
  <use fig/portada.pdf>
-Package pdftex.def Info: fig/portada.pdf used on input line 25.
+Package pdftex.def Info: fig/portada.pdf used on input line 26.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 [1
@@ -1587,25 +1601,27 @@ RS)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt [5
 
-] [6] [7])
+] [6] [7]
+[8])
 \tf@toc=\write7
+ [9] [10
 
-[8] (./plantilla.lof [9
+] (./plantilla.lof [11
 
-
-])
+] [12])
 \tf@lof=\write8
- [10] (./plantilla.lot)
+ [13] [14
+
+] (./plantilla.lot)
 \tf@lot=\write9
- [11
+ [15
 
-
-] [12
+]
+[16
 
 ] (./plantilla.lol
 LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 48.
-
-(/home/obssidian/texmf/tex/latex/euenc/eu2lmtt.fd
+ (/home/obssidian/texmf/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 luaotfload | load : auto-selecting default features for script: latn
@@ -1646,7 +1662,7 @@ Overfull \hbox (1.18454pt too wide) detected at line 72
  []\EU2/Arial(0)/bx/n/10 102
  []
 
-[13
+[17
 
 ]
 Overfull \hbox (1.18454pt too wide) detected at line 74
@@ -1665,7 +1681,7 @@ Overfull \hbox (1.18454pt too wide) detected at line 78
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 80
- []\EU2/Arial(0)/bx/n/10 105
+ []\EU2/Arial(0)/bx/n/10 104
  []
 
 
@@ -1679,13 +1695,13 @@ Overfull \hbox (1.18454pt too wide) detected at line 84
  []
 
 
-Overfull \hbox (0.44235pt too wide) detected at line 86
- []\EU2/Arial(0)/bx/n/10 110
+Overfull \hbox (1.18454pt too wide) detected at line 86
+ []\EU2/Arial(0)/bx/n/10 108
  []
 
 
-Overfull \hbox (0.44235pt too wide) detected at line 92
- []\EU2/Arial(0)/bx/n/10 112
+Overfull \hbox (0.44235pt too wide) detected at line 88
+ []\EU2/Arial(0)/bx/n/10 110
  []
 
 
@@ -1725,7 +1741,7 @@ Overfull \hbox (0.44235pt too wide) detected at line 106
 
 
 Overfull \hbox (0.44235pt too wide) detected at line 108
- []\EU2/Arial(0)/bx/n/10 117
+ []\EU2/Arial(0)/bx/n/10 118
  []
 
 
@@ -1740,7 +1756,7 @@ Overfull \hbox (0.44235pt too wide) detected at line 112
 
 
 Overfull \hbox (0.44235pt too wide) detected at line 114
- []\EU2/Arial(0)/bx/n/10 118
+ []\EU2/Arial(0)/bx/n/10 119
  []
 
 
@@ -1770,12 +1786,12 @@ Overfull \hbox (1.18454pt too wide) detected at line 124
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 126
- []\EU2/Arial(0)/bx/n/10 123
+ []\EU2/Arial(0)/bx/n/10 122
  []
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 128
- []\EU2/Arial(0)/bx/n/10 124
+ []\EU2/Arial(0)/bx/n/10 123
  []
 
 
@@ -1790,7 +1806,7 @@ Overfull \hbox (1.18454pt too wide) detected at line 132
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 134
- []\EU2/Arial(0)/bx/n/10 125
+ []\EU2/Arial(0)/bx/n/10 126
  []
 
 
@@ -1805,12 +1821,12 @@ Overfull \hbox (1.18454pt too wide) detected at line 138
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 140
- []\EU2/Arial(0)/bx/n/10 127
+ []\EU2/Arial(0)/bx/n/10 128
  []
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 142
- []\EU2/Arial(0)/bx/n/10 127
+ []\EU2/Arial(0)/bx/n/10 128
  []
 
 
@@ -1820,12 +1836,17 @@ Overfull \hbox (1.18454pt too wide) detected at line 144
 
 
 Overfull \hbox (1.18454pt too wide) detected at line 146
- []\EU2/Arial(0)/bx/n/10 128
+ []\EU2/Arial(0)/bx/n/10 129
+ []
+
+
+Overfull \hbox (1.18454pt too wide) detected at line 148
+ []\EU2/Arial(0)/bx/n/10 129
  []
 
 )
 \tf@lol=\write10
- [14] (./tex/introduction.tex
+ [18] (./tex/introduction.tex
 Chapter 1.
 
 LaTeX Font Warning: Font shape `EU2/Arial(0)/m/it' undefined
@@ -1844,7 +1865,7 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt" [2] <
-fig/semwebstack.png, id=1004, 592.2125pt x 592.2125pt>
+fig/semwebstack.png, id=1151, 592.2125pt x 592.2125pt>
 File: fig/semwebstack.png Graphic file (type png)
 
 <use fig/semwebstack.png>
@@ -1905,7 +1926,7 @@ runsystem(rm plantilla.pyg)...executed.
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on input
  line 101.
 
-[4] <fig/linked-data-cloud.png, id=1039, 1486.55376pt x 967.615pt>
+[4] <fig/linked-data-cloud.png, id=1187, 1486.55376pt x 967.615pt>
 File: fig/linked-data-cloud.png Graphic file (type png)
 
 <use fig/linked-data-cloud.png>
@@ -1916,14 +1937,14 @@ Package pdftex.def Info: fig/linked-data-cloud.png used on input line 135.
 Chapter 2.
 [7
 
-] [8] [9] [10] <fig/iterative.jpg, id=1080, 318.43968pt x 167.12437pt>
+] [8] [9] [10] <fig/iterative.jpg, id=1227, 318.43968pt x 167.12437pt>
 File: fig/iterative.jpg Graphic file (type jpg)
 
 <use fig/iterative.jpg>
 Package pdftex.def Info: fig/iterative.jpg used on input line 155.
 (pdftex.def)             Requested size: 341.43437pt x 179.19106pt.
  [11] [12 <./fig/iterative.jpg>] [13]
-<fig/wbs.png, id=1098, 1327.96124pt x 648.4225pt>
+<fig/wbs.png, id=1246, 1327.96124pt x 648.4225pt>
 File: fig/wbs.png Graphic file (type png)
  <use fig/wbs.png>
 Package pdftex.def Info: fig/wbs.png used on input line 275.
@@ -1931,21 +1952,21 @@ Package pdftex.def Info: fig/wbs.png used on input line 275.
  [14]
 Underfull \vbox (badness 3260) has occurred while \output is active []
 
- [15 <./fig/wbs.png>] <fig/organization.png, id=1111, 777.90625pt x 176.66pt>
+ [15 <./fig/wbs.png>] <fig/organization.png, id=1259, 777.90625pt x 176.66pt>
 File: fig/organization.png Graphic file (type png)
 
 <use fig/organization.png>
 Package pdftex.def Info: fig/organization.png used on input line 333.
 (pdftex.def)             Requested size: 298.75264pt x 67.84583pt.
  [16 <./fig/organization.png>] [17] [18] [19]
-[20] <fig/gantt-diagram.png, id=1152, 1059.96pt x 487.8225pt>
+[20] <fig/gantt-diagram.png, id=1299, 1059.96pt x 487.8225pt>
 File: fig/gantt-diagram.png Graphic file (type png)
 
 <use fig/gantt-diagram.png>
 Package pdftex.def Info: fig/gantt-diagram.png used on input line 616.
 (pdftex.def)             Requested size: 1059.95741pt x 487.8213pt.
 
-<fig/network-diagram.png, id=1153, 1001.24063pt x 225.84375pt>
+<fig/network-diagram.png, id=1300, 1001.24063pt x 225.84375pt>
 File: fig/network-diagram.png Graphic file (type png)
 
 <use fig/network-diagram.png>
@@ -1963,7 +1984,7 @@ chnological-research.tex [25
 
 ]
 Chapter 3.
-[27] <fig/rdfgraph.jpg, id=1197, 501.875pt x 401.5pt>
+[27] <fig/rdfgraph.jpg, id=1344, 501.875pt x 401.5pt>
 File: fig/rdfgraph.jpg Graphic file (type jpg)
  <use fig/rdfgraph.jpg>
 Package pdftex.def Info: fig/rdfgraph.jpg used on input line 49.
@@ -2004,7 +2025,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [31]
-<fig/owl-stack.png, id=1251, 950.55125pt x 239.89626pt>
+<fig/owl-stack.png, id=1397, 950.55125pt x 239.89626pt>
 File: fig/owl-stack.png Graphic file (type png)
 
 <use fig/owl-stack.png>
@@ -2041,9 +2062,9 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [34]
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
+runsystem(pygmentize -l text -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
@@ -2052,9 +2073,9 @@ runsystem(rm plantilla.pyg)...executed.
 
 
 [35]
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
+runsystem(pygmentize -l text -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
@@ -2071,9 +2092,9 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
+runsystem(pygmentize -l text -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
@@ -2102,7 +2123,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [40]
-<fig/angular-scope.png, id=1336, 602.25pt x 173.14688pt>
+<fig/angular-scope.png, id=1483, 602.25pt x 173.14688pt>
 File: fig/angular-scope.png Graphic file (type png)
 
 <use fig/angular-scope.png>
@@ -2131,7 +2152,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
 
-<fig/leaflet-osmmapnik.png, id=1360, 703.62875pt x 321.2pt>
+<fig/leaflet-osmmapnik.png, id=1506, 703.62875pt x 321.2pt>
 File: fig/leaflet-osmmapnik.png Graphic file (type png)
 
 <use fig/leaflet-osmmapnik.png>
@@ -2168,7 +2189,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [45]
-<fig/phonegap-build.png, id=1391, 861.2175pt x 301.125pt>
+<fig/phonegap-build.png, id=1539, 861.2175pt x 301.125pt>
 File: fig/phonegap-build.png Graphic file (type png)
 
 <use fig/phonegap-build.png>
@@ -2235,14 +2256,14 @@ Chapter 4.
 
 ]
 Chapter 5.
-<fig/architecture.png, id=1464, 625.33624pt x 477.785pt>
+<fig/architecture.png, id=1610, 625.33624pt x 477.785pt>
 File: fig/architecture.png Graphic file (type png)
 
 <use fig/architecture.png>
 Package pdftex.def Info: fig/architecture.png used on input line 21.
 (pdftex.def)             Requested size: 298.75264pt x 228.2625pt.
  [59] [60 <./fig/architecture.png>] [61]
-<fig/sorelcom-ontology.png, id=1484, 705.63625pt x 540.0175pt>
+<fig/sorelcom-ontology.png, id=1631, 705.63625pt x 540.0175pt>
 File: fig/sorelcom-ontology.png Graphic file (type png)
 
 <use fig/sorelcom-ontology.png>
@@ -2250,21 +2271,21 @@ Package pdftex.def Info: fig/sorelcom-ontology.png used on input line 120.
 (pdftex.def)             Requested size: 341.43437pt x 261.2984pt.
  [62] [63 <./fig/sorelcom-ontology.png>]
 [64] [65] [66] [67] [68] [69]
-<fig/simple-inference.png, id=1557, 454.69875pt x 194.7275pt>
+<fig/simple-inference.png, id=1704, 454.69875pt x 194.7275pt>
 File: fig/simple-inference.png Graphic file (type png)
 
 <use fig/simple-inference.png>
 Package pdftex.def Info: fig/simple-inference.png used on input line 455.
 (pdftex.def)             Requested size: 256.07741pt x 109.66765pt.
 
-<fig/inference-hierarchy.png, id=1560, 474.77374pt x 236.885pt>
+<fig/inference-hierarchy.png, id=1707, 474.77374pt x 236.885pt>
 File: fig/inference-hierarchy.png Graphic file (type png)
 
 <use fig/inference-hierarchy.png>
 Package pdftex.def Info: fig/inference-hierarchy.png used on input line 465.
 (pdftex.def)             Requested size: 256.07741pt x 127.77141pt.
 
-<fig/complex-inference.png, id=1561, 734.745pt x 455.7025pt>
+<fig/complex-inference.png, id=1708, 734.745pt x 455.7025pt>
 File: fig/complex-inference.png Graphic file (type png)
 
 <use fig/complex-inference.png>
@@ -2272,14 +2293,14 @@ Package pdftex.def Info: fig/complex-inference.png used on input line 473.
 (pdftex.def)             Requested size: 384.1096pt x 238.23914pt.
  [70 <./fig/simple-inference.png> <./fig/inference-hierarchy.png>] [71 <./fig/co
 mplex-inference.png>]
-<fig/server-diagram.png, id=1579, 1697.34125pt x 970.62625pt>
+<fig/server-diagram.png, id=1726, 1697.34125pt x 970.62625pt>
 File: fig/server-diagram.png Graphic file (type png)
 
 <use fig/server-diagram.png>
 Package pdftex.def Info: fig/server-diagram.png used on input line 515.
 (pdftex.def)             Requested size: 1697.33713pt x 970.62389pt.
  [72] [73] [74 <./fig/server-diagram.png>]
-<fig/api-diagram.png, id=1603, 605.26125pt x 578.16pt>
+<fig/api-diagram.png, id=1751, 605.26125pt x 578.16pt>
 File: fig/api-diagram.png Graphic file (type png)
 
 <use fig/api-diagram.png>
@@ -2288,56 +2309,56 @@ Package pdftex.def Info: fig/api-diagram.png used on input line 571.
  [75
 
  <./fig/api-diagram.png>]
-<fig/socket-component.png, id=1613, 770.88pt x 357.335pt>
+<fig/socket-component.png, id=1761, 770.88pt x 357.335pt>
 File: fig/socket-component.png Graphic file (type png)
 
 <use fig/socket-component.png>
 Package pdftex.def Info: fig/socket-component.png used on input line 615.
 (pdftex.def)             Requested size: 341.43437pt x 158.2693pt.
  [76]
-<fig/socket-flow.png, id=1621, 534.99875pt x 237.88875pt>
+<fig/socket-flow.png, id=1769, 534.99875pt x 237.88875pt>
 File: fig/socket-flow.png Graphic file (type png)
 
 <use fig/socket-flow.png>
 Package pdftex.def Info: fig/socket-flow.png used on input line 633.
 (pdftex.def)             Requested size: 341.43437pt x 151.8272pt.
  [77 <./fig/socket-component.png> <./fig/socket-flow.png>] <fig/webapp-componen
-ts.png, id=1632, 581.17125pt x 168.63pt>
+ts.png, id=1779, 581.17125pt x 168.63pt>
 File: fig/webapp-components.png Graphic file (type png)
 
 <use fig/webapp-components.png>
 Package pdftex.def Info: fig/webapp-components.png used on input line 665.
 (pdftex.def)             Requested size: 341.43437pt x 99.06883pt.
  [78 <./fig/webapp-components.png>]
-<fig/api-component.png, id=1652, 887.315pt x 954.56625pt>
+<fig/api-component.png, id=1799, 887.315pt x 954.56625pt>
 File: fig/api-component.png Graphic file (type png)
 
 <use fig/api-component.png>
 Package pdftex.def Info: fig/api-component.png used on input line 700.
 (pdftex.def)             Requested size: 362.77525pt x 390.26773pt.
  [79]
-<fig/browse-component.png, id=1659, 986.68625pt x 568.1225pt>
+<fig/browse-component.png, id=1806, 986.68625pt x 568.1225pt>
 File: fig/browse-component.png Graphic file (type png)
 
 <use fig/browse-component.png>
 Package pdftex.def Info: fig/browse-component.png used on input line 731.
 (pdftex.def)             Requested size: 341.43437pt x 196.59195pt.
  [80 <./fig/api-component.png>]
-<fig/map-component.png, id=1667, 650.43pt x 974.64125pt>
+<fig/map-component.png, id=1814, 650.43pt x 974.64125pt>
 File: fig/map-component.png Graphic file (type png)
 
 <use fig/map-component.png>
 Package pdftex.def Info: fig/map-component.png used on input line 755.
 (pdftex.def)             Requested size: 320.0935pt x 479.66045pt.
  [81 <./fig/browse-component.png>] [82] [83 <./fig/map-component.png>]
-<fig/accounts-component.png, id=1687, 1016.79875pt x 482.80376pt>
+<fig/accounts-component.png, id=1834, 1016.79875pt x 482.80376pt>
 File: fig/accounts-component.png Graphic file (type png)
 
 <use fig/accounts-component.png>
 Package pdftex.def Info: fig/accounts-component.png used on input line 794.
 (pdftex.def)             Requested size: 341.43437pt x 162.11781pt.
 
-<fig/modals-component.png, id=1689, 1408.26125pt x 643.40375pt>
+<fig/modals-component.png, id=1836, 1408.26125pt x 643.40375pt>
 File: fig/modals-component.png Graphic file (type png)
 
 <use fig/modals-component.png>
@@ -2357,21 +2378,21 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [85 <./fig/modals-component.png>]
-<fig/responsive-example.png, id=1707, 1948.27875pt x 568.1225pt>
+<fig/responsive-example.png, id=1855, 1948.27875pt x 568.1225pt>
 File: fig/responsive-example.png Graphic file (type png)
 
 <use fig/responsive-example.png>
 Package pdftex.def Info: fig/responsive-example.png used on input line 864.
 (pdftex.def)             Requested size: 341.43437pt x 99.56161pt.
  [86 <./fig/responsive-example.png>]
-<fig/mobile-diagram.png, id=1717, 846.16125pt x 487.8225pt>
+<fig/mobile-diagram.png, id=1865, 846.16125pt x 487.8225pt>
 File: fig/mobile-diagram.png Graphic file (type png)
 
 <use fig/mobile-diagram.png>
 Package pdftex.def Info: fig/mobile-diagram.png used on input line 906.
 (pdftex.def)             Requested size: 341.43437pt x 196.83755pt.
  [87 <./fig/mobile-diagram.png>]
-<fig/protocol1.png, id=1738, 557.08125pt x 522.95375pt>
+<fig/protocol1.png, id=1885, 557.08125pt x 522.95375pt>
 File: fig/protocol1.png Graphic file (type png)
 
 <use fig/protocol1.png>
@@ -2382,21 +2403,21 @@ File: fig/protocol1.png Graphic file (type png)
 Package pdftex.def Info: fig/protocol1.png used on input line 956.
 (pdftex.def)             Requested size: 298.75264pt x 280.45177pt.
  [88]
-<fig/plugin-component.png, id=1745, 765.86125pt x 367.3725pt>
+<fig/plugin-component.png, id=1892, 765.86125pt x 367.3725pt>
 File: fig/plugin-component.png Graphic file (type png)
 
 <use fig/plugin-component.png>
 Package pdftex.def Info: fig/plugin-component.png used on input line 972.
 (pdftex.def)             Requested size: 298.75264pt x 143.30832pt.
  [89 <./fig/protocol1.png>]
-<fig/plugin-flow.png, id=1753, 565.11125pt x 327.2225pt>
+<fig/plugin-flow.png, id=1900, 565.11125pt x 327.2225pt>
 File: fig/plugin-flow.png Graphic file (type png)
 
 <use fig/plugin-flow.png>
 Package pdftex.def Info: fig/plugin-flow.png used on input line 990.
 (pdftex.def)             Requested size: 341.43437pt x 197.70808pt.
  [90] [91 <./fig/plugin-component.png> <./fig/plugin-flow.png>] <fig/sass.png, 
-id=1771, 448.67625pt x 301.125pt>
+id=1918, 448.67625pt x 301.125pt>
 File: fig/sass.png Graphic file (type png)
  <use fig/sass.png>
 Package pdftex.def Info: fig/sass.png used on input line 1039.
@@ -2406,13 +2427,13 @@ Package pdftex.def Info: fig/sass.png used on input line 1039.
 Chapter 6.
 [95
 
-] <fig/atom.png, id=1811, 1006.76125pt x 716.6775pt>
+] <fig/atom.png, id=1959, 1006.76125pt x 716.6775pt>
 File: fig/atom.png Graphic file (type png)
  <use fig/atom.png>
 Package pdftex.def Info: fig/atom.png used on input line 35.
 (pdftex.def)             Requested size: 341.43437pt x 243.05473pt.
 
-[96 <./fig/atom.png>] <fig/protege.png, id=1831, 1158.57843pt x 654.94687pt>
+[96 <./fig/atom.png>] <fig/protege.png, id=1979, 1158.57843pt x 654.94687pt>
 File: fig/protege.png Graphic file (type png)
 
 <use fig/protege.png>
@@ -2439,7 +2460,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
 
-<fig/parliament.png, id=1856, 1158.57843pt x 593.96906pt>
+<fig/parliament.png, id=2003, 1158.57843pt x 593.96906pt>
 File: fig/parliament.png Graphic file (type png)
 
 <use fig/parliament.png>
@@ -2515,9 +2536,9 @@ runsystem(rm plantilla.pyg)...executed.
 
 
 [102]
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
+runsystem(pygmentize -l text -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
@@ -2534,12 +2555,21 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [104]
-<fig/controller-sequence.png, id=1900, 491.8375pt x 327.2225pt>
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+[104] <fig/controller-sequence.png, id=2048, 491.8375pt x 327.2225pt>
 File: fig/controller-sequence.png Graphic file (type png)
 
 <use fig/controller-sequence.png>
-Package pdftex.def Info: fig/controller-sequence.png used on input line 414.
+Package pdftex.def Info: fig/controller-sequence.png used on input line 441.
 (pdftex.def)             Requested size: 298.75264pt x 198.7666pt.
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
@@ -2550,7 +2580,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [105 <./fig/controller-sequence.png>]
+ [105] [106 <./fig/controller-sequence.png>]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
@@ -2560,10 +2590,9 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [106]
-runsystem(pygmentize -l sparql -f latex -F tokenmerge  -F gobble:n=6    -P mathe
-scape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...e
-xecuted.
+runsystem(pygmentize -l text -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
 
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
@@ -2571,12 +2600,12 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
  [107] [108]
+[109]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
 
-
-(./plantilla.out.pyg)
+ (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -2590,7 +2619,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [109]
+ [110]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
@@ -2601,7 +2630,7 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
 
-[110] [111]
+[111]
 runsystem(pygmentize -l html -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
 ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
 cuted.
@@ -2621,22 +2650,13 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
+ [113]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
 
 
 (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
- [113]
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -2652,7 +2672,49 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
 
-[115]
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+ [115]
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+
+(./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [116]
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+
+(./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [117]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
@@ -2675,47 +2737,8 @@ runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
 
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
 
-runsystem(rm plantilla.pyg)...executed.
-
-
-[116]
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-
-[117]
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
+(./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -2740,12 +2763,15 @@ runsystem(rm plantilla.out.pyg)...executed.
 runsystem(rm plantilla.pyg)...executed.
 
 
-[119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
 
- (./plantilla.out.pyg)
+
+(./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -2760,25 +2786,6 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
-
-(./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
  [121]
 runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
@@ -2789,31 +2796,41 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
- [122] [123]
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+
+(./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [122]
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+
+[123] [124]
 runsystem(pygmentize -l xml -f latex -F tokenmerge  -F gobble:n=6    -P mathesca
 pe      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exec
 uted.
 
-
-(./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l java -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
-ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
-cuted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
- [124]
-runsystem(pygmentize -l java -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
-ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
-cuted.
-
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
@@ -2823,8 +2840,7 @@ runsystem(pygmentize -l java -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
 ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
 cuted.
 
-
-(./plantilla.out.pyg)
+ (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -2834,6 +2850,26 @@ runsystem(pygmentize -l java -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
 ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
 cuted.
 
+
+(./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+runsystem(pygmentize -l java -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+ [126]
+runsystem(pygmentize -l java -f latex -F tokenmerge  -F gobble:n=6    -P mathesc
+ape      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...exe
+cuted.
+
  (./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
@@ -2843,27 +2879,8 @@ runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
 e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
 ted.
 
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
 
-runsystem(rm plantilla.pyg)...executed.
-
-
-[126]
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
-runsystem(rm plantilla.out.pyg)...executed.
-
-runsystem(rm plantilla.pyg)...executed.
-
-runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
-e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
-ted.
-
- (./plantilla.out.pyg)
+(./plantilla.out.pyg)
 runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
@@ -2878,58 +2895,415 @@ runsystem(rm plantilla.out.pyg)...executed.
 
 runsystem(rm plantilla.pyg)...executed.
 
-)
-(./tex/testing.tex [128]
-Chapter 7.
-[129
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
 
-] [130] [131]) (./tex/user-guide.tex [132]
-Chapter 8.
-) (./tex/conclusions.tex [133
+ (./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
 
-] [134
+runsystem(rm plantilla.pyg)...executed.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+runsystem(pygmentize -l js -f latex -F tokenmerge  -F gobble:n=6    -P mathescap
+e      -P linenos -P "verboptions= " -o plantilla.out.pyg plantilla.pyg)...execu
+ted.
+
+
+(./plantilla.out.pyg)
+runsystem(rm plantilla.out.pyg)...executed.
+
+runsystem(rm plantilla.pyg)...executed.
+
+) (./tex/testing.tex [129] [130
 
 ]
+Chapter 7.
+[131] [132] [133]) (./tex/user-guide.tex [134]
+Chapter 8.
+<fig/homepage.png, id=2253, 1146.53343pt x 546.54187pt>
+File: fig/homepage.png Graphic file (type png)
+ <use fig/homepage.png>
+Package pdftex.def Info: fig/homepage.png used on input line 25.
+(pdftex.def)             Requested size: 172.84813pt x 82.39471pt.
+
+<fig/homepage-bottom.png, id=2254, 1146.53343pt x 546.54187pt>
+File: fig/homepage-bottom.png Graphic file (type png)
+
+<use fig/homepage-bottom.png>
+Package pdftex.def Info: fig/homepage-bottom.png used on input line 29.
+(pdftex.def)             Requested size: 172.84813pt x 82.39471pt.
+
+<fig/navbar.png, id=2256, 817.55438pt x 112.92188pt>
+File: fig/navbar.png Graphic file (type png)
+ <use fig/navbar.png>
+Package pdftex.def Info: fig/navbar.png used on input line 42.
+(pdftex.def)             Requested size: 384.1096pt x 53.05432pt.
+
+[135
+
+ <./fig/homepage.png> <./fig/homepage-bottom.png>]
+<fig/map-explore-sidebar.png, id=2263, 1148.03906pt x 579.66562pt>
+File: fig/map-explore-sidebar.png Graphic file (type png)
+
+<use fig/map-explore-sidebar.png>
+Package pdftex.def Info: fig/map-explore-sidebar.png used on input line 60.
+(pdftex.def)             Requested size: 172.84813pt x 87.27335pt.
+
+<fig/map-explore-no-sidebar.png, id=2264, 1148.03906pt x 579.66562pt>
+File: fig/map-explore-no-sidebar.png Graphic file (type png)
+
+<use fig/map-explore-no-sidebar.png>
+Package pdftex.def Info: fig/map-explore-no-sidebar.png used on input line 64.
+(pdftex.def)             Requested size: 172.84813pt x 87.27335pt.
+
+<fig/map-editor.png, id=2266, 1148.03906pt x 579.66562pt>
+File: fig/map-editor.png Graphic file (type png)
+
+<use fig/map-editor.png>
+Package pdftex.def Info: fig/map-editor.png used on input line 77.
+(pdftex.def)             Requested size: 320.0935pt x 161.61536pt.
+
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+ [136 <./fig/navbar.png> <./fig/map-explore-sidebar.png> <./fig/map-explore-no-s
+idebar.png> <./fig/map-editor.png>]
+<fig/draw-trail.png, id=2274, 1147.28625pt x 577.40718pt>
+File: fig/draw-trail.png Graphic file (type png)
+
+<use fig/draw-trail.png>
+Package pdftex.def Info: fig/draw-trail.png used on input line 96.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+
+<fig/mark-poi.png, id=2276, 1147.28625pt x 577.40718pt>
+File: fig/mark-poi.png Graphic file (type png)
+ <use fig/mark-poi.png>
+Package pdftex.def Info: fig/mark-poi.png used on input line 111.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+
+[137 <./fig/draw-trail.png>]
+<fig/upload-file.png, id=2283, 1147.28625pt x 577.40718pt>
+File: fig/upload-file.png Graphic file (type png)
+
+<use fig/upload-file.png>
+Package pdftex.def Info: fig/upload-file.png used on input line 123.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+
+<fig/trail-import-select.png, id=2285, 1147.28625pt x 577.40718pt>
+File: fig/trail-import-select.png Graphic file (type png)
+
+<use fig/trail-import-select.png>
+Package pdftex.def Info: fig/trail-import-select.png used on input line 135.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+
+<fig/trail-import.png, id=2287, 1147.28625pt x 577.40718pt>
+File: fig/trail-import.png Graphic file (type png)
+
+<use fig/trail-import.png>
+Package pdftex.def Info: fig/trail-import.png used on input line 147.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+ [138 <./fig/mark-poi.png> <./fig/upload-file.png>]
+<fig/trail-edit.png, id=2294, 1147.28625pt x 577.40718pt>
+File: fig/trail-edit.png Graphic file (type png)
+
+<use fig/trail-edit.png>
+Package pdftex.def Info: fig/trail-edit.png used on input line 159.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+ [139 <./fig/trail-import-select.png> <./fig/trail-import.png>] <fig/map-explor
+e-link.png, id=2301, 1148.03906pt x 579.66562pt>
+File: fig/map-explore-link.png Graphic file (type png)
+
+<use fig/map-explore-link.png>
+Package pdftex.def Info: fig/map-explore-link.png used on input line 181.
+(pdftex.def)             Requested size: 320.0935pt x 161.61536pt.
+ [140 <./fig/trail-edit.png> <./fig/map-explore-link.png>] <fig/search.png, id=
+2308, 1147.28625pt x 577.40718pt>
+File: fig/search.png Graphic file (type png)
+
+<use fig/search.png>
+Package pdftex.def Info: fig/search.png used on input line 195.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+ <fig/trail-view.png, id=2310, 1147.28625pt x 577.40718pt>
+File: fig/trail-view.png Graphic file (type png)
+
+<use fig/trail-view.png>
+Package pdftex.def Info: fig/trail-view.png used on input line 213.
+(pdftex.def)             Requested size: 172.84813pt x 86.98619pt.
+
+<fig/post-view.png, id=2311, 1147.28625pt x 577.40718pt>
+File: fig/post-view.png Graphic file (type png)
+
+<use fig/post-view.png>
+Package pdftex.def Info: fig/post-view.png used on input line 217.
+(pdftex.def)             Requested size: 172.84813pt x 86.98619pt.
+ <fig/user.png, id=2313, 1147.28625pt x 577.40718pt>
+File: fig/user.png Graphic file (type png)
+
+<use fig/user.png>
+Package pdftex.def Info: fig/user.png used on input line 232.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+ [141 <./fig/search.png> <./fig/trail-view.png> <./fig/post-view.png>] <fig/sig
+n-up.png, id=2320, 1146.53343pt x 546.54187pt>
+File: fig/sign-up.png Graphic file (type png)
+
+<use fig/sign-up.png>
+Package pdftex.def Info: fig/sign-up.png used on input line 244.
+(pdftex.def)             Requested size: 320.0935pt x 152.58868pt.
+ [142 <./fig/user.png> <./fig/sign-up.png>]
+<fig/login.png, id=2327, 1146.53343pt x 546.54187pt>
+File: fig/login.png Graphic file (type png)
+ <use fig/login.png>
+Package pdftex.def Info: fig/login.png used on input line 260.
+(pdftex.def)             Requested size: 320.0935pt x 152.58868pt.
+
+<fig/profile.png, id=2329, 1147.28625pt x 577.40718pt>
+File: fig/profile.png Graphic file (type png)
+ <use fig/profile.png>
+Package pdftex.def Info: fig/profile.png used on input line 274.
+(pdftex.def)             Requested size: 320.0935pt x 161.09142pt.
+
+[143 <./fig/login.png> <./fig/profile.png>]
+<fig/responsive1.png, id=2338, 399.74344pt x 569.87906pt>
+File: fig/responsive1.png Graphic file (type png)
+
+<use fig/responsive1.png>
+Package pdftex.def Info: fig/responsive1.png used on input line 290.
+(pdftex.def)             Requested size: 153.64441pt x 219.03455pt.
+
+<fig/responsive2.png, id=2339, 399.74344pt x 569.87906pt>
+File: fig/responsive2.png Graphic file (type png)
+
+<use fig/responsive2.png>
+Package pdftex.def Info: fig/responsive2.png used on input line 294.
+(pdftex.def)             Requested size: 153.64441pt x 219.03455pt.
+) (./tex/conclusions.tex [144 <./fig/responsive1.png> <./fig/responsive2.png>]
 Chapter 9.
+[145
 
-LaTeX Warning: Reference `sec:goals' on page 135 undefined on input line 9.
+] [146]) [147] [148
 
-) [135] [136
+] [149] [150] [151] (./appendix/acronyms.tex [152]
+Appendix A.
+) (./appendix/article.tex [153
 
-] [137] [138] [139] [140]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+] [154
+
+]
+Appendix B.
+<pdf/sorelcom-UCAmI.pdf, id=2416, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf used on input line 7.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf used on input line 7.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [155]
+<pdf/sorelcom-UCAmI.pdf, id=2423, page=1, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 1>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 1>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 1>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 1>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 1>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [156 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2458, page=2, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 2>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page2 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 2>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page2 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 2>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page2 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [157 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2480, page=3, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 3>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page3 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 3>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page3 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 3>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page3 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [158 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2490, page=4, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 4>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page4 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 4>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page4 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 4>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page4 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [159 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2501, page=5, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 5>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page5 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 5>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page5 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 5>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page5 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [160 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2509, page=6, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 6>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page6 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 6>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page6 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 6>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page6 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [161 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2517, page=7, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 7>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page7 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 7>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page7 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 7>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page7 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [162 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2525, page=8, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 8>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page8 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 8>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page8 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 8>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page8 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [163 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2544, page=9, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 9>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page9 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 9>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page9 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 9>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page9 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [164 <./pdf/sorelcom-UCAmI.pdf>]
+<pdf/sorelcom-UCAmI.pdf, id=2550, page=10, 614.295pt x 794.97pt>
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 10>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page10 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+ <use pdf/sorelcom-UCAmI.pdf, page 10>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page10 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pdf/sorelcom-UCAmI.pdf Graphic file (type pdf)
+
+<use pdf/sorelcom-UCAmI.pdf, page 10>
+Package pdftex.def Info: pdf/sorelcom-UCAmI.pdf, page10 used on input line 7.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [165 <./pdf/sorelcom-UCAmI.pdf>])
+(./appendix/appreciations.tex [166
+
+]
+Appendix C.
+) [167] [168
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
  (./plantilla.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package rerunfilecheck Info: File `plantilla.out' has not changed.
+(rerunfilecheck)             Checksum: 9E8D5462D18DDBFE480BE12C65C7BE03;19561.
 
-
-Package rerunfilecheck Warning: File `plantilla.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `plantilla.out':
-(rerunfilecheck)             Before: 2A9E96917E227879E1BE56FFC049F189;17370
-(rerunfilecheck)             After:  2DB0D3F810EA4AC681E71D6BE3D78035;17882.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'plantilla.run.xml'.
  )
 
 Here is how much of LuaTeX's memory you used:
- 34329 strings out of 493803
+ 35334 strings out of 493803
  100000,1144653 words of node,token memory allocated
- 1481 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 5 attribute, 80 glue_spec, 5 attrib
-ute_list, 4 action, 2 write nodes
-   avail lists: 1:4,2:13968,3:1222,4:1455,5:246,6:4316,7:114,8:41,9:330,10:325
- 35690 multiletter control sequences out of 65536+600000
+ 1588 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 80 glue_spec, 4 attrib
+ute_list, 4 action, 1 write nodes
+   avail lists: 1:4,2:11255,3:1344,4:1286,5:258,6:3633,7:114,8:42,9:353,10:325
+ 36401 multiletter control sequences out of 65536+600000
  102 fonts using 15095103 bytes
- 55i,12n,53p,933b,2223s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 55i,18n,53p,934b,2223s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-italic.otf></usr/share/texmf
 /fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/p
 ublic/lm/lmmonolt10-boldoblique.otf></usr/share/texmf/fonts/opentype/public/tex-
@@ -2938,10 +3312,10 @@ gyre/texgyrebonum-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10
 f/fonts/opentype/public/tex-gyre/texgyrebonum-bold.otf></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/eurosym/feymo10.pfb>
-Output written on plantilla.pdf (154 pages, 3542134 bytes).
+Output written on plantilla.pdf (186 pages, 10217359 bytes).
 
-PDF statistics: 2236 PDF objects out of 2487 (max. 8388607)
- 1954 compressed objects within 20 object streams
- 550 named destinations out of 1000 (max. 131072)
- 985 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 2646 PDF objects out of 2984 (max. 8388607)
+ 2271 compressed objects within 23 object streams
+ 615 named destinations out of 1000 (max. 131072)
+ 1129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

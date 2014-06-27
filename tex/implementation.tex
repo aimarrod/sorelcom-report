@@ -198,7 +198,7 @@ After installing the database, the next step is to develop the database connecto
   \caption{SPARQL Modify structure}\label{lst:sparql-modify}
 \end{listing}
  
-\item[ask] \textit{Ask} queries are used to check if a set of triples exist in the data store or not. They are identical to \textit{Select} queries, however, they just return a boolean value. In this platform they are used to check the uniqueness of resources. The structure of these queries is shown in listing \ref{lst:sparql-ask}:
+\item[Ask] \textit{Ask} queries are used to check if a set of triples exist in the data store or not. They are identical to \textit{Select} queries, however, they just return a boolean value. In this platform they are used to check the uniqueness of resources. The structure of these queries is shown in listing \ref{lst:sparql-ask}:
 
 \begin{listing}[ht]\centering
   \begin{minipage}{.6\textwidth}
@@ -340,6 +340,33 @@ In addition to sending requests to the endpoint, the client also has the task of
   \end{minipage}
   \caption{RDF-JSON to GeoJSON transformation}\label{lst:geojsontransform}
 \end{listing}
+
+\subsubsection*{GeoSPARQL}
+
+The usage of GeoSPARQL on the connector is essential in order to be able to implement some of the functions of the API. One example of this is a function that obtains all the geographical features inside a given bounding box, a typical function in GIS platforms.
+
+In order to do this, special SPARQL queries, which make use of GeoSPARQL implicit relations and functions have to be used. Listing \ref{lst:within} shows the implementation of the query for the aforementioned use case.
+
+\begin{listing}[ht]\centering
+  \begin{minipage}{.85\textwidth}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{text}
+      SELECT ?name ?description ?geometry ?category ?difficulty WHERE
+      {
+        ?geom geo:sfIntersects 
+          [ a geo:Geometry; 
+            geo:asWKT "#bound box#"^^geo:wktLiteral ] . 
+        ?s geo:hasGeometry ?geom . 
+        ?geom geo:asWKT ?geometry . 
+        ?s sorelcom:name ?name . 
+        ?s sorelcom:description ?description . 
+        OPTIONAL { ?s sorelcom:category ?category } . 
+        OPTIONAL { ?s sorelcom:difficulty ?difficulty } . 
+      }
+    \end{minted}
+  \end{minipage}
+  \caption{GeoSPARQL "within" query}\label{lst:within}
+\end{listing}
+
 
 \subsection{Geography Utilities}
 
@@ -493,25 +520,28 @@ Listing \ref{lst:recommendation} shows some criteria used on queries to obtain r
 In addition to the filtering shown, the distance of the routes to the usual location of the user is calculated. This is not an actual filtering factor, however, it server to order the candidate routes by their distance to the user. Once this ordering is done, only the few firsts are picked and sent to the user as actual recommendations. 
 
 \begin{listing}[ht]\centering
-  \begin{minipage}{.7\textwidth}
-    \begin{minted}[linenos=true,mathescape,gobble=6]{sparql}
+  \begin{minipage}{.8\textwidth}
+    \begin{minted}[linenos=true,mathescape,gobble=6]{text}
       SELECT DISTINCT ?trail WHERE {
-       ?trail a sorelcom:Trail ; geo:hasGeometry ?tg ;
-       sorelcom:difficulty ?difficulty .
-       FILTER(abs(?difficulty-50) < 25)
+        {
+         ?trail a sorelcom:Trail ;
+         sorelcom:difficulty ?difficulty .
+         FILTER(abs(?difficulty-50) < 25)
+       } UNION {
+         ?user rdf:label "username"; sorelcom:trailBuddyOf ?buddy .
+         ?buddy sorelcom:traversed ?trail .
+       } UNION {
+         ?user rdf:label "username"; sorelcom:follows ?followed .
+         ?followed sorelcom:maker ?trail .
+         ?trail a sorelcom:Trail .
+       }
+       ?trail geo:hasGeometry ?tg .
        ?tg geo:asWKT ?twkt .
-      }
-      
-      SELECT DISTINCT ?trail WHERE {
-        ?user rdf:label "username"; sorelcom:trailBuddyOf ?buddy .
-        ?buddy sorelcom:traversed ?trail .
-      }
-      
-      SELECT DISTINCT ?trail WHERE {
-        ?user rdf:label "username"; sorelcom:follows ?followed .
-        ?followed sorelcom:maker ?trail .
-        ?trail a sorelcom:Trail .
-      }
+       BIND(geof:distance(?tg, 
+              "POINT(0 0)"^^geo:wktLiteral, 
+              units:metre) 
+            AS ?distance)
+     }
     \end{minted}
   \end{minipage}
   \caption{Criteria for route recommendations in SPARQL queries}\label{lst:recommendation}
@@ -754,9 +784,13 @@ The feature page is just a view showing the details of a certain feature, that i
 To create this map, the \textit{Leaflet-angular-directive} module is used, which allows to embed map following an Angular programming style. It is possible to create a map without using this module, however, for maps which provide solely viewing functionality is is way more convenient to use the module. The usage of this directive is shown in listing \ref{lst:leaflet-angular}.
 
 \begin{listing}[ht]\centering
-  \begin{minipage}{.85\textwidth}
+  \begin{minipage}{.4\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{html}
-      <leaflet width="100%" height="300px" geojson="geojson" id="viewMap"></leaflet>
+      <leaflet width="100%" 
+        height="300px" 
+        geojson="geojson" 
+        id="viewMap">
+      </leaflet>
     \end{minted}
   \end{minipage}
   \caption{Leaflet usage with angular on feature pages}\label{lst:leaflet-angular}
@@ -862,7 +896,7 @@ Once a feature is picked, a form is used to obtain the relevant data such as the
 \item[Drawing a trail] A trail is drawn by adding coordinates to a feature. For this, the editor creates a empty polyline and adds it to a map. After that, a callback is bound to the map click event which adds a coordinate to the polyline. This only happens if the distance between the previous coordinate and the new one is less than 500 meters. The method for doing this is shown on listing \ref{lst:draw}
 
 \begin{listing}[ht]\centering
-  \begin{minipage}{.85\textwidth}
+  \begin{minipage}{.80\textwidth}
     \begin{minted}[linenos=true,mathescape,gobble=6]{js}
       this.startDraw = function(){
           Tooltip.setText('Click on the map to start editing');
@@ -870,7 +904,8 @@ Once a feature is picked, a form is used to obtain the relevant data such as the
           var latlngs = that.editing.getLatLngs();
       
           Map.map.on('click', function(e){
-            if(latlngs.length > 0 && e.latlng.distanceTo(latlngs[latlngs.length-1]) > 500) 
+            if(latlngs.length > 0 && 
+              e.latlng.distanceTo(latlngs[latlngs.length-1]) > 500) 
               return;
             that.editing.addLatLng(e.latlng);
             that.editing.redraw();
